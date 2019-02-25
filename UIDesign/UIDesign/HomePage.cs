@@ -1053,7 +1053,7 @@ namespace UIDesign
                             MessageBox.Show("Sorry...You don't have rights to DELETE feature name.", "Delete Feature", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                         }
                         break;
-                    case "MasterOr":
+                    case "MasterOr":    //New Enhancement - Delete function in Object Repository
                         if (Admin.Length != 0)
                         {
                             try

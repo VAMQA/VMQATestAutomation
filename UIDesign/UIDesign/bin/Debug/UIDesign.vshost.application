@@ -14,14 +14,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="UIDesign.exe.manifest" size="28088">
+    <dependentAssembly dependencyType="install" codebase="UIDesign.exe.manifest" size="28092">
       <assemblyIdentity name="UIDesign.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OFszVpwu5/7P379Cdh6w4pRQFn+4GsU+kgXzmXM/G8A=</dsig:DigestValue>
+        <dsig:DigestValue>YCIcQnB3i1PDwZLvrIN4s93qrMuiYquTxSQ56Jjoc/w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
