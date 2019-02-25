@@ -1,0 +1,348 @@
+2019-02-07 03:01:52,094 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-02-07 03:01:52,114 INFO  execution-log - Initializing Test Automation
+----------------
+2019-02-07 03:01:52,123 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-02-07 03:02:16,785 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-02-07 03:02:16,855 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-02-07 03:02:16,872 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-02-07 03:02:16,906 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-02-07 03:02:16,941 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-02-07 03:02:16,952 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-02-07 03:02:16,962 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-02-07 03:02:16,973 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP1 environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-02-07 03:02:18,764 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-02-07 03:02:18,772 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-02-07 03:02:18,778 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:18,790 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-02-07 03:02:23,022 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:23,028 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-07 03:02:23,033 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:23,043 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-07 03:02:23,065 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : User Name, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:23,161 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-02-07 03:02:23,172 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:23,561 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-02-07 03:02:23,575 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-02-07 03:02:24,600 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-02-07 03:02:24,617 INFO  execution-log - [Sequence No - 4] Beginning ValidateExistStatusCommand ( LogicalFieldName : Password, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:24,692 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-02-07 03:02:24,703 INFO  execution-log - [Sequence No - 5] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-02-07 03:02:25,501 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2019-02-07 03:02:25,511 INFO  execution-log - [Sequence No - 6] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:25,649 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2019-02-07 03:02:25,660 INFO  execution-log - [Sequence No - 7] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:26,014 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2019-02-07 03:02:26,021 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:26,028 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-02-07 03:02:26,035 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:26,044 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-02-07 03:02:26,069 INFO  execution-log - [Sequence No - 8] Beginning ValidateEnableStatusCommand ( LogicalFieldName : New Quote, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:27,856 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2019-02-07 03:02:27,892 INFO  execution-log - [Sequence No - 9] Beginning ActionCommand ( LogicalFieldName : New Quote, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:29,282 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2019-02-07 03:02:29,291 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:29,300 INFO  execution-log -  Beginning PageCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-02-07 03:02:29,317 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:29,397 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-02-07 03:02:29,425 INFO  execution-log - [Sequence No - 10] Beginning ValidateExistStatusCommand ( LogicalFieldName : Account Name, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:29,507 INFO  execution-log - [Sequence No - 10]	 Command completed.
+----------------
+2019-02-07 03:02:29,529 INFO  execution-log - [Sequence No - 11] Beginning TestDataCommand ( LogicalFieldName : Account Name, LogicalFieldValue : RANDOMIZE(7,2) )
+----------------
+2019-02-07 03:02:29,958 INFO  execution-log - [Sequence No - 11]	 Command completed.
+----------------
+2019-02-07 03:02:29,968 INFO  execution-log - [Sequence No - 12] Beginning ValidateExistStatusCommand ( LogicalFieldName : First Name, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:30,048 INFO  execution-log - [Sequence No - 12]	 Command completed.
+----------------
+2019-02-07 03:02:30,060 INFO  execution-log - [Sequence No - 13] Beginning TestDataCommand ( LogicalFieldName : First Name, LogicalFieldValue : Jack )
+----------------
+2019-02-07 03:02:31,187 INFO  execution-log - [Sequence No - 13]	 Command completed.
+----------------
+2019-02-07 03:02:31,200 INFO  execution-log - [Sequence No - 14] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Last Name, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:31,257 INFO  execution-log - [Sequence No - 14]	 Command completed.
+----------------
+2019-02-07 03:02:31,268 INFO  execution-log - [Sequence No - 15] Beginning TestDataCommand ( LogicalFieldName : Last Name, LogicalFieldValue : Smith )
+----------------
+2019-02-07 03:02:31,577 INFO  execution-log - [Sequence No - 15]	 Command completed.
+----------------
+2019-02-07 03:02:31,590 INFO  execution-log - [Sequence No - 16] Beginning ValidateExistStatusCommand ( LogicalFieldName : ContactNumber1, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:31,633 INFO  execution-log - [Sequence No - 16]	 Command completed.
+----------------
+2019-02-07 03:02:31,643 INFO  execution-log - [Sequence No - 17] Beginning TestDataCommand ( LogicalFieldName : ContactNumber1, LogicalFieldValue : 654 )
+----------------
+2019-02-07 03:02:31,949 INFO  execution-log - [Sequence No - 17]	 Command completed.
+----------------
+2019-02-07 03:02:31,961 INFO  execution-log - [Sequence No - 18] Beginning TestDataCommand ( LogicalFieldName : ContactNumber2, LogicalFieldValue : 321 )
+----------------
+2019-02-07 03:02:32,165 INFO  execution-log - [Sequence No - 18]	 Command completed.
+----------------
+2019-02-07 03:02:32,177 INFO  execution-log - [Sequence No - 19] Beginning TestDataCommand ( LogicalFieldName : ContactNumber3, LogicalFieldValue : 6541 )
+----------------
+2019-02-07 03:02:32,373 INFO  execution-log - [Sequence No - 19]	 Command completed.
+----------------
+2019-02-07 03:02:32,384 INFO  execution-log - [Sequence No - 20] Beginning ValidateExistStatusCommand ( LogicalFieldName : Primary Email, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:32,417 INFO  execution-log - [Sequence No - 20]	 Command completed.
+----------------
+2019-02-07 03:02:32,428 INFO  execution-log - [Sequence No - 21] Beginning TestDataCommand ( LogicalFieldName : Primary Email, LogicalFieldValue : jack.smith@gmail.com )
+----------------
+2019-02-07 03:02:33,079 INFO  execution-log - [Sequence No - 21]	 Command completed.
+----------------
+2019-02-07 03:02:33,090 INFO  execution-log - [Sequence No - 22] Beginning ValidateExistStatusCommand ( LogicalFieldName : Business Started Year, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:33,149 INFO  execution-log - [Sequence No - 22]	 Command completed.
+----------------
+2019-02-07 03:02:33,165 INFO  execution-log - [Sequence No - 23] Beginning TestDataCommand ( LogicalFieldName : Business Started Year, LogicalFieldValue : 2012 )
+----------------
+2019-02-07 03:02:33,497 INFO  execution-log - [Sequence No - 23]	 Command completed.
+----------------
+2019-02-07 03:02:33,510 INFO  execution-log - [Sequence No - 24] Beginning ValidateExistStatusCommand ( LogicalFieldName : Select Product, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:33,548 INFO  execution-log - [Sequence No - 24]	 Command completed.
+----------------
+2019-02-07 03:02:33,567 INFO  execution-log - [Sequence No - 25] Beginning ActionCommand ( LogicalFieldName : Select Product, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:33,921 INFO  execution-log - [Sequence No - 25]	 Command completed.
+----------------
+2019-02-07 03:02:33,938 INFO  execution-log - [Sequence No - 26] Beginning ActionCommand ( LogicalFieldName : Select Product1, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:34,239 INFO  execution-log - [Sequence No - 26]	 Command completed.
+----------------
+2019-02-07 03:02:34,254 INFO  execution-log - [Sequence No - 27] Beginning ValidateExistStatusCommand ( LogicalFieldName : Contact Name, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:34,280 INFO  execution-log - [Sequence No - 27]	 Command completed.
+----------------
+2019-02-07 03:02:34,293 INFO  execution-log - [Sequence No - 28] Beginning ActionCommand ( LogicalFieldName : Contact Name, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:34,555 INFO  execution-log - [Sequence No - 28]	 Command completed.
+----------------
+2019-02-07 03:02:34,568 INFO  execution-log - [Sequence No - 29] Beginning ActionCommand ( LogicalFieldName : Contact Name Initial Select, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:34,988 INFO  execution-log - [Sequence No - 29]	 Command completed.
+----------------
+2019-02-07 03:02:35,000 INFO  execution-log - [Sequence No - 30] Beginning ValidateExistStatusCommand ( LogicalFieldName : Industry, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:35,109 INFO  execution-log - [Sequence No - 30]	 Command completed.
+----------------
+2019-02-07 03:02:35,119 INFO  execution-log - [Sequence No - 31] Beginning ActionCommand ( LogicalFieldName : Industry, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:35,551 INFO  execution-log - [Sequence No - 31]	 Command completed.
+----------------
+2019-02-07 03:02:35,576 INFO  execution-log - [Sequence No - 32] Beginning ActionCommand ( LogicalFieldName : Industry1, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:35,954 INFO  execution-log - [Sequence No - 32]	 Command completed.
+----------------
+2019-02-07 03:02:35,971 INFO  execution-log - [Sequence No - 33] Beginning ValidateExistStatusCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:36,013 INFO  execution-log - [Sequence No - 33]	 Command completed.
+----------------
+2019-02-07 03:02:36,024 INFO  execution-log - [Sequence No - 34] Beginning TestDataCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : 53704 )
+----------------
+2019-02-07 03:02:36,319 INFO  execution-log - [Sequence No - 34]	 Command completed.
+----------------
+2019-02-07 03:02:36,330 INFO  execution-log - [Sequence No - 35] Beginning ActionCommand ( LogicalFieldName : zipcode click, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:36,977 INFO  execution-log - [Sequence No - 35]	 Command completed.
+----------------
+2019-02-07 03:02:36,990 INFO  execution-log - [Sequence No - 36] Beginning ValidateExistStatusCommand ( LogicalFieldName : Street Address, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:37,073 INFO  execution-log - [Sequence No - 36]	 Command completed.
+----------------
+2019-02-07 03:02:37,087 INFO  execution-log - [Sequence No - 37] Beginning TestDataCommand ( LogicalFieldName : Street Address, LogicalFieldValue : 123 BLUEJAY LN )
+----------------
+2019-02-07 03:02:37,564 INFO  execution-log - [Sequence No - 37]	 Command completed.
+----------------
+2019-02-07 03:02:37,574 INFO  execution-log - [Sequence No - 38] Beginning ValidateExistStatusCommand ( LogicalFieldName : Same as Physical Address, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:37,628 INFO  execution-log - [Sequence No - 38]	 Command completed.
+----------------
+2019-02-07 03:02:37,643 INFO  execution-log - [Sequence No - 39] Beginning ActionCommand ( LogicalFieldName : Same as Physical Address, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:38,060 INFO  execution-log - [Sequence No - 39]	 Command completed.
+----------------
+2019-02-07 03:02:38,084 INFO  execution-log - [Sequence No - 40] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Proceed, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:38,193 INFO  execution-log - [Sequence No - 40]	 Command completed.
+----------------
+2019-02-07 03:02:38,220 INFO  execution-log - [Sequence No - 41] Beginning ActionCommand ( LogicalFieldName : Proceed, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:38,697 INFO  execution-log - [Sequence No - 41]	 Command completed.
+----------------
+2019-02-07 03:02:38,708 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:38,728 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Insured Info, FlowIdentifier : 4, DiIndicator : DI )
+----------------
+2019-02-07 03:02:38,743 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:38,749 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Insured Info, FlowIdentifier : 4, DiIndicator : DI )
+----------------
+2019-02-07 03:02:38,775 INFO  execution-log - [Sequence No - 42] Beginning ValidateEnableStatusCommand ( LogicalFieldName : InsuredName, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:41,961 INFO  execution-log - [Sequence No - 42]	 Command completed.
+----------------
+2019-02-07 03:02:41,972 INFO  execution-log - [Sequence No - 43] Beginning TestDataCommand ( LogicalFieldName : InsuredName, LogicalFieldValue : Smith )
+----------------
+2019-02-07 03:02:42,220 INFO  execution-log - [Sequence No - 43]	 Command completed.
+----------------
+2019-02-07 03:02:42,233 INFO  execution-log - [Sequence No - 44] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Primary State Click, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:42,270 INFO  execution-log - [Sequence No - 44]	 Command completed.
+----------------
+2019-02-07 03:02:42,280 INFO  execution-log - [Sequence No - 45] Beginning ActionCommand ( LogicalFieldName : Primary State Click, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:42,496 INFO  execution-log - [Sequence No - 45]	 Command completed.
+----------------
+2019-02-07 03:02:42,511 INFO  execution-log - [Sequence No - 46] Beginning ActionCommand ( LogicalFieldName : PrimayState Select, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:42,824 INFO  execution-log - [Sequence No - 46]	 Command completed.
+----------------
+2019-02-07 03:02:42,838 INFO  execution-log - [Sequence No - 47] Beginning ValidateExistStatusCommand ( LogicalFieldName : Street Address, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:42,903 INFO  execution-log - [Sequence No - 47]	 Command completed.
+----------------
+2019-02-07 03:02:42,927 INFO  execution-log - [Sequence No - 48] Beginning TestDataCommand ( LogicalFieldName : Street Address, LogicalFieldValue : 123 new street )
+----------------
+2019-02-07 03:02:43,369 INFO  execution-log - [Sequence No - 48]	 Command completed.
+----------------
+2019-02-07 03:02:43,383 INFO  execution-log - [Sequence No - 49] Beginning ValidateExistStatusCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:43,413 INFO  execution-log - [Sequence No - 49]	 Command completed.
+----------------
+2019-02-07 03:02:43,425 INFO  execution-log - [Sequence No - 50] Beginning TestDataCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : 53704 )
+----------------
+2019-02-07 03:02:43,656 INFO  execution-log - [Sequence No - 50]	 Command completed.
+----------------
+2019-02-07 03:02:43,670 INFO  execution-log - [Sequence No - 51] Beginning ValidateExistStatusCommand ( LogicalFieldName : Same as Physical Address, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:43,707 INFO  execution-log - [Sequence No - 51]	 Command completed.
+----------------
+2019-02-07 03:02:43,727 INFO  execution-log - [Sequence No - 52] Beginning ActionCommand ( LogicalFieldName : Same as Physical Address, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:43,946 INFO  execution-log - [Sequence No - 52]	 Command completed.
+----------------
+2019-02-07 03:02:43,958 INFO  execution-log - [Sequence No - 53] Beginning ValidateExistStatusCommand ( LogicalFieldName : SIC Code, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:44,034 INFO  execution-log - [Sequence No - 53]	 Command completed.
+----------------
+2019-02-07 03:02:44,045 INFO  execution-log - [Sequence No - 54] Beginning TestDataCommand ( LogicalFieldName : SIC Code, LogicalFieldValue : 41510000-School buses )
+----------------
+2019-02-07 03:02:44,607 INFO  execution-log - [Sequence No - 54]	 Command completed.
+----------------
+2019-02-07 03:02:44,621 INFO  execution-log - [Sequence No - 55] Beginning ValidateExistStatusCommand ( LogicalFieldName : BusinessInceptionYear, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:44,653 INFO  execution-log - [Sequence No - 55]	 Command completed.
+----------------
+2019-02-07 03:02:44,663 INFO  execution-log - [Sequence No - 56] Beginning TestDataCommand ( LogicalFieldName : BusinessInceptionYear, LogicalFieldValue : 2012 )
+----------------
+2019-02-07 03:02:44,892 INFO  execution-log - [Sequence No - 56]	 Command completed.
+----------------
+2019-02-07 03:02:44,908 INFO  execution-log - [Sequence No - 57] Beginning ValidateExistStatusCommand ( LogicalFieldName : BusinessPhone, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:44,971 INFO  execution-log - [Sequence No - 57]	 Command completed.
+----------------
+2019-02-07 03:02:44,981 INFO  execution-log - [Sequence No - 58] Beginning TestDataCommand ( LogicalFieldName : BusinessPhone, LogicalFieldValue : 6549879879 )
+----------------
+2019-02-07 03:02:46,356 INFO  execution-log - [Sequence No - 58]	 Command completed.
+----------------
+2019-02-07 03:02:46,372 INFO  execution-log - [Sequence No - 59] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Next, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:46,434 INFO  execution-log - [Sequence No - 59]	 Command completed.
+----------------
+2019-02-07 03:02:46,447 INFO  execution-log - [Sequence No - 60] Beginning ActionCommand ( LogicalFieldName : Next, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:46,606 INFO  execution-log - [Sequence No - 60]	 Command completed.
+----------------
+2019-02-07 03:02:46,613 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:46,620 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Policy Info, FlowIdentifier : 5, DiIndicator : DI )
+----------------
+2019-02-07 03:02:46,634 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:02:46,641 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Policy Info, FlowIdentifier : 5, DiIndicator : DI )
+----------------
+2019-02-07 03:02:46,663 INFO  execution-log - [Sequence No - 61] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Which State do u operate In?, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:47,243 INFO  execution-log - [Sequence No - 61]	 Command completed.
+----------------
+2019-02-07 03:02:47,294 INFO  execution-log - [Sequence No - 62] Beginning ActionCommand ( LogicalFieldName : Which State do u operate In?, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:47,760 INFO  execution-log - [Sequence No - 62]	 Command completed.
+----------------
+2019-02-07 03:02:47,771 INFO  execution-log - [Sequence No - 63] Beginning ActionCommand ( LogicalFieldName : Which State do u operate In?1, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:48,086 INFO  execution-log - [Sequence No - 63]	 Command completed.
+----------------
+2019-02-07 03:02:48,100 INFO  execution-log - [Sequence No - 64] Beginning ActionCommand ( LogicalFieldName : Label Click, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:48,392 INFO  execution-log - [Sequence No - 64]	 Command completed.
+----------------
+2019-02-07 03:02:48,418 INFO  execution-log - [Sequence No - 65] Beginning ActionCommand ( LogicalFieldName : Collapse, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:48,700 INFO  execution-log - [Sequence No - 65]	 Command completed.
+----------------
+2019-02-07 03:02:48,714 INFO  execution-log - [Sequence No - 66] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Select Product, LogicalFieldValue : True )
+----------------
+2019-02-07 03:02:48,800 INFO  execution-log - [Sequence No - 66]	 Command completed.
+----------------
+2019-02-07 03:02:48,820 INFO  execution-log - [Sequence No - 67] Beginning ActionCommand ( LogicalFieldName : Select Product, LogicalFieldValue : Click-Wait(2000) )
+----------------
+2019-02-07 03:02:53,109 INFO  execution-log - [Sequence No - 67]	 Command completed.
+----------------
+2019-02-07 03:02:53,123 INFO  execution-log - [Sequence No - 68] Beginning ActionCommand ( LogicalFieldName : Select Product 1, LogicalFieldValue : Click )
+----------------
+2019-02-07 03:02:55,542 INFO  execution-log - [Sequence No - 68]	 Command completed.
+----------------
+2019-02-07 03:02:55,551 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-07 03:03:08,088 INFO  execution-log - Saving captured values to file.
+----------------
+2019-02-07 03:03:09,470 INFO  execution-log - TC # : 1, has completed successfully.
+----------------

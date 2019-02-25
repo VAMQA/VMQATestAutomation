@@ -1,0 +1,131 @@
+2019-01-29 10:31:21,007 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-29 10:31:21,017 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-29 10:31:21,022 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-29 10:31:21,027 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-29 10:31:21,037 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-29 10:31:21,037 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-29 10:31:21,047 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-29 10:31:21,055 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-29 10:31:21,060 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-29 10:31:21,064 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-29 10:31:21,068 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP1 environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-29 10:31:21,097 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-29 10:31:21,102 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-01-29 10:31:21,216 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:21,221 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-29 10:31:22,133 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:22,139 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-29 10:31:22,151 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:22,156 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-29 10:31:22,172 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : User Name, LogicalFieldValue : True )
+----------------
+2019-01-29 10:31:22,197 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-01-29 10:31:22,211 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-01-29 10:31:22,365 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-01-29 10:31:22,384 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-01-29 10:31:22,486 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-01-29 10:31:22,499 INFO  execution-log - [Sequence No - 4] Beginning ValidateExistStatusCommand ( LogicalFieldName : Password, LogicalFieldValue : True )
+----------------
+2019-01-29 10:31:22,532 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-01-29 10:31:22,542 INFO  execution-log - [Sequence No - 5] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-01-29 10:31:22,661 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2019-01-29 10:31:22,671 INFO  execution-log - [Sequence No - 6] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : True )
+----------------
+2019-01-29 10:31:22,704 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2019-01-29 10:31:22,715 INFO  execution-log - [Sequence No - 7] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-01-29 10:31:22,826 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2019-01-29 10:31:22,832 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:22,837 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-29 10:31:22,843 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:22,849 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-29 10:31:22,863 INFO  execution-log - [Sequence No - 8] Beginning ActionCommand ( LogicalFieldName : New Quote, LogicalFieldValue : Click )
+----------------
+2019-01-29 10:31:24,672 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2019-01-29 10:31:24,686 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:24,703 INFO  execution-log -  Beginning PageCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-29 10:31:24,710 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 10:31:24,715 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-29 10:31:24,731 INFO  execution-log - [Sequence No - 9] Beginning TestDataCommand ( LogicalFieldName : Account Name, LogicalFieldValue : Cycle Insurance )
+----------------
+2019-01-29 10:31:25,021 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2019-01-29 10:31:25,036 INFO  execution-log - [Sequence No - 10] Beginning TestDataCommand ( LogicalFieldName : First Name, LogicalFieldValue : Jack )
+----------------
+2019-01-29 10:31:25,897 ERROR execution-log - TC # : 1, Could not set test data for field 'First Name'.
+----------------
+2019-01-29 10:31:34,031 ERROR execution-log - TC # : 1, Could not set test data for field 'First Name'.
+----------------
+2019-01-29 10:31:34,047 ERROR execution-log - TC # : 1, No more iterations to run. Test execution will abort.
+----------------
+2019-01-29 10:31:34,059 ERROR execution-log - TC # : 1, Framework failed to run the test due to a test configuration error.
+	VM.Platform.TestAutomationFramework.Core.Exceptions.WorkflowFailedException: Could not set test data for field 'First Name'. ---> VM.Platform.TestAutomationFramework.Core.Exceptions.WorkflowFailedException: unknown error: Element <input type="text" id="txtFirstName" name="firstName" size="20" placeholder="First Name" class="k-input" data-bind="value:accountInfo.FirstName,enabled:isCtrlEnabled" required="" data-required-msg="Please enter First Name"> is not clickable at point (470, 397). Other element would receive the click: <div class="vam-popupleft k-widget k-listview k-selectable" data-role="listview" role="listbox">...</div>
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.16299 x86_64)
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.TextBoxElementCommand.Execute() in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\TextBoxElementCommand.cs:line 39
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.TestDataCommand.SetTestDataInteraction() in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\TestDataCommand.cs:line 126
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.TestDataCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\TestDataCommand.cs:line 35
+   --- End of inner exception stack trace ---
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.TestDataCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\TestDataCommand.cs:line 44
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Workflow.LoadTestDataItemCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Workflow\LoadTestDataItemCommand.cs:line 96
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.Core.TestCommandRunner.Execute(TestRunContext testRunContext) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestCommandRunner.cs:line 75
+   at VM.Platform.TestAutomationFramework.Core.SingleTestCaseRunner.ExecuteSingleTestCase(Int32 testCaseId, String targetEnvironment, String repositiory, Int32 Retry) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\SingleTestCaseRunner.cs:line 167
+----------------
+2019-01-29 10:31:35,261 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-29 10:31:35,270 ERROR execution-log - TC # : 1,  has failed
+----------------

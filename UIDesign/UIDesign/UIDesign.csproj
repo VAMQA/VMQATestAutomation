@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57A41893-25F0-4904-B116-F72317346A05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UIDesign</RootNamespace>
+    <AssemblyName>UIDesign</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\LN\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\GP142111\NuGet\</InstallUrl>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>627549908D1D1F3A3B0C99DD802072B4EF4D217C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>UIDesign_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\packages\ClosedXML.0.76.0\lib\net40-client\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LinqToExcel, Version=1.10.1.0, Culture=neutral, PublicKeyToken=9c8ea65a58f03f1f, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\LinqToExcel.1.10.1\lib\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.6.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\log4net.2.0.6\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\New folder\Microsoft.TeamFoundation.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WorkItemTracking.1.0.0\lib\Microsoft.TeamFoundation.WorkItemTracking.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WorkItemTracking.1.0.0\lib\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WorkItemTracking.1.0.0\lib\Microsoft.TeamFoundation.WorkItemTracking.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Proxy, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\WorkItemTracking.1.0.0\lib\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TeamFoundation.TestManagement.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\Microsoft.TeamFoundation.TestManagement.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion">
+      <HintPath>..\..\packages\LinqToExcel.1.10.1\lib\Remotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq, Version=1.13.52.2, Culture=neutral, PublicKeyToken=0669cf0452175907, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\LinqToExcel.1.10.1\lib\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Interfaces">
+      <HintPath>..\..\packages\LinqToExcel.1.10.1\lib\Remotion.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFeature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFeature.Designer.cs">
+      <DependentUpon>AddFeature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APITest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APITest.Designer.cs">
+      <DependentUpon>APITest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\Enums.cs" />
+    <Compile Include="DebugScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugScreen.Designer.cs">
+      <DependentUpon>DebugScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTestData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTestData.Designer.cs">
+      <DependentUpon>EditTestData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElementFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElementFinder.Designer.cs">
+      <DependentUpon>ElementFinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encrypt.Designer.cs">
+      <DependentUpon>Encrypt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Favorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorites.Designer.cs">
+      <DependentUpon>Favorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncLib.cs" />
+    <Compile Include="HighlighterScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighlighterScreen.Designer.cs">
+      <DependentUpon>HighlighterScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MassUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MassUpdate.Designer.cs">
+      <DependentUpon>MassUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectRepositiory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectRepositiory.Designer.cs">
+      <DependentUpon>ObjectRepositiory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PageNames.Designer.cs">
+      <DependentUpon>PageNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SampleTestData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SampleTestData.Designer.cs">
+      <DependentUpon>SampleTestData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCase.Designer.cs">
+      <DependentUpon>TestCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestCloner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCloner.Designer.cs">
+      <DependentUpon>TestCloner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestData.Designer.cs">
+      <DependentUpon>TestData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestExecution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestExecution.Designer.cs">
+      <DependentUpon>TestExecution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="v3Migration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v3Migration.Designer.cs">
+      <DependentUpon>v3Migration.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFeature.resx">
+      <DependentUpon>AddFeature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MassUpdate.resx">
+      <DependentUpon>MassUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectRepositiory.resx">
+      <DependentUpon>ObjectRepositiory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageNames.resx">
+      <DependentUpon>PageNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleTestData.resx">
+      <DependentUpon>SampleTestData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCase.resx">
+      <DependentUpon>TestCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCloner.resx">
+      <DependentUpon>TestCloner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestData.resx">
+      <DependentUpon>TestData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestExecution.resx">
+      <DependentUpon>TestExecution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v3Migration.resx">
+      <DependentUpon>v3Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="help\v4 User Manual.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="claim.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DBScript\DB script.txt" />
+    <Content Include="DBScript\sp_InsertTestData.txt" />
+    <Content Include="DBScript\sp_UpdateTestData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\APIAutomation\Geico.WebServices.TestAutomationFramework\VM.WebServices.TestAutomationFramework.csproj">
+      <Project>{a35a2e97-2f04-4b20-bd4c-9947e6c2561d}</Project>
+      <Name>VM.WebServices.TestAutomationFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\Framework.Adapters.Local\Framework.Adapters.Local.csproj">
+      <Project>{ae8a8357-8e61-4c25-b854-f4cc7a346b15}</Project>
+      <Name>Framework.Adapters.Local</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\Framework.Adapters.Selenium\Framework.Adapters.Selenium.csproj">
+      <Project>{24b3760c-f2cb-438e-aec9-406f62b75da5}</Project>
+      <Name>Framework.Adapters.Selenium</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\Framework.Core\Framework.Core.csproj">
+      <Project>{8eb65435-a760-46b8-a99e-23720e06037e}</Project>
+      <Name>Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\Framework.Extensions\Framework.Extensions.csproj">
+      <Project>{afbda828-50df-41b8-81f6-dfe33da46198}</Project>
+      <Name>Framework.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\Framework.UIAutomation\Framework.UIAutomation.csproj">
+      <Project>{7a498fb2-c4d3-477a-82a3-fa5de7290349}</Project>
+      <Name>Framework.UIAutomation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tests\Framework.Tests\Framework.Tests.csproj">
+      <Project>{093751c3-6e6d-4f9d-90f3-26f7bcbebbdf}</Project>
+      <Name>Framework.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

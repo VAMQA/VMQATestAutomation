@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{115a05f6-ea87-40a5-80b4-7ea4fee4db48}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>Model</Name>
+    <RootNamespace>Model</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="TfsTestCaseLoader_GetTestCase.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TfsTestCaseLoader_GetTestCase.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>TfsTestCaseLoader_GetTestCase.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="TestCaseExecution.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TestCaseExecution.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>TestCaseExecution.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Framework.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Framework.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Framework.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="TestCaseExecution.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TestCaseExecution.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>TestCaseExecution.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="Dependency Graph.dgml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Model.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Src\Framework.Adapters.Selenium\Framework.Adapters.Selenium.csproj">
+      <Name>Framework.Adapters.Selenium</Name>
+      <Project>{24b3760c-f2cb-438e-aec9-406f62b75da5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Src\Framework.Core\Framework.Core.csproj">
+      <Name>Framework.Core</Name>
+      <Project>{8eb65435-a760-46b8-a99e-23720e06037e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Src\Framework.Extensions\Framework.Extensions.csproj">
+      <Name>Framework.Extensions</Name>
+      <Project>{afbda828-50df-41b8-81f6-dfe33da46198}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Src\Framework.UIAutomation\Framework.UIAutomation.csproj">
+      <Name>Framework.UIAutomation</Name>
+      <Project>{7a498fb2-c4d3-477a-82a3-fa5de7290349}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="High Level Architecture.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="High Level Architecture.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>High Level Architecture.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="High Level Architecture.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>High Level Architecture.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+</Project>

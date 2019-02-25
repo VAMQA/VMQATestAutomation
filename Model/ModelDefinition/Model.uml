@@ -1,0 +1,1973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="e490e6b2-898a-40e8-9be0-7be7975641a4"
+  name="Model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="183f26a4-c56a-40dd-9108-32c9ae748b9c"
+        name="Test Method"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="7293ef9e-0b2d-48d2-9522-d7a39d5b8f6d"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="c4d636bd-cb20-45ab-8029-0662e5eef812">
+                <providedInterfaceMoniker
+                  Id="e6555e5b-c408-4434-833b-60b1caf8e573"
+                  LastKnownName="Port1"
+                  LastKnownLocation="Model.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="fb386e13-faf6-4714-8830-a9194e0a8f0f"
+                LastKnownName=".NET API"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="7acbea77-087b-4523-a22b-cc23b5df2579"
+        name="Test Case Automation Framework"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="e6555e5b-c408-4434-833b-60b1caf8e573"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <targetNamedElementsInternal>
+              <connector
+                Id="35963281-1e43-4abe-a4e2-bdab443dc4fb"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="9d54092f-b568-4642-83a7-ae5fc72f565a"
+                  LastKnownName="Test Case Execution Workflow "
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="c577491f-b8a1-4d9e-8540-ce8c0a334466" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="7938dbea-cd42-4664-af0a-f57040764def">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="4bb8a70d-e679-4664-b861-2616673db536"
+                          LastKnownName="Port1"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="1557407e-e1f0-4461-a56f-ceca66321406"
+                LastKnownName="Test Case Runner"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <part
+            Id="9d54092f-b568-4642-83a7-ae5fc72f565a"
+            name="Test Case Execution Workflow "
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="61fd6519-9fb9-4e72-8106-653171ba4b86"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="81922400-d792-4eeb-bef6-40d6ad9769c7"
+                  LastKnownName="Test Step Parser"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="bf725e9e-5052-4251-aab3-ae08dd174025">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="2a2d64ac-c1f0-4a63-9930-5a1486ac7979"
+                          LastKnownName="Port3"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="151a64aa-6842-4c74-85b3-493363f881e3">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="29121501-30b7-4336-9282-43fb2f53f47e"
+                          LastKnownName="Port1"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="34bd7322-072f-4a29-86d9-bd89b592f58a"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="e91415a9-7ead-4baf-b773-057d964048c8"
+                  LastKnownName="Excel Reader"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="894db86e-c174-4f6d-a724-0fcaea9b94b3">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="67ff2d72-b1ff-4489-915a-48ad1ea7bb35"
+                          LastKnownName="Port4"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="a0aeb65b-eddb-4e6a-bbfc-f0538381bf09">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="15269649-c5ca-412f-9420-3a1ebdb8455b"
+                          LastKnownName="Port1"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="602c37c8-0b05-4d66-91a2-dee1afcfa10d"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="e91415a9-7ead-4baf-b773-057d964048c8"
+                  LastKnownName="Excel Reader"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="21e96a63-64e8-40d8-9447-edec2e2c01b5">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="f583838f-c582-480c-9c40-df115e2855ef"
+                          LastKnownName="Port5"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="26fc1978-4118-4b21-b7ca-f67ac19ae005">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="af533c40-629e-42af-8c38-769984fea468"
+                          LastKnownName="Port2"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="1d23da6f-c4dc-4584-b132-477e91538ac8"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="019571fa-1da6-4ccd-a51c-f2dcf5cde571"
+                  LastKnownName="Test Case Loader"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="88f99781-a7da-4080-8783-9501f7d9a833">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="ed1da9ea-59cd-4eeb-b49c-b73cdb417a4d"
+                          LastKnownName="Port2"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="f3fdeeb2-b8d2-455c-85f6-895c4cec8cdb">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="99caad19-a9c3-44a5-be77-a8fdca8ad36e"
+                          LastKnownName="Port2"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="c67dd5e0-4a5e-4fe8-8719-7d9f2c34a24c"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="f266d17e-3058-4d6f-9b27-3fa086d92eda"
+                  LastKnownName="Port3"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="af0a58e5-a3f1-4bab-a3e9-ba94bc36dea1">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="ce287b7b-8cb1-4d1a-85fa-dca30a8dee47"
+                          LastKnownName="Port6"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="9cf55116-6b66-4474-bca9-d4ebd959c8e5" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="eee2ea5b-6c37-4662-8e47-8ac74503d92d"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="28ddd126-05d1-4a19-a389-b86766495fb1"
+                  LastKnownName="Execute Comands"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="b79915a2-8196-4338-82e4-57728e966174">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="186b0c26-de2d-4d7b-a316-3ae630d8d519"
+                          LastKnownName="Port7"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="4b3fd225-1f48-4691-a713-26eef86617f7">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="8ddd7eb7-5032-4e4e-9c54-6a6c9c7faa5d"
+                          LastKnownName="Port1"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="2bbbe1ef-72d8-4b50-a1e4-8190a9820d25"
+                LastKnownName="Component1"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="019571fa-1da6-4ccd-a51c-f2dcf5cde571"
+            name="Test Case Loader"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="36b6eaf8-9c77-4073-9179-10aed8b89021"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="0dcdce8c-ceab-48ef-add1-4c802ae93c95"
+                  LastKnownName="Port2"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="45c99663-5f21-4284-b896-9b1bedad3390">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="42ef4973-40e8-41bd-b17b-8113a23ab45d"
+                          LastKnownName="Port1"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="acb19b6a-2819-4866-b5f3-6b930fe7e44d" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="d1b276ca-310a-4051-a1e2-5e88fb2841bb"
+                LastKnownName="Component3"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="0dcdce8c-ceab-48ef-add1-4c802ae93c95"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="b65ba328-4dcc-49af-941a-fff34f15c321">
+                <providedInterfaceMoniker
+                  Id="655b7d7b-ed5a-43af-afad-4508c1ff7c54"
+                  LastKnownName="Port1"
+                  LastKnownLocation="Model.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f6ded047-b2f1-40db-bb45-83d310611044"
+                LastKnownName="TfsAdapter"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <part
+            Id="e91415a9-7ead-4baf-b773-057d964048c8"
+            name="Excel Reader"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="32fe27f2-9b3b-4e50-a8e4-223ded7e31e0"
+                LastKnownName="Component4"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="81922400-d792-4eeb-bef6-40d6ad9769c7"
+            name="Test Step Parser"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="2f5aca93-b087-4b93-af9a-24be2018b01f"
+                LastKnownName="Component6"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="f266d17e-3058-4d6f-9b27-3fa086d92eda"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="bcda70f6-22b0-487b-ac28-ca167994f64c">
+                <providedInterfaceMoniker
+                  Id="6c3f617c-68fc-4b8f-bc3a-ce3f6c736952"
+                  LastKnownName="Port1"
+                  LastKnownLocation="Model.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="3507756f-4d1e-4a21-83cc-6d49efb2a88b"
+                LastKnownName="Test"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <part
+            Id="28ddd126-05d1-4a19-a389-b86766495fb1"
+            name="Execute Comands"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="1121e4d9-ff3f-40ee-98bf-0338e1725887"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="8eab8f0e-a4e5-42e6-a2bd-d2345ce428b3"
+                  LastKnownName="Port4"
+                  LastKnownLocation="Model.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="6c6949f1-b8c4-4eb0-9e6c-ec2971dc0ec4">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="cbbdd43d-b4c9-4892-9840-3f27eff65c4f"
+                          LastKnownName="Port2"
+                          LastKnownLocation="Model.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="56506168-2e6a-4756-93f5-3a7a73387572" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="f9bbb2c1-8f8a-46df-b043-7b7d68240ec2"
+                LastKnownName="Component5"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="8eab8f0e-a4e5-42e6-a2bd-d2345ce428b3"
+            name="Port4"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="57826026-8b4c-4920-b033-c112c7326ac4">
+                <providedInterfaceMoniker
+                  Id="5d59c285-051a-4230-8172-1fd46080fb89"
+                  LastKnownName="Port1"
+                  LastKnownLocation="Model.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="747ac742-33f5-4935-b7bf-ca0d3d95025d"
+                LastKnownName="GetCommands"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1557407e-e1f0-4461-a56f-ceca66321406"
+        name="Test Case Runner"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="fb386e13-faf6-4714-8830-a9194e0a8f0f"
+        name=".NET API"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2bbbe1ef-72d8-4b50-a1e4-8190a9820d25"
+        name="Component1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="4bb8a70d-e679-4664-b861-2616673db536"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="93617a24-44e2-4d5a-ad77-e9e3cfc44b7d"
+                LastKnownName="Execution"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="ed1da9ea-59cd-4eeb-b49c-b73cdb417a4d"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ecead0c2-7fc4-41ab-a82b-e3b0d3719dc3"
+                LastKnownName="TestCase"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="2a2d64ac-c1f0-4a63-9930-5a1486ac7979"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d42d1caf-4aaa-4f6a-8966-4bafdcccf296"
+                LastKnownName="TestStepParser"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="67ff2d72-b1ff-4489-915a-48ad1ea7bb35"
+            name="Port4"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2701fb04-5f47-43dd-9137-33831513c6d3"
+                LastKnownName="TestData"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="f583838f-c582-480c-9c40-df115e2855ef"
+            name="Port5"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="92878fef-cd3d-41c2-b805-457dcd5d8cbe"
+                LastKnownName="ControlMap"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="ce287b7b-8cb1-4d1a-85fa-dca30a8dee47"
+            name="Port6"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="db5a7cfa-ca21-489c-8250-fec0283f039c"
+                LastKnownName="Test"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="186b0c26-de2d-4d7b-a316-3ae630d8d519"
+            name="Port7"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="3cf14496-e97a-4b32-b4e2-a7b37780218b"
+                LastKnownName="CommandRunner"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="93617a24-44e2-4d5a-ad77-e9e3cfc44b7d"
+        name="Execution"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="16937e85-3771-4a30-acf3-158015297d6e"
+        name="Team Foundation Server"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="655b7d7b-ed5a-43af-afad-4508c1ff7c54"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="22882c09-5000-4a4f-91c7-0c413e89b9d4"
+                LastKnownName="TestManagementService"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c6d425fc-2c23-48a7-b443-ced8c79db8a5"
+        name="Component2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d1b276ca-310a-4051-a1e2-5e88fb2841bb"
+        name="Component3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="42ef4973-40e8-41bd-b17b-8113a23ab45d"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="3cc55aa3-d714-455f-a421-88ac7c0b15f4"
+                LastKnownName="TestManagement"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <providedInterface
+            Id="99caad19-a9c3-44a5-be77-a8fdca8ad36e"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ce4ec707-5267-4c7b-bac8-abc08a0ef704"
+                LastKnownName="TestCase"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d302be89-d128-4211-9840-9819bfbb9e10"
+        name="TFS Adapter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="91114bff-b2bf-4b81-9dcf-1e54024f5882"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="192d449a-522b-4400-928a-7109dd5857bb"
+                LastKnownName="Interface4"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="e0c6b0d1-2ab3-4706-8312-3c7c290d2b6c"
+        name="Excel Document"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="06fc0d9e-5d89-435a-86e2-0051cc7fa9f7"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2f01d99c-d19e-4e5e-91b9-eaba21b6381c"
+        name="Interface2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="291f3de8-8461-4a7d-9871-e0feda0ff1b8"
+        name="Interface3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="192d449a-522b-4400-928a-7109dd5857bb"
+        name="Interface4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="22882c09-5000-4a4f-91c7-0c413e89b9d4"
+        name="TestManagementService"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3cc55aa3-d714-455f-a421-88ac7c0b15f4"
+        name="TestManagement"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f6ded047-b2f1-40db-bb45-83d310611044"
+        name="TfsAdapter"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="32fe27f2-9b3b-4e50-a8e4-223ded7e31e0"
+        name="Component4"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="15269649-c5ca-412f-9420-3a1ebdb8455b"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="6f23e409-a778-48b8-98b2-9625b3e0438f"
+                LastKnownName="TestData"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface
+            Id="af533c40-629e-42af-8c38-769984fea468"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="09920ddd-f7cc-47d4-b408-df563d5d8703"
+                LastKnownName="ControlMap"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2f5aca93-b087-4b93-af9a-24be2018b01f"
+        name="Component6"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="29121501-30b7-4336-9282-43fb2f53f47e"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="023c1ed6-54ab-43e2-9114-9d84700d22bb"
+                LastKnownName="Commands"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="9c4236ab-e12b-4e4b-bdf6-a0438f0f71ec"
+        name="Web Browser"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="6c3f617c-68fc-4b8f-bc3a-ce3f6c736952"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2bb22f51-da34-460e-8e25-cba53c7ceb92"
+                LastKnownName="HTTP"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2bb22f51-da34-460e-8e25-cba53c7ceb92"
+        name="HTTP"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ecead0c2-7fc4-41ab-a82b-e3b0d3719dc3"
+        name="TestCase"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1799daa7-75d9-4cb2-982f-3ee51327ae6f"
+        name="Interface6"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ce4ec707-5267-4c7b-bac8-abc08a0ef704"
+        name="TestCase"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="023c1ed6-54ab-43e2-9114-9d84700d22bb"
+        name="Commands"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="6f23e409-a778-48b8-98b2-9625b3e0438f"
+        name="TestData"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d42d1caf-4aaa-4f6a-8966-4bafdcccf296"
+        name="TestStepParser"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2701fb04-5f47-43dd-9137-33831513c6d3"
+        name="TestData"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="09920ddd-f7cc-47d4-b408-df563d5d8703"
+        name="ControlMap"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="92878fef-cd3d-41c2-b805-457dcd5d8cbe"
+        name="ControlMap"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3507756f-4d1e-4a21-83cc-6d49efb2a88b"
+        name="Test"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c2e00859-58f7-47a9-b9cd-5fecd53b4eed"
+        name="Tester"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="03f4bb68-91d0-4af3-9c3d-44119e281205"
+            isDerived="false"
+            sourceEndRoleName="Tester"
+            targetEndRoleName="Execute Test Case"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c4590529-056d-4027-ad62-122a25b90937"
+              LastKnownName="Execute Test Case"
+              LastKnownLocation="Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9bdb36ca-909a-4c1d-af6f-db4036171aa8"
+                  name="Tester"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c3be8e2-02f0-4ebd-b710-6e93be65d9e8"
+                  name="Execute Test Case"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+        name="Test Automation Framework"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c4590529-056d-4027-ad62-122a25b90937"
+        name="Execute Test Case"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="384a793f-e10e-42e0-a95c-218829d0b466">
+            <useCaseMoniker
+              Id="047f49a3-27d1-4846-b7f9-c379d7e501cf"
+              LastKnownName="Get Test Case"
+              LastKnownLocation="Model.uml" />
+          </include>
+          <include
+            Id="27b4188f-b9e0-4b86-99ac-b6ee96f93349">
+            <useCaseMoniker
+              Id="ec8f0410-20ac-407d-9422-7f1f83ceb9d4"
+              LastKnownName="Get Test Data"
+              LastKnownLocation="Model.uml" />
+          </include>
+          <include
+            Id="563a8099-687b-462f-a4ed-eebb12022cbc">
+            <useCaseMoniker
+              Id="767906db-5288-43de-b19e-5e4dd6e33525"
+              LastKnownName="Get Control Map"
+              LastKnownLocation="Model.uml" />
+          </include>
+          <include
+            Id="a6433388-4e85-4a3c-a2ea-0d4cb4b9f440">
+            <useCaseMoniker
+              Id="45c67a20-a654-4420-9f2a-b2dd40fbfcba"
+              LastKnownName="Parse Commands"
+              LastKnownLocation="Model.uml" />
+          </include>
+          <include
+            Id="d17d5b4b-be1a-4799-8ea3-53de8b4137c0">
+            <useCaseMoniker
+              Id="a28e0c88-8907-4bc5-af50-f36ce02638dc"
+              LastKnownName="Validate Commands"
+              LastKnownLocation="Model.uml" />
+          </include>
+          <include
+            Id="ab8fdb8e-4f07-4254-bb50-9f56b325c26c">
+            <useCaseMoniker
+              Id="bd578208-51bb-4b0f-ba13-0e8080918e1f"
+              LastKnownName="Execute Commands"
+              LastKnownLocation="Model.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="047f49a3-27d1-4846-b7f9-c379d7e501cf"
+        name="Get Test Case"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fe6c13b8-8eb3-428b-b043-2c93d1f1791b"
+            isDerived="false"
+            sourceEndRoleName="Get Test Case"
+            targetEndRoleName="TFS"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="4c7821dd-a2bb-4c05-9dbf-d6063c92df3b"
+              LastKnownName="TFS"
+              LastKnownLocation="Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ee1b384-bee4-4142-8450-a691c8bafcbd"
+                  name="Get Test Case"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="449f8313-3da8-44e7-bb69-13fdf5ce3b7a"
+                  name="TFS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ec8f0410-20ac-407d-9422-7f1f83ceb9d4"
+        name="Get Test Data"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="461ce241-91ce-40ff-8c43-5ac612a773c7"
+            isDerived="false"
+            sourceEndRoleName="Get Test Data"
+            targetEndRoleName="TFS"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="4c7821dd-a2bb-4c05-9dbf-d6063c92df3b"
+              LastKnownName="TFS"
+              LastKnownLocation="Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6da51caf-0d89-4455-802d-b0b89692b404"
+                  name="Get Test Data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="765a9d0a-bd47-4b30-ab6c-6ff6522d6659"
+                  name="TFS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="767906db-5288-43de-b19e-5e4dd6e33525"
+        name="Get Control Map"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="24c78ccb-a3c8-426d-a3d6-c4dbd66b086f"
+            isDerived="false"
+            sourceEndRoleName="Get Control Map"
+            targetEndRoleName="TFS"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="4c7821dd-a2bb-4c05-9dbf-d6063c92df3b"
+              LastKnownName="TFS"
+              LastKnownLocation="Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd72a5c8-9a44-4a49-9550-d6dde8057fd3"
+                  name="Get Control Map"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cfe61cc6-dbca-426f-b0d1-34e409b3e3c4"
+                  name="TFS"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45c67a20-a654-4420-9f2a-b2dd40fbfcba"
+        name="Parse Commands"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bd578208-51bb-4b0f-ba13-0e8080918e1f"
+        name="Execute Commands"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3cee604c-58aa-4915-bb3e-b94d337417f2"
+            isDerived="false"
+            sourceEndRoleName="Execute Commands"
+            targetEndRoleName="Browser Under Test"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="c59cc43a-52e5-420e-a01d-da30b4ad4b35"
+              LastKnownName="Browser Under Test"
+              LastKnownLocation="Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7792c57-7386-4380-94c4-47fbd4632519"
+                  name="Execute Commands"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a30742b1-78c7-4a93-bbe9-075a7261122f"
+                  name="Browser Under Test"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4c7821dd-a2bb-4c05-9dbf-d6063c92df3b"
+        name="TFS"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c59cc43a-52e5-420e-a01d-da30b4ad4b35"
+        name="Browser Under Test"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="b329a324-bb19-471b-8d72-456eaf1ca00b"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a28e0c88-8907-4bc5-af50-f36ce02638dc"
+        name="Validate Commands"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f3268cfe-cf46-4fc8-b59d-040948c2f494"
+            LastKnownName="Test Automation Framework"
+            LastKnownLocation="Model.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="b3f30c64-8505-464c-8cb4-48d4a6623707"
+        name="Test Case Execution"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="e24026c2-e3e8-4eee-8cd2-3ea27bb088a4"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d9d07912-b744-439c-9798-195205f7f0eb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="646f2b33-b26f-43d7-8864-e1c52dacbd4a"
+                  LastKnownName="Load Test Command Modules"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="db568f8e-c207-46eb-8e9a-f015e88a659c"
+            name="Load TFS Test Case"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="78cdd261-256b-4a36-8fe7-c4fb57fff7e8"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="658d0326-38de-40fd-92cd-25c09d9b2d18"
+                  LastKnownName="Fork1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="53de2e97-5f23-4b28-89f7-0e8fb12ccbc7"
+            name="Load Control Map"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5f888eb3-3024-4022-aeb8-e37279a38b6c"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="c432fb6b-2a8f-46e3-b9f1-5e1a7f10ed6c"
+                  LastKnownName="Join1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1a184bf6-fcac-4e70-9ebd-fac2586d652f"
+            name="Load Test Data"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0f6fe05f-01bf-4805-af74-b6493de17044"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e0750dbf-d192-4543-8aa5-8f438f801d04"
+                  LastKnownName="Get Test Steps"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e0750dbf-d192-4543-8aa5-8f438f801d04"
+            name="Get Test Steps"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b9b44130-1277-426a-be57-4313f83fd776"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="c432fb6b-2a8f-46e3-b9f1-5e1a7f10ed6c"
+                  LastKnownName="Join1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode
+            Id="658d0326-38de-40fd-92cd-25c09d9b2d18"
+            name="Fork1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="fa3dc4a6-f1be-4185-aaee-c35db4c8bf20"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="53de2e97-5f23-4b28-89f7-0e8fb12ccbc7"
+                  LastKnownName="Load Control Map"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="77c37d18-b224-4fda-bce9-edd800c5e729"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1a184bf6-fcac-4e70-9ebd-fac2586d652f"
+                  LastKnownName="Load Test Data"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <joinNode
+            Id="c432fb6b-2a8f-46e3-b9f1-5e1a7f10ed6c"
+            name="Join1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e2d2c92b-df7f-4df4-a79b-5c36978c56fe"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6fabd9e6-16f0-4fbf-94fd-b9b4e58f6509"
+                  LastKnownName="Parse Test Steps"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction
+            Id="f3b133f8-c465-40ef-a746-3f44e81597c0"
+            name="Validate Next command"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="317e7185-0af8-4423-906f-7566ee6ddc49"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="1a69b58b-864c-4595-9a1c-95bc87553730"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode
+            Id="eb13d732-68f0-4713-9c3f-4dc495428e59"
+            name="Merge1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="bc82cc79-59fa-4288-bb7f-48e0ebecafbc"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f3b133f8-c465-40ef-a746-3f44e81597c0"
+                  LastKnownName="Validate Next command"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode
+            Id="1a69b58b-864c-4595-9a1c-95bc87553730"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="1d7a5ae4-2b31-4fa7-a716-e8b8479053ad"
+                guard="Has more commands"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="eb13d732-68f0-4713-9c3f-4dc495428e59"
+                  LastKnownName="Merge1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="80651042-8de9-4b64-bf02-83fde563e509"
+                guard="Successfully validated all commands"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="65186a64-5e60-4ed1-abb8-805d27797817"
+                  LastKnownName="Merge11"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="6fabd9e6-16f0-4fbf-94fd-b9b4e58f6509"
+            name="Parse Test Steps"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="87494b95-ad2b-4424-ba35-541ae5574d9a"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="eb13d732-68f0-4713-9c3f-4dc495428e59"
+                  LastKnownName="Merge1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode
+            Id="65186a64-5e60-4ed1-abb8-805d27797817"
+            name="Merge11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ec037bfa-4923-4e3e-b83d-6108405bbb55"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="48ce7819-1d54-4f1b-acb9-39ffbb926585"
+                  LastKnownName="Run pre execution decorators"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction
+            Id="48ce7819-1d54-4f1b-acb9-39ffbb926585"
+            name="Run pre execution decorators"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e52f16d0-cd8f-4771-8324-23b550bb3525"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e8cd5081-471a-42ae-87a5-8df741cc8eb0"
+                  LastKnownName="Execute next command"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="cdc31569-a833-4147-9b32-8d23e19b24ee"
+            name="Decision11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="20aeaf82-6256-437f-bd56-0b01e43cab48"
+                guard="Has more commands"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="65186a64-5e60-4ed1-abb8-805d27797817"
+                  LastKnownName="Merge11"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="8c7768d7-1480-4de3-a01f-855d2675faea"
+                guard="Test Case completed"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="5caf0d7d-8c8b-4c0a-9230-5dd642243efd"
+                  LastKnownName="Merge2"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="b7009d59-2406-42aa-b1f3-1ea48c0ecc4e"
+            name="Generate test summary report"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="2333c357-9fe4-4cfd-a912-58dae1203a61"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="55f9a5a3-34a6-4160-bcca-16f35883cd59"
+                  LastKnownName="Save results to TFS"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="5d4136fa-3b99-4d95-a8da-5e743a553d36"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="55f9a5a3-34a6-4160-bcca-16f35883cd59"
+            name="Save results to TFS"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="70c84e11-ea97-48de-9a8b-1987fab267c9"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="5d4136fa-3b99-4d95-a8da-5e743a553d36"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="646f2b33-b26f-43d7-8864-e1c52dacbd4a"
+            name="Load Test Command Modules"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4b112b7f-5554-4fc2-a803-279a6b1d4c82"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="db568f8e-c207-46eb-8e9a-f015e88a659c"
+                  LastKnownName="Load TFS Test Case"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e8cd5081-471a-42ae-87a5-8df741cc8eb0"
+            name="Execute next command"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9509d721-f306-451f-af53-29806ee77831"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="51ead6be-7e5e-46f6-a7d1-fd980c7c0530"
+                  LastKnownName="Run post execution decorators"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="51ead6be-7e5e-46f6-a7d1-fd980c7c0530"
+            name="Run post execution decorators"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="8476d346-0c33-4c05-8f57-52b87a50d6b8"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="23405463-7d84-47fa-a2b0-4db78c9ce7be"
+                  LastKnownName="Decision2"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode
+            Id="5caf0d7d-8c8b-4c0a-9230-5dd642243efd"
+            name="Merge2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a553bcd7-5fd5-4e1d-9338-0d0935c6e1bb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b7009d59-2406-42aa-b1f3-1ea48c0ecc4e"
+                  LastKnownName="Generate test summary report"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode
+            Id="23405463-7d84-47fa-a2b0-4db78c9ce7be"
+            name="Decision2"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3da591fe-0a76-44c0-ae11-237df1bbb39e"
+                guard="Command succeeded or error handled"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="cdc31569-a833-4147-9b32-8d23e19b24ee"
+                  LastKnownName="Decision11"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="b3a579ff-ba95-4120-8ae8-2be42aaba193"
+                guard="Execution encountered a fatal error"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="30f55e7a-2a9a-4033-855e-f4bad68323ee"
+                  LastKnownName="Log Error with snapshot"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="30f55e7a-2a9a-4033-855e-f4bad68323ee"
+            name="Log Error with snapshot"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="74cfffcf-3dac-47fe-b852-629b79b5dc5c"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="5caf0d7d-8c8b-4c0a-9230-5dd642243efd"
+                  LastKnownName="Merge2"
+                  LastKnownLocation="Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="db5a7cfa-ca21-489c-8250-fec0283f039c"
+        name="Test"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="f9bbb2c1-8f8a-46df-b043-7b7d68240ec2"
+        name="Component5"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="8ddd7eb7-5032-4e4e-9c54-6a6c9c7faa5d"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e5b556f2-6747-41ac-8e47-90fa0ad9648f"
+                LastKnownName="Execute"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="cbbdd43d-b4c9-4892-9840-3f27eff65c4f"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d352cc54-d0ec-49ea-8dc4-cb9e8b189b01"
+                LastKnownName="GetCommands"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="3cf14496-e97a-4b32-b4e2-a7b37780218b"
+        name="CommandRunner"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="747ac742-33f5-4935-b7bf-ca0d3d95025d"
+        name="GetCommands"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e5b556f2-6747-41ac-8e47-90fa0ad9648f"
+        name="Execute"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d352cc54-d0ec-49ea-8dc4-cb9e8b189b01"
+        name="GetCommands"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="0ceaea47-8f45-4124-9238-7bfbda1757b4"
+        name="UI Automation Commands"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="5d59c285-051a-4230-8172-1fd46080fb89"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="55c6965e-b9d5-4eee-9c0c-92b080301b7e"
+                LastKnownName="Commands"
+                LastKnownLocation="Model.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="55c6965e-b9d5-4eee-9c0c-92b080301b7e"
+        name="Commands"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

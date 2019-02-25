@@ -1,0 +1,105 @@
+2019-02-21 05:16:39,332 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-02-21 05:16:39,338 INFO  execution-log - Initializing Test Automation
+----------------
+2019-02-21 05:16:39,342 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-02-21 05:16:39,347 INFO  execution-log - TC # : 4, Downloading test case from DB
+----------------
+2019-02-21 05:16:39,356 INFO  execution-log - TC # : 4, Getting control map :MASTER from DB
+----------------
+2019-02-21 05:16:39,356 INFO  execution-log - TC # : 4, Getting test data from DB
+----------------
+2019-02-21 05:16:39,363 INFO  execution-log - TC # : 4, Control map retrieval completed
+----------------
+2019-02-21 05:16:39,370 INFO  execution-log - TC # : 4, Test data retrieval completed
+----------------
+2019-02-21 05:16:39,374 INFO  execution-log - TC # : 4, Parsing commands
+----------------
+2019-02-21 05:16:39,378 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-02-21 05:16:39,382 INFO  execution-log - TC # : 4, Started executing test case in the VMTESTPronto environment (https://www.prontoinsurance.com/)
+----------------
+2019-02-21 05:16:39,395 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-02-21 05:16:39,400 INFO  execution-log - TC # : 4, Starting iteration #1
+----------------
+2019-02-21 05:16:39,404 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-21 05:16:39,408 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-02-21 05:16:40,726 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-21 05:16:40,734 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Pronto Home, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-21 05:16:40,740 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-21 05:16:40,745 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Pronto Home, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-21 05:16:40,758 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : GET A QUOTE, LogicalFieldValue : True )
+----------------
+2019-02-21 05:16:40,778 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-02-21 05:16:40,785 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : GET A QUOTE, LogicalFieldValue : Click )
+----------------
+2019-02-21 05:16:40,897 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-02-21 05:16:40,906 INFO  execution-log - [Sequence No - 3] Beginning ValidateExistStatusCommand ( LogicalFieldName : CALIFORNIA, LogicalFieldValue : True )
+----------------
+2019-02-21 05:16:40,926 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-02-21 05:16:40,933 INFO  execution-log - [Sequence No - 4] Beginning ActionCommand ( LogicalFieldName : CALIFORNIA, LogicalFieldValue : Click )
+----------------
+2019-02-21 05:17:02,317 ERROR execution-log - TC # : 4, chrome not reachable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.16299 x86_64) (100)
+----------------
+2019-02-21 05:17:10,336 ERROR execution-log - TC # : 4, chrome not reachable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.16299 x86_64) (100)
+----------------
+2019-02-21 05:17:10,344 ERROR execution-log - TC # : 4, No more iterations to run. Test execution will abort.
+----------------
+2019-02-21 05:17:10,349 ERROR execution-log - TC # : 4, Framework failed to run the test due to a test configuration error.
+	VM.Platform.TestAutomationFramework.Core.Exceptions.WorkflowFailedException: chrome not reachable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.16299 x86_64) (100) ---> System.InvalidOperationException: chrome not reachable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.16299 x86_64) (100)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at VM.Platform.TestAutomationFramework.Adapters.Selenium.SeleniumAdapter.WaitForElementToBeClickable(ControlDefinition ctrlDefinition) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Selenium\SeleniumAdapter.cs:line 713
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.ActionCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\ActionCommand.cs:line 30
+   --- End of inner exception stack trace ---
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.ActionCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\ActionCommand.cs:line 42
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Workflow.LoadTestDataItemCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Workflow\LoadTestDataItemCommand.cs:line 96
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.Core.TestCommandRunner.Execute(TestRunContext testRunContext) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestCommandRunner.cs:line 75
+   at VM.Platform.TestAutomationFramework.Core.SingleTestCaseRunner.ExecuteSingleTestCase(Int32 testCaseId, String targetEnvironment, String repositiory, Int32 Retry) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\SingleTestCaseRunner.cs:line 167
+----------------
+2019-02-21 05:17:10,365 INFO  execution-log - Saving captured values to file.
+----------------
+2019-02-21 05:17:10,373 ERROR execution-log - TC # : 4,  has failed
+----------------

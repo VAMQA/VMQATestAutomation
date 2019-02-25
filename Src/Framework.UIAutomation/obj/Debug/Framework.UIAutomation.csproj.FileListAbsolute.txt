@@ -1,0 +1,76 @@
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\CredentialManagement.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.pdb
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.pdb
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.xml
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.xml
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.pdb
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.xml
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.xml
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.pdb
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csprojResolveAssemblyReference.cache
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.Properties.Resources.resources
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.GenerateResource.Cache
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\Karthic\Desktop\New folder (2)\v4Dev\v4Dev\GeicoTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\CredentialManagement.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.xml
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.xml
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.xml
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.xml
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.pdb
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csprojResolveAssemblyReference.cache
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.Properties.Resources.resources
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.GenerateResource.Cache
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\CredentialManagement.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Core.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\WebDriver.Support.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\log4net.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\StructureMap.Net4.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csprojResolveAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.Properties.Resources.resources
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.GenerateResource.Cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb

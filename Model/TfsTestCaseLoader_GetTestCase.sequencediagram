@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="fc920424-4470-42cc-8ce7-632756daa4a3" name="TfsTestCaseLoader_GetTestCase" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="2241dd49-59a3-4ee3-9d90-3d91a51d7eb2" name="TfsTestCaseLoader_GetTestCase" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="ad10852e-493f-48e1-bb25-26f0594abfea" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="588b476a-c439-416d-a815-cfe685a0ef4f" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="a88a0ca8-4299-4bf4-83d4-f8c1fc87460d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f12b3c62-d323-41af-9c90-9f1c5062f24a" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c3010bb4-e74e-48b6-bca7-af922b4afa06" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="9a79a17c-d66a-4212-a99b-8e96d5e13960" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="5760b411-5543-4876-869e-2f5816aa6b40" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="57895903-9e9a-4eb7-89a1-6cf310e207de" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f569c2c6-a793-40f1-a1ac-33dc08cc1e2a" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c1087bc9-b25d-42cb-a1cc-3f66007f4ae4" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="91600de9-6215-41f0-8b4e-383196e5cd96" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="406221b1-38c2-4aa1-961c-b80989ffd4d6" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="bdf9c055-1590-46d1-a964-27628fefc00e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="97e01790-fe3e-4463-abb1-ed8691999e75" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3f5141a7-b2e4-4336-b39f-b3f6a3b06cf9" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="fcf01ece-9975-44a2-b814-274008530459" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d371ad65-9f57-4acc-a4cc-eb0472bdaf08" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f673a785-0684-46a4-bd71-3c202d713918" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="4f913926-59ce-45c4-88b6-01437a38def7" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="27a8b0a6-b8f5-46ef-a259-44465f22e53c" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="66c54fed-3c26-43f3-a47a-c4f956c2dbb0" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e909de1f-9e00-4fdb-bbc7-d803c0215e61" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="bd7ae3dc-e472-484a-94da-9db0893b4d91" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="7b3d0a2c-adac-4cf1-a494-042ecc9ca4a6" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="08c1529e-88d2-4b18-8135-fe7143fd503a" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="20851f81-b76a-48e3-bda8-10ed6934f249" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="db2d817d-c21d-4df6-8446-4beb5991606c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="8c950933-7585-4dff-b189-466323b1994d" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="a88a0ca8-4299-4bf4-83d4-f8c1fc87460d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="14c01e52-8022-4510-85ba-9dc6d9f3597e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="9e9508da-513d-48e1-8246-cd7480172f23" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="f12b3c62-d323-41af-9c90-9f1c5062f24a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="daf95500-4393-4b3a-8b32-aad2b63ad3d3" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+            <coveredLifelines>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="cfdd9d38-957d-4f1b-adb5-8d9d9e5bb40a" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+                  <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+                  <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                  <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="9b4ecea4-c976-45bb-9b24-0009c47b9cfe" guardText="try" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="c3010bb4-e74e-48b6-bca7-af922b4afa06" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="57895903-9e9a-4eb7-89a1-6cf310e207de" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="021ee01e-ea25-472f-b2b4-23656d965d7a" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="4232627e-523d-4509-88c0-536369c58cbc" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="6fbbd369-9254-42d1-bb31-2aa2e296ea5b" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="69104c82-fe37-4b84-82f5-831f87cc06cb" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="97cfe1f1-e258-41bb-922d-d3cd6cfaa3d9" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="2eeda996-a658-4110-99b0-e188da2333c0" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="6079dcea-a3ac-44d1-9c9b-e34bc40f5071" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+                  <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+                  <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                  <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="0516efd9-ab36-4d7b-9357-04b66c4c3754" guardText="catch (AuthenticationException)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="f569c2c6-a793-40f1-a1ac-33dc08cc1e2a" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="bdf9c055-1590-46d1-a964-27628fefc00e" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="2e4ae815-8db7-42cf-aec1-7e660c108104" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="10be01c8-6a53-4039-8b4c-f7df0a81fa8b" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="e71b53fa-5ab2-4eef-876c-f82ad44e3d59" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="91513db6-cf31-4a19-81a9-3a4ccf5f45a6" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c7798df0-0324-4711-878d-34ab69792727" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="6c49f50c-a318-453a-94fe-2f5b47a1dc78" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="2e882824-e0f5-4953-b219-fa69fdc92f6a" name="InteractionOperand3">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+                  <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+                  <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                  <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="5622f11f-a8a0-47fb-8da9-16ebc49d8867" guardText="catch (Exception)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="97e01790-fe3e-4463-abb1-ed8691999e75" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="f673a785-0684-46a4-bd71-3c202d713918" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="3f55aedb-97e0-4757-b27e-026db80c6e23" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c6e24d5b-38f6-42df-b227-a610ed279296" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="3ac43069-1ecc-4f74-8873-6a952776245d" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="cbf25c93-aab9-4cf0-b2dc-891e92d70402" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="9a0837e4-a633-4a6d-92b6-94df2e5b79a2" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="bd8c0e5a-a31c-4a98-b0ff-85542781936a" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="97cfe1f1-e258-41bb-922d-d3cd6cfaa3d9" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c3010bb4-e74e-48b6-bca7-af922b4afa06" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="6fbbd369-9254-42d1-bb31-2aa2e296ea5b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="021ee01e-ea25-472f-b2b4-23656d965d7a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="5cfd4671-741d-4734-ac53-19e80c2d7f79" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="e1481682-46e5-4d92-830f-68c6b2de40c4" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="12cd6eb1-9e3d-441b-ae4c-f7ab3de55f14" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e268f426-11b3-497c-b551-31a313ad16ef" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e853e158-fe92-4cba-b330-c318324b20a6" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="12cd6eb1-9e3d-441b-ae4c-f7ab3de55f14" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="038735c3-aa41-429b-84a1-2a807b6bcb15" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9a79a17c-d66a-4212-a99b-8e96d5e13960" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e268f426-11b3-497c-b551-31a313ad16ef" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5760b411-5543-4876-869e-2f5816aa6b40" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e853e158-fe92-4cba-b330-c318324b20a6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="e1481682-46e5-4d92-830f-68c6b2de40c4" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="bce66304-8a73-49f6-93bd-e5efe12fea43" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="69104c82-fe37-4b84-82f5-831f87cc06cb" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="2eeda996-a658-4110-99b0-e188da2333c0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="4232627e-523d-4509-88c0-536369c58cbc" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="57895903-9e9a-4eb7-89a1-6cf310e207de" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="2e4ae815-8db7-42cf-aec1-7e660c108104" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e71b53fa-5ab2-4eef-876c-f82ad44e3d59" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c7798df0-0324-4711-878d-34ab69792727" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f569c2c6-a793-40f1-a1ac-33dc08cc1e2a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="fc6e8149-6786-4fa4-9322-b61091011c5e" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="f8e3c450-90db-45e2-a09c-986f65ac2ab8" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2177e568-8762-4d97-9d12-6dd30f431b8c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="073bc56e-fb87-439d-ad78-66e8518d76e1" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="62226e78-99ed-46ce-b0fa-7f1e92e007fb" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2177e568-8762-4d97-9d12-6dd30f431b8c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e9a33e87-dc53-40f1-a208-3115b7527e9b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c1087bc9-b25d-42cb-a1cc-3f66007f4ae4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="073bc56e-fb87-439d-ad78-66e8518d76e1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="91600de9-6215-41f0-8b4e-383196e5cd96" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="62226e78-99ed-46ce-b0fa-7f1e92e007fb" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="f8e3c450-90db-45e2-a09c-986f65ac2ab8" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6006d595-722c-4368-8a76-e1557d58b435" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="406221b1-38c2-4aa1-961c-b80989ffd4d6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="f3cd6f52-17c0-4cdb-bdb4-9fdced965665" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="6c49f50c-a318-453a-94fe-2f5b47a1dc78" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="bdf9c055-1590-46d1-a964-27628fefc00e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="10be01c8-6a53-4039-8b4c-f7df0a81fa8b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="91513db6-cf31-4a19-81a9-3a4ccf5f45a6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="3ac43069-1ecc-4f74-8873-6a952776245d" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9a0837e4-a633-4a6d-92b6-94df2e5b79a2" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="3f55aedb-97e0-4757-b27e-026db80c6e23" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="97e01790-fe3e-4463-abb1-ed8691999e75" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="8bb2b7e7-319a-4983-b8ff-355ead95ef7c" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="793f2a60-ace7-4b8c-99dc-fa8bf7ab3b0d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="d53cfdf1-7919-4cfc-b522-556f68cfbcd9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e04112cf-d963-4204-a8eb-da976c7a1310" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="aee6dce5-3962-4d41-b04d-2c730d1de948" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="d53cfdf1-7919-4cfc-b522-556f68cfbcd9" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="15ead249-1bca-4d85-9a82-b165aedee5c5" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e04112cf-d963-4204-a8eb-da976c7a1310" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3f5141a7-b2e4-4336-b39f-b3f6a3b06cf9" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="aee6dce5-3962-4d41-b04d-2c730d1de948" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fcf01ece-9975-44a2-b814-274008530459" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="793f2a60-ace7-4b8c-99dc-fa8bf7ab3b0d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="2741434a-31bc-4272-a1a4-fbcc484375d1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d371ad65-9f57-4acc-a4cc-eb0472bdaf08" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="2ce78930-9598-45e0-b86c-2e395f92ca5c" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="cbf25c93-aab9-4cf0-b2dc-891e92d70402" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c6e24d5b-38f6-42df-b227-a610ed279296" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f673a785-0684-46a4-bd71-3c202d713918" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="bd8c0e5a-a31c-4a98-b0ff-85542781936a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="6e407121-c956-44c1-a382-b6110cc23760" LastKnownName="FrameworkFatalException : FrameworkFatalException" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <combinedFragment Id="8cb2a5a2-7764-4169-aae5-145743b35e56" name="CombinedFragment2" interactionOperator="Opt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="916ad83a-8922-4676-9478-5c13e8437640" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="ed0fd3ad-558c-405c-9dbc-9ef82d795fac" guardText="if (!int.TryParse(testCaseId, out tfsTestCaseId) || tfsTestCaseId &lt;= 0)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="4f913926-59ce-45c4-88b6-01437a38def7" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="66c54fed-3c26-43f3-a47a-c4f956c2dbb0" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="4f913926-59ce-45c4-88b6-01437a38def7" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="27a8b0a6-b8f5-46ef-a259-44465f22e53c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="97f5067f-84d3-450d-8b5b-bd9b0872fb5b" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="66c54fed-3c26-43f3-a47a-c4f956c2dbb0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="bdec0e1e-950b-4c2b-afd5-a98035a6e6cb" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="00aa31fe-0c17-4738-93cb-986edd13bda7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="be23deec-83e9-496f-9521-7a05e5a15cf3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="21adf2ed-3a85-467b-b3f7-e0d0267a24c5" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f6740144-abb2-4de6-8884-0566a2490918" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="be23deec-83e9-496f-9521-7a05e5a15cf3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="1d5480b7-a168-4daa-993e-58f7bf1b4973" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="21adf2ed-3a85-467b-b3f7-e0d0267a24c5" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e909de1f-9e00-4fdb-bbc7-d803c0215e61" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f6740144-abb2-4de6-8884-0566a2490918" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="bd7ae3dc-e472-484a-94da-9db0893b4d91" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="00aa31fe-0c17-4738-93cb-986edd13bda7" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="36146c52-848e-495f-9d57-e1a4ea51d12b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment Id="cc879d5e-6054-44d1-affe-4b6cc56248bd" name="CombinedFragment3" interactionOperator="Opt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="46ea67d2-849f-4ecb-8b3d-3a23c4f07089" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="57bc897f-3453-42be-9d85-d2da54497a40" guardText="if (testCase == null)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="7b3d0a2c-adac-4cf1-a494-042ecc9ca4a6" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="20851f81-b76a-48e3-bda8-10ed6934f249" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="7b3d0a2c-adac-4cf1-a494-042ecc9ca4a6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="08c1529e-88d2-4b18-8135-fe7143fd503a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="ce700367-f319-4cce-98d1-5bf44c474848" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="20851f81-b76a-48e3-bda8-10ed6934f249" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="28ed5832-0f86-410f-ba59-2f2d4cf9a6aa" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="78f20847-2215-4336-bab8-7d3023a14a0c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="afb596e4-c51f-4bcd-bdbe-14ffe72fe788" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="a73404a7-f35d-4640-9e3d-ef3f905161ed" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="422fbcba-030f-4caa-91e1-f1f817dc29f1" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="afb596e4-c51f-4bcd-bdbe-14ffe72fe788" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="f5b1475d-eef5-458d-9917-b6456b8defc0" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a73404a7-f35d-4640-9e3d-ef3f905161ed" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="db2d817d-c21d-4df6-8446-4beb5991606c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="422fbcba-030f-4caa-91e1-f1f817dc29f1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8c950933-7585-4dff-b189-466323b1994d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="78f20847-2215-4336-bab8-7d3023a14a0c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="60087e0f-8e5d-4a55-8a41-56733cf4ed9c" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" LastKnownName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="588b476a-c439-416d-a815-cfe685a0ef4f" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5ef0bdc5-b381-4b6b-b44a-e13d7197d9eb" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" LastKnownName="this : TfsTestCaseLoader" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="bb3303ac-f335-4b4f-ae44-2aaf19457665" name="this : TfsTestCaseLoader" isActor="false" lifelineDisplayName="this : TfsTestCaseLoader" referencedInstance="(Assembly=$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri) Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader ObjectInstance=&quot;Object instance 2&quot;)" referencedType="VM‎.Platform‎.TestAutomationFramework‎.Core‎.TfsTestCaseLoader">
+            <referencesInternal>
+              <reference Id="b8fbb3a1-1e25-4394-b65b-8835d6518e7f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader)&quot;)" tag="DGQL" />
+              <reference Id="7f2259a3-ae74-4fcb-a056-a8c3d6381027" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="a88a0ca8-4299-4bf4-83d4-f8c1fc87460d" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="588b476a-c439-416d-a815-cfe685a0ef4f" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="4f4c3244-d2bd-4992-8627-bfdeb61dcb9b" name="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" isActor="false" lifelineDisplayName="this.tfsWorkItemStoreAdapter : ITfsWorkItemStoreAdapter" referencedInstance="(Assembly=$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri) Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader Member=tfsWorkItemStoreAdapter ObjectInstance=&quot;Object instance 3&quot;)" referencedType="VM‎.Platform‎.TestAutomationFramework‎.Core‎.Contracts‎.ITfsWorkItemStoreAdapter">
+            <referencesInternal>
+              <reference Id="36bc1bbe-6ccf-4b81-acd9-480fa4b5c9b3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core.Contracts)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter)&quot;)" tag="DGQL" />
+              <reference Id="18be488a-7c8e-46fe-8094-a9be2c20c717" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="021ee01e-ea25-472f-b2b4-23656d965d7a" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="12cd6eb1-9e3d-441b-ae4c-f7ab3de55f14" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="e1481682-46e5-4d92-830f-68c6b2de40c4" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="4232627e-523d-4509-88c0-536369c58cbc" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="2e4ae815-8db7-42cf-aec1-7e660c108104" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="10be01c8-6a53-4039-8b4c-f7df0a81fa8b" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="3f55aedb-97e0-4757-b27e-026db80c6e23" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c6e24d5b-38f6-42df-b227-a610ed279296" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="be23deec-83e9-496f-9521-7a05e5a15cf3" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="00aa31fe-0c17-4738-93cb-986edd13bda7" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="afb596e4-c51f-4bcd-bdbe-14ffe72fe788" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="78f20847-2215-4336-bab8-7d3023a14a0c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="5d88699f-15d2-4618-ac11-7cd349f8aab4" name="FrameworkFatalException : FrameworkFatalException" isActor="false" lifelineDisplayName="FrameworkFatalException : FrameworkFatalException" referencedInstance="(Assembly=$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri) Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException ObjectInstance=&quot;Object instance 7&quot;)" referencedType="VM‎.Platform‎.TestAutomationFramework‎.Core‎.FrameworkFatalException">
+            <referencesInternal>
+              <reference Id="9b0a705b-3875-45ea-b017-820dd2d49814" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)&quot;)" tag="DGQL" />
+              <reference Id="29f3c8dd-1060-4008-ac50-1edbb00b9cb5" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="6fbbd369-9254-42d1-bb31-2aa2e296ea5b" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="69104c82-fe37-4b84-82f5-831f87cc06cb" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e71b53fa-5ab2-4eef-876c-f82ad44e3d59" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2177e568-8762-4d97-9d12-6dd30f431b8c" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="f8e3c450-90db-45e2-a09c-986f65ac2ab8" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="91513db6-cf31-4a19-81a9-3a4ccf5f45a6" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="3ac43069-1ecc-4f74-8873-6a952776245d" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="cbf25c93-aab9-4cf0-b2dc-891e92d70402" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="6e407121-c956-44c1-a382-b6110cc23760" name="FrameworkFatalException : FrameworkFatalException" isActor="false" lifelineDisplayName="FrameworkFatalException : FrameworkFatalException" referencedInstance="(Assembly=$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri) Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException ObjectInstance=&quot;Object instance 11&quot;)" referencedType="VM‎.Platform‎.TestAutomationFramework‎.Core‎.FrameworkFatalException">
+            <referencesInternal>
+              <reference Id="5d48b63e-8101-4ac7-97c5-551f3f96809f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)&quot;)" tag="DGQL" />
+              <reference Id="fe639882-cca0-41f1-91e7-6f4ab2a1cd6c" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="97cfe1f1-e258-41bb-922d-d3cd6cfaa3d9" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="2eeda996-a658-4110-99b0-e188da2333c0" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c7798df0-0324-4711-878d-34ab69792727" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="6c49f50c-a318-453a-94fe-2f5b47a1dc78" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9a0837e4-a633-4a6d-92b6-94df2e5b79a2" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="d53cfdf1-7919-4cfc-b522-556f68cfbcd9" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="793f2a60-ace7-4b8c-99dc-fa8bf7ab3b0d" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="bd8c0e5a-a31c-4a98-b0ff-85542781936a" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="ed807d08-b438-402e-a7b2-94f23a791614" name="GetTestCase" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="e5ec2c71-fad4-47c7-9228-df32ef3343c3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader Member=(Name=GetTestCase OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="8b7138c7-07aa-4686-831e-f10a970e0077" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=TfsTestCaseLoader Member=(Name=GetTestCase OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="9e9508da-513d-48e1-8246-cd7480172f23" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f12b3c62-d323-41af-9c90-9f1c5062f24a" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="98f0b9ed-e5e6-478d-9ff1-17141ff19319" name="Connect" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="this.tfsWorkItemStoreAdapter.Connect()">
+            <referencesInternal>
+              <reference Id="42f505b3-e5f9-4f3e-9304-5a9827c091e5" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core.Contracts)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=Connect)&quot;)" tag="DGQL" />
+              <reference Id="9bec3933-434c-4b91-a8f4-46a56ab6a66a" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=Connect)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="9a79a17c-d66a-4212-a99b-8e96d5e13960" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e268f426-11b3-497c-b551-31a313ad16ef" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="74983287-04b0-480a-b82e-9acffcd442b0" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e853e158-fe92-4cba-b330-c318324b20a6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5760b411-5543-4876-869e-2f5816aa6b40" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="f1ed424b-9613-4334-8271-04b1aca5136e" name="Create FrameworkFatalException" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new FrameworkFatalException(&quot;user not authorized to connect to work item store&quot;, ex)">
+            <referencesInternal>
+              <reference Id="35f118ac-252c-4c4e-be39-08445943ff99" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Exception)]))&quot;)" tag="DGQL" />
+              <reference Id="86825deb-491f-458c-b1a5-9473ebc0cb26" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Exception)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c1087bc9-b25d-42cb-a1cc-3f66007f4ae4" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="073bc56e-fb87-439d-ad78-66e8518d76e1" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="824b142e-2965-4009-be62-986cc1072d00" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="62226e78-99ed-46ce-b0fa-7f1e92e007fb" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="91600de9-6215-41f0-8b4e-383196e5cd96" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="690f862c-6b35-4614-a551-5136e8cb4215" name="Throw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="throw new FrameworkFatalException(&quot;user not authorized to connect to work item store&quot;, ex)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="406221b1-38c2-4aa1-961c-b80989ffd4d6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="f3cd6f52-17c0-4cdb-bdb4-9fdced965665" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="4b034e13-fdd4-4d84-8db4-bf0d3428dbd9" name="Create FrameworkFatalException" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new FrameworkFatalException(&quot;Cannot connect to server&quot;, ex)">
+            <referencesInternal>
+              <reference Id="5b5fb7a5-4c96-476d-93aa-250bc9b7b73e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Exception)]))&quot;)" tag="DGQL" />
+              <reference Id="9b17c29a-d3b0-45db-b3ca-c56fe2c409cf" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core Type=FrameworkFatalException Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Exception)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3f5141a7-b2e4-4336-b39f-b3f6a3b06cf9" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e04112cf-d963-4204-a8eb-da976c7a1310" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="830c6b24-356a-422a-9f4f-7ddfbfed2077" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="aee6dce5-3962-4d41-b04d-2c730d1de948" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="fcf01ece-9975-44a2-b814-274008530459" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3c918a14-8d79-4f94-afaf-47454c1f0d05" name="Throw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="throw new FrameworkFatalException(&quot;Cannot connect to server&quot;, ex)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d371ad65-9f57-4acc-a4cc-eb0472bdaf08" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="2ce78930-9598-45e0-b86c-2e395f92ca5c" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="f44dade7-d17e-4969-9889-21b30dbea7a2" name="Throw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="throw new ArgumentOutOfRangeException(&quot;testCaseId&quot;, testCaseId, &quot;positive integer expected&quot;)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="27a8b0a6-b8f5-46ef-a259-44465f22e53c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="97f5067f-84d3-450d-8b5b-bd9b0872fb5b" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="cc2d7ec5-eb47-4429-a4ad-bd3fbc759657" name="GetTestCaseById" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="this.tfsWorkItemStoreAdapter.GetTestCaseById(tfsTestCaseId)">
+            <referencesInternal>
+              <reference Id="cfa48f9c-3b4b-44df-b393-8a84a6700d18" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core.Contracts)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=(Name=GetTestCaseById OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Int32)]))&quot;)" tag="DGQL" />
+              <reference Id="52c7aedb-6d0f-413c-bdc4-db13ce826052" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=(Name=GetTestCaseById OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e909de1f-9e00-4fdb-bbc7-d803c0215e61" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="21adf2ed-3a85-467b-b3f7-e0d0267a24c5" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="29b0a199-b514-4378-8f4b-e913a2bcb433" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f6740144-abb2-4de6-8884-0566a2490918" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="bd7ae3dc-e472-484a-94da-9db0893b4d91" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="85c86457-b6c5-4c47-83ca-0d67e5631484" name="Throw" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="throw new ArgumentOutOfRangeException(&quot;testCaseId&quot;, testCaseId, &quot;not a test case&quot;)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="08c1529e-88d2-4b18-8135-fe7143fd503a" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="ce700367-f319-4cce-98d1-5bf44c474848" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="dbe5bae7-2c08-470c-9f18-3eaf45793eec" name="GetTestSteps" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="this.tfsWorkItemStoreAdapter.GetTestSteps(tfsTestCaseId)">
+            <referencesInternal>
+              <reference Id="c35d5f3b-92f0-4dac-9320-8570775f6c2f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=VM.Platform.TestAutomationFramework.Core.Contracts)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&amp;quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=(Name=GetTestSteps OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Int32)]))&quot;)" tag="DGQL" />
+              <reference Id="955fc8f1-94d9-42f4-b8aa-e47428da32e1" handle="(Assembly=&quot;$(8eb65435-a760-46b8-a99e-23720e06037e.OutputPathUri)&quot; Namespace=VM.Platform.TestAutomationFramework.Core.Contracts Type=ITfsWorkItemStoreAdapter Member=(Name=GetTestSteps OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Int32)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="db2d817d-c21d-4df6-8446-4beb5991606c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a73404a7-f35d-4640-9e3d-ef3f905161ed" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ad6fe3ca-869c-4990-8ef7-a4af1afdd556" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="422fbcba-030f-4caa-91e1-f1f817dc29f1" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="8c950933-7585-4dff-b189-466323b1994d" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="14c01e52-8022-4510-85ba-9dc6d9f3597e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5ef0bdc5-b381-4b6b-b44a-e13d7197d9eb" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="038735c3-aa41-429b-84a1-2a807b6bcb15" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="bce66304-8a73-49f6-93bd-e5efe12fea43" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e9a33e87-dc53-40f1-a208-3115b7527e9b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6006d595-722c-4368-8a76-e1557d58b435" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="15ead249-1bca-4d85-9a82-b165aedee5c5" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="2741434a-31bc-4272-a1a4-fbcc484375d1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="1d5480b7-a168-4daa-993e-58f7bf1b4973" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="36146c52-848e-495f-9d57-e1a4ea51d12b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="f5b1475d-eef5-458d-9917-b6456b8defc0" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="60087e0f-8e5d-4a55-8a41-56733cf4ed9c" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="d4d55430-fcb3-4e25-a080-94c1e727a041" name="Test Case Execution" linkedPackageId="83f1228c-1a93-4a5c-9875-9984cf45e8b6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="560d4f60-5427-4833-acff-244cb1cdeb9b">
+      <profileInstance Id="145b535e-f391-48b2-920b-9546a7badfe7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9e018881-e1e3-45fe-a0ac-7e450b86e5fc">
+      <profileInstance Id="fcb43fb7-9227-4910-b30b-9ea8cb5b3255" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="c26622b7-33dd-4e7b-b084-84a938e7ddb4" name="Tester" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c2e00859-58f7-47a9-b9cd-5fecd53b4eed" />
+        <targetEnds>
+          <association Id="bb453ccc-05df-46ed-b14c-6ee4022f8056" isDerived="false" sourceEndRoleName="Tester" targetEndRoleName="Execute Test Case" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cbd29ad2-56f8-4e7e-a2a3-9d6b750f6d55" LastKnownName="Execute Test Case" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e01a121-3145-4d5b-b16d-a01b0311d95f" name="Tester" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9bdb36ca-909a-4c1d-af6f-db4036171aa8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6484f1b8-e046-45a9-84fa-8198a7cd2388" name="Execute Test Case" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c3be8e2-02f0-4ebd-b710-6e93be65d9e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="03f4bb68-91d0-4af3-9c3d-44119e281205" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="c04cc106-bbb5-4227-a805-65ddf52663cc" name="Test Automation Framework" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f3268cfe-cf46-4fc8-b59d-040948c2f494" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="cbd29ad2-56f8-4e7e-a2a3-9d6b750f6d55" name="Execute Test Case" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c4590529-056d-4027-ad62-122a25b90937" />
+        <additions>
+          <include Id="5bc47716-19f4-4b3d-8851-5b444f8e4899">
+            <useCaseMoniker Id="31bfda6c-cd56-4dd6-8fcc-230a78103bf7" LastKnownName="Get Test Case" />
+            <elementDefinition Id="384a793f-e10e-42e0-a95c-218829d0b466" />
+          </include>
+          <include Id="4df4f4e4-81d6-4d83-87ad-40a93276ae31">
+            <useCaseMoniker Id="1ce5a3b5-133d-4c40-b794-a9d83ba6ff1d" LastKnownName="Get Test Data" />
+            <elementDefinition Id="27b4188f-b9e0-4b86-99ac-b6ee96f93349" />
+          </include>
+          <include Id="b0083ed2-111d-48d7-bf72-3b493db3c2d7">
+            <useCaseMoniker Id="b42bede8-5245-4746-a40d-117d7b3135c4" LastKnownName="Get Control Map" />
+            <elementDefinition Id="563a8099-687b-462f-a4ed-eebb12022cbc" />
+          </include>
+          <include Id="fe1b577d-9c90-4bed-9445-fff44f9cfb07">
+            <useCaseMoniker Id="ae16f41b-9117-4362-ac9f-3603a6c7e214" LastKnownName="Parse Commands" />
+            <elementDefinition Id="a6433388-4e85-4a3c-a2ea-0d4cb4b9f440" />
+          </include>
+          <include Id="d8435bbd-9104-49e6-87ec-9f3ce6a64dd5">
+            <useCaseMoniker Id="ad965182-fc37-4b9a-acd9-5247032c317f" LastKnownName="Validate Commands" />
+            <elementDefinition Id="d17d5b4b-be1a-4799-8ea3-53de8b4137c0" />
+          </include>
+          <include Id="ed375a87-44de-48a1-ba0c-83a5787c21bc">
+            <useCaseMoniker Id="c3e4b834-cd55-4010-b44e-e620c3a22a54" LastKnownName="Execute Commands" />
+            <elementDefinition Id="ab8fdb8e-4f07-4254-bb50-9f56b325c26c" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="31bfda6c-cd56-4dd6-8fcc-230a78103bf7" name="Get Test Case" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="047f49a3-27d1-4846-b7f9-c379d7e501cf" />
+        <targetEnds>
+          <association Id="be6f01d9-de04-43e7-9029-4e3dd85bc9dc" isDerived="false" sourceEndRoleName="Get Test Case" targetEndRoleName="TFS" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="206bb0cb-7f14-4d2b-a677-258bdd85b924" LastKnownName="TFS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9ef116b9-ee6c-4ba0-987c-a369f921b354" name="Get Test Case" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0ee1b384-bee4-4142-8450-a691c8bafcbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f2e6331-349a-4141-bee1-862049aed44e" name="TFS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="449f8313-3da8-44e7-bb69-13fdf5ce3b7a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe6c13b8-8eb3-428b-b043-2c93d1f1791b" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1ce5a3b5-133d-4c40-b794-a9d83ba6ff1d" name="Get Test Data" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec8f0410-20ac-407d-9422-7f1f83ceb9d4" />
+        <targetEnds>
+          <association Id="2b0734f1-a16f-4d69-8902-26594daecd91" isDerived="false" sourceEndRoleName="Get Test Data" targetEndRoleName="TFS" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="206bb0cb-7f14-4d2b-a677-258bdd85b924" LastKnownName="TFS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9dec76e5-af81-48d8-854f-7a1343d63f26" name="Get Test Data" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6da51caf-0d89-4455-802d-b0b89692b404" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2f41c50-15ba-4b6a-b3ad-2ebca03c95b1" name="TFS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="765a9d0a-bd47-4b30-ab6c-6ff6522d6659" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="461ce241-91ce-40ff-8c43-5ac612a773c7" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b42bede8-5245-4746-a40d-117d7b3135c4" name="Get Control Map" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="767906db-5288-43de-b19e-5e4dd6e33525" />
+        <targetEnds>
+          <association Id="86101c04-c90f-44d8-babd-3ddfde98a470" isDerived="false" sourceEndRoleName="Get Control Map" targetEndRoleName="TFS" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="206bb0cb-7f14-4d2b-a677-258bdd85b924" LastKnownName="TFS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7f0a90d-3775-43c5-9305-3afaec07766b" name="Get Control Map" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fd72a5c8-9a44-4a49-9550-d6dde8057fd3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0170cf33-da5e-4fe4-930b-54db4ef3c676" name="TFS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cfe61cc6-dbca-426f-b0d1-34e409b3e3c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="24c78ccb-a3c8-426d-a3d6-c4dbd66b086f" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ae16f41b-9117-4362-ac9f-3603a6c7e214" name="Parse Commands" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45c67a20-a654-4420-9f2a-b2dd40fbfcba" />
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c3e4b834-cd55-4010-b44e-e620c3a22a54" name="Execute Commands" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bd578208-51bb-4b0f-ba13-0e8080918e1f" />
+        <targetEnds>
+          <association Id="6e18b41f-76cb-4f0a-9651-3d3cfff2ad07" isDerived="false" sourceEndRoleName="Execute Commands" targetEndRoleName="Browser Under Test" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="efdedd37-e341-4847-a7ef-567521547067" LastKnownName="Browser Under Test" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7eab90ea-811e-4aa1-b818-4a2d41599a81" name="Execute Commands" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d7792c57-7386-4380-94c4-47fbd4632519" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c68b8439-5003-4650-a333-2eb4871c81a0" name="Browser Under Test" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a30742b1-78c7-4a93-bbe9-075a7261122f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3cee604c-58aa-4915-bb3e-b94d337417f2" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="206bb0cb-7f14-4d2b-a677-258bdd85b924" name="TFS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4c7821dd-a2bb-4c05-9dbf-d6063c92df3b" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="efdedd37-e341-4847-a7ef-567521547067" name="Browser Under Test" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c59cc43a-52e5-420e-a01d-da30b4ad4b35" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ad965182-fc37-4b9a-acd9-5247032c317f" name="Validate Commands" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a28e0c88-8907-4bc5-af50-f36ce02638dc" />
+        <subjects>
+          <subsystemMoniker Id="c04cc106-bbb5-4227-a805-65ddf52663cc" LastKnownName="Test Automation Framework" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="83f1228c-1a93-4a5c-9875-9984cf45e8b6" name="Model">
+    <elementDefinition Id="e490e6b2-898a-40e8-9be0-7be7975641a4" />
+  </package>
+</useCaseModelRoot>

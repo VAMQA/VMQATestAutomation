@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Platform.RM.AzureIaaSDeployment</id>
+    <version>1.0.16112.1238</version>
+    <title>Platform.RM.AzureIaaSDeployment</title>
+    <authors>Sohail Tahir</authors>
+    <owners>Sohail Tahir</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds desired state configuration scripts for Azure IaaS deployment.</description>
+  </metadata>
+</package>

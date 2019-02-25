@@ -1,0 +1,20 @@
+2019-02-08 10:19:22,268 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-02-08 10:19:22,286 INFO  execution-log - Initializing Test Automation
+----------------
+2019-02-08 10:19:22,291 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-02-08 10:19:33,456 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-02-08 10:19:48,058 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-02-08 10:19:48,078 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-02-08 10:19:48,093 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-02-08 10:19:48,150 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-02-08 10:21:49,249 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-02-08 10:22:38,684 INFO  execution-log - Loading captured values from persistence.
+----------------

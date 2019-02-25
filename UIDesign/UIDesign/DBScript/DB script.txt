@@ -1,0 +1,79 @@
+ALTER TABLE ActionFlow ADD CreatedBy Nvarchar(100) Null
+ALTER TABLE ActionFlow ADD CreatedDate datetime null
+ALTER TABLE ActionFlow ADD ModifiedBy Nvarchar(100) null
+ALTER TABLE ActionFlow ADD ModifiedDate datetime null
+
+ALTER TABLE ActionKeyword ADD CreatedBy Nvarchar(100) null
+ALTER TABLE ActionKeyword ADD CreatedDate datetime  null
+ALTER TABLE ActionKeyword ADD ModifiedBy Nvarchar(100)  null
+ALTER TABLE ActionKeyword ADD ModifiedDate datetime  null
+
+ALTER TABLE MasterOR ADD CreatedBy Nvarchar(100) null
+ALTER TABLE MasterOR ADD CreatedDate datetime null
+ALTER TABLE MasterOR ADD ModifiedBy Nvarchar(100) null
+ALTER TABLE MasterOR ADD ModifiedDate datetime null
+
+ALTER TABLE ProjectInfo ADD ModifiedBy Nvarchar(100) null
+ALTER TABLE ProjectInfo ADD ModifiedDate datetime null
+
+ALTER TABLE TestCaseInfo ADD CreatedBy nvarchar(100) null
+ALTER TABLE TestCaseInfo ADD CreatedDate datetime null
+ALTER TABLE TestCaseInfo ADD ModifiedBy nvarchar(100) null
+ALTER TABLE TestCaseInfo ADD ModifiedDate datetime null
+
+
+ALTER TABLE TestData ADD CreatedBy nvarchar(100) null
+ALTER TABLE TestData ADD CreatedDate datetime null
+ALTER TABLE TestData ADD ModifiedBy nvarchar(100) null
+ALTER TABLE TestData ADD ModifiedDate datetime null
+
+ALTER TABLE TestResults ADD CreatedBy nvarchar(100) null
+ALTER TABLE TestResults ADD CreatedDate datetime null
+ALTER TABLE TestResults ADD ModifiedBy Nvarchar(100) null
+ALTER TABLE TestResults ADD ModifiedDate datetime null
+
+
+ALTER TABLE Features ADD CreatedBy nvarchar(100) null
+ALTER TABLE Features ADD CreatedDate datetime null
+ALTER TABLE Features ADD ModifiedBy Nvarchar(100) null
+ALTER TABLE Features ADD ModifiedDate datetime null
+
+
+
+
+/****** Object:  View [dbo].[MASTERORVIEW]    Script Date: 2/5/2018 6:08:57 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+CREATE VIEW [dbo].[MASTERORVIEW]
+AS
+SELECT [MasterORID],Pg.PageName,[Label],[ControlType],[ControlID],[Class],[ParentControl],[TagName],[FriendlyName],[ValueAttribute],[TagInstance],[Type],[ClassName],
+[InnerText],[ControlDefinition],[LabelFor],[Xpath],[Version],Mr.[CreatedBy],Mr.[CreatedDate],[ModifiedBy],[ModifiedDate],MR.[ProjectID] 
+FROM MASTEROR MR
+inner join PageNames PG on pg.PageID = mr.PageID
+
+GO
+
+
+CREATE VIEW [dbo].[TESTDATAVIEW]
+AS
+SELECT     td.ActionFlow_id, td.TestCaseId, pn.PageName, td.FlowIdentifier, td.DataIdentifier,ak.ActionName AS KeyWord,Label,td.ActionORData,td.SeqNumber,td.[Execute], 
+                      td.ProjectID,td.CreatedBy,td.CreatedDate,td.ModifiedBy,td.ModifiedDate,td.PageID,td.MasterORID
+FROM         dbo.TestData AS td INNER JOIN
+                      dbo.MasterOR as MO ON td.MasterORID = MO.MasterORID LEFT OUTER JOIN
+                      dbo.PageNames AS pn ON MO.PageID = pn.PageID AND td.PageID = pn.PageID LEFT OUTER JOIN
+                      dbo.ActionKeyword AS ak ON td.Indicator = ak.ActionKeyword_ID
+WHERE     (td.IsDeleted IS NULL)
+
+
+GO
+
+
+
+

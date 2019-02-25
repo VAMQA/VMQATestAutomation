@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestAutomationFramework>
+  <Environments>
+    <VMTESTAPP>http://vam-qa.cloudapp.net:6363/pages/login.html</VMTESTAPP>
+    <VMTESTAPP1>http://vam-qa.cloudapp.net:6363/pages/login.html</VMTESTAPP1>
+    <VMTESTPronto>https://www.prontoinsurance.com/</VMTESTPronto>
+  </Environments>
+
+  <!-- The automation on the following pages will not be executed -->
+  <IgnorePages>
+    <!--<page>CustomerInfo</page>-->
+  </IgnorePages>
+
+  <!-- Automation ERRORS on the following pages will be ignored, and the test will proceed despite them -->
+  <IgnoreErrorsOnPages>
+    <page>CustomerInfo</page>
+
+  </IgnoreErrorsOnPages>
+
+  <SubstituteValues>
+    <!--<CustomerInfo_txtZipCode>35801</CustomerInfo_txtZipCode>-->
+  </SubstituteValues>
+
+  <IgnorableColumnNamePatterns>
+    <pattern>^Execute?\s*\d*$</pattern>
+    <pattern>^Comments?\s*\d*$</pattern>
+    <pattern>^Scenario\s*Id$</pattern>
+    <pattern>^Scenario\s*Description$</pattern>
+    <pattern>^States?$</pattern>
+    <pattern>^TC#?$</pattern>
+    <pattern>^Rule\s*Description$</pattern>
+    <pattern>^Validations?$</pattern>
+    <pattern>^ConditionName?$</pattern>
+  </IgnorableColumnNamePatterns>
+
+  <Browsers>
+    <Chrome>
+      <profile>C:\Users\u1hc409\AppData\Local\Google\Chrome\User Data</profile>
+    </Chrome>
+  </Browsers>
+
+  <DBExecution>
+    <!--<DBConnectionString>Data Source = 10.48.50.101\SQLEXPRESS;Initial Catalog = v4; User Id=sa;Password=Passw0rd; Connect Timeout=100;</DBConnectionString>-->
+    <!--<DBConnectionString>Data Source = GPVPC1058\MSSQLEXPRESS;Initial Catalog = v4_Claims_Prod; User Id=sa;Password=Passw0rd; Connect Timeout=30;</DBConnectionString>-->
+    <DBConnectionString>Data Source = VMQApractice\SQLEXPRESS;Initial Catalog = version4test; User Id=sa;Password=VMQApractice12; Connect Timeout=30;</DBConnectionString>
+    <!--<DBConnectionString>Data Source = FRWS3381.VM.CORP.NET\sql4;Initial Catalog = V4NBTEST; User Id=NBTEST;Password=PassW0rd; Connect Timeout=30;</DBConnectionString>-->
+    <TestResultsPath>C:\\TestResults</TestResultsPath>
+  </DBExecution>
+
+  <DBTestAutomation>
+    <!--<ConnectionString>Data Source = AUTONBC1FT1SQL.VMDDC.NET,4070;Initial Catalog = PolicySalesFT3; Trusted_Connection=Yes;integrated security=SSPI;persist security info=False; Connect Timeout=30;</ConnectionString>-->
+    <ConnectionString>Data Source = AUTONBC1FT1SQL.VMDDC.NET;Initial Catalog = PolicySalesFT3; Integrated Security=SSPI;</ConnectionString>
+  </DBTestAutomation>
+
+  <RemoteExecutionDetails>
+    <DefaultBrowser>chrome</DefaultBrowser>
+    <PlatformName>Windows</PlatformName>
+    <DeviceName></DeviceName>
+    <WaitTimeSec>240</WaitTimeSec>
+    <ServerURL>http://10.0.1.4:9999/wd/hub</ServerURL>
+    <!--<ServerURL>http://VMQApractice:4444/wd/hub</ServerURL>-->
+    <!--<ServerURL>http://GP142111:4444/wd/hub</ServerURL>-->
+    <ServerURLWaitTime>240</ServerURLWaitTime>
+  </RemoteExecutionDetails>
+  <IOSMobileLabsExecutionDetails>
+    <userName>u50cao</userName>  //MobileLabs username
+    <apiKey>f31136c5-1a29-4858-8d12-d5a9eb341e7e</apiKey>
+    <vendorID>f69b7399fd4cd3c36ab48d0a9db3f8af55c7db5f</vendorID> //  vendor Id of the device. Grab it from Mobile
+    <browserName>Safari</browserName>
+    <platformName>iOS</platformName>
+    <platformVersion>11.2.1( </platformVersion>
+    <deviceName>ITNB iPhone 6s Plus</deviceName>
+  </IOSMobileLabsExecutionDetails>
+  <AndroidMobileLabsExecutionDetails>
+    <userName>u50cao</userName>
+    <apiKey> </apiKey>
+    <deviceID>369f1ab9-234c-442f-b4b2-35dabb08e0fc</deviceID> //Serial number of the device. Grab it from ML
+    <browserName>Chrome</browserName>
+    <platformName>Android</platformName>
+  </AndroidMobileLabsExecutionDetails>
+  <!--<LocalExecution>
+    <RepositoryPath>C:\LN\VMTestAutomation\LocalExecution\Auto</RepositoryPath>
+    <OR>\MasterORnTestCaseFlows\MasterOR.xlsx</OR>
+    <TestData>\TestCasesData\</TestData>
+    <TestCase>\MasterORnTestCaseFlows\TestCaseFlows.xlsx</TestCase>
+    <TestResultsPath>\\GP142111\NuGet\v4 TestResults</TestResultsPath>
+  </LocalExecution>-->
+  <!--<Mode>Local</Mode>-->
+
+  <!-- Select one (AND ONLY ONE) of the following options in order to decide how Click-Wait behaves. It's default is to wait before -->
+  <!-- Default wait time is 2 seconds, otherwise, as specified in the command -->
+  <!--<ClickWaitOption>WaitBefore</ClickWaitOption>-->
+  <!--<ClickWaitOption>WaitAfter</ClickWaitOption>-->
+  <ClickWaitOption>WaitBeforeAndAfter</ClickWaitOption>
+
+  <!-- Specifies the (maximum) amount of time to wait for an element to be ready, in milliseconds -->
+  <ImplicitWaitTime>10000</ImplicitWaitTime>
+  <PageLoadWaitTime>20000</PageLoadWaitTime>
+  <EnableCloseBrowser>TRUE</EnableCloseBrowser>
+  <TfsCredentialAddress>https://tfs.ext.VMddc.net/</TfsCredentialAddress>
+  <PersistedValuesFileName>PersistedValues.bin</PersistedValuesFileName>
+  <TrackExecutionDetails>Y</TrackExecutionDetails>
+  <UpdateExecutionDetails>Y</UpdateExecutionDetails>
+
+</TestAutomationFramework>

@@ -1,0 +1,50 @@
+2019-01-27 21:26:20,191 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-27 21:30:16,823 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-27 21:30:16,835 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-27 21:33:50,153 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-27 21:34:35,806 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-27 21:34:35,818 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-27 21:34:35,819 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-27 21:34:35,839 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-27 21:34:38,984 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-27 21:35:10,559 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-27 21:35:21,777 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-27 21:35:40,107 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-27 21:35:40,118 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-01-27 21:35:40,124 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-27 21:35:40,131 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-27 21:35:41,399 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-27 21:35:41,414 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-27 21:35:41,423 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-27 21:35:41,428 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-27 21:35:41,444 INFO  execution-log - [Sequence No - 1] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-01-27 21:35:41,600 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-01-27 21:35:41,614 INFO  execution-log - [Sequence No - 2] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-01-27 21:35:44,329 ERROR execution-log - TC # : 1, Could not set test data for field 'User Name'.
+----------------
+2019-01-27 21:35:52,391 ERROR execution-log - TC # : 1, Could not set test data for field 'User Name'.
+----------------
+2019-01-27 21:35:52,407 ERROR execution-log - TC # : 1, No more iterations to run. Test execution will abort.
+----------------

@@ -1,0 +1,87 @@
+﻿IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID('[dbo].[sp_InsertTestData]'))
+BEGIN
+    DROP PROCEDURE [dbo].[sp_InsertTestData]
+END
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[sp_InsertTestData]    Script Date: 8/9/2018 5:44:16 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create PROCEDURE [dbo].[sp_InsertTestData] (
+                 @inputXML nvarchar(max)
+		 )
+AS
+BEGIN
+      SET NOCOUNT ON;
+	  declare @testxml xml
+      set @testxml = cast(@inputXML as xml)
+
+	  DECLARE @tableTestData TABLE
+		(
+			TestCaseId INT,PageId INT,FlowIdentifier INT,DataIdentifier INT,MasterORID INT,Indicator INT, ActionORData VARCHAR(1000),SeqNumber real,
+			[Execute] VARCHAR(10),Projectid INT,IsDeleted varchar(10),CreatedBy nvarchar(100),CreatedDate datetime
+		)
+	INSERT INTO @tableTestData
+	SELECT 
+    Finaldata.R.value ('(TestCaseId/text())[1]', 'INT') AS TestCaseId, 
+    Finaldata.R.value ('(PageId/text())[1]', 'INT') AS PageId,
+	Finaldata.R.value ('(FlowIdentifier/text())[1]', 'INT') AS FlowIdentifier,
+	Finaldata.R.value ('(DataIdentifier/text())[1]', 'INT') AS DataIdentifier,
+	Finaldata.R.value ('(MasterORID/text())[1]', 'INT') AS MasterORID,
+	Finaldata.R.value ('(Indicator/text())[1]', 'INT') AS Indicator,
+	Finaldata.R.value ('(ActionORData/text())[1]', 'VARCHAR(1000)') AS ActionORData,
+	Finaldata.R.value ('(SeqNumber/text())[1]', 'real') AS SeqNumber,
+	Finaldata.R.value ('(Execute/text())[1]', 'Varchar(10)') AS [Execute],
+	Finaldata.R.value ('(Projectid/text())[1]', 'INT') AS Projectid,
+	Null,
+	Finaldata.R.value ('(CreatedBy/text())[1]', 'nvarchar(100)') AS CreatedBy,
+	getdate()
+    FROM @testxml.nodes ('//DocumentElement/TestData') AS Finaldata (R)
+
+DECLARE @retries INT ;
+SET @retries = 2 ;
+	WHILE ( @retries > 0 )
+		BEGIN TRY
+			BEGIN TRANSACTION ;	
+
+			  INSERT into TestData (TestCaseId,PageId,FlowIdentifier,DataIdentifier,MasterORID,Indicator,ActionORData,SeqNumber,[Execute],Projectid,IsDeleted,CreatedBy,CreatedDate) 
+			  SELECT TestCaseId,PageId ,FlowIdentifier,DataIdentifier,MasterORID,Indicator,ActionORData,SeqNumber,[Execute],Projectid,IsDeleted,CreatedBy,CreatedDate          
+			  FROM @tableTestData    
+			  SET @retries=0;
+			COMMIT TRANSACTION ;
+		END TRY
+		BEGIN CATCH 
+			-- Error is a deadlock
+				IF ( ERROR_NUMBER() = 1205 ) 
+					SET @retries = @retries - 1 ;
+			-- Error is not a deadlock
+				ELSE 
+					BEGIN
+						DECLARE @ErrorMessage NVARCHAR(4000) ;
+						DECLARE @ErrorSeverity INT ;
+						DECLARE @ErrorState INT ;
+ 
+						SELECT  @ErrorMessage = ERROR_MESSAGE() ,
+								@ErrorSeverity = ERROR_SEVERITY() ,
+								@ErrorState = ERROR_STATE() ;
+                   
+						-- Re-Raise the Error that caused the problem
+						RAISERROR (@ErrorMessage, -- Message text.
+						   @ErrorSeverity, -- Severity.
+						   @ErrorState -- State.
+						   ) ;
+						SET @retries = 0 ;
+					END
+				IF XACT_STATE() <> 0 
+					ROLLBACK TRANSACTION ;
+		END CATCH ; 
+END

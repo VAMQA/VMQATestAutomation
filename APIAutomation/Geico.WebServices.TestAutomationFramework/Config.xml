@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<frameworkconfig>
+  <!--User Id & Password-->
+  <SDCUserName>DEV\SVC-Node-Service-Web</SDCUserName>
+  <SDCUserName>jEveXu2US7APusus</SDCUserName>
+  
+  <!--Policy System URLs-->
+  <PolicyQA>https://PolicySrvAPIDCQA.ext.VMddc.net/DuckCreek/DCTServer.aspx</PolicyQA>
+
+  <!--Billing System URLs-->
+  <BillingQA>https://PolicySrvAPIDCQA.ext.VMddc.net/DuckCreek/DCTServer.aspx</BillingQA>
+  <BillingDev>https://PolicySrvAPIDCQA.ext.VMddc.net/DuckCreek/DCTServer.aspx</BillingDev>
+
+  <!--Excel Providers-->
+  <XlsProvider>Provider=Microsoft.Jet.OLEDB.4.0;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1";Data Source=</XlsProvider>                 
+  <XlsxProvider>Provider=Microsoft.ACE.OLEDB.12.0;Extended Properties='Excel 12.0;HDR=Yes;IMEX=1';Data Source=</XlsxProvider>                                                
+  <CsvProvider>Provider=Microsoft.Jet.OLEDB.4.0;Extended Properties=Excel 8.0;HDR=Yes;IMEX=1";Data Source=</CsvProvider>
+  
+</frameworkconfig>

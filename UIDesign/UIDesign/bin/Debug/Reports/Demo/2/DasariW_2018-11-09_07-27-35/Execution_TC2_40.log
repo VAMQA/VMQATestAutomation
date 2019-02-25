@@ -1,0 +1,272 @@
+2018-11-09 07:26:42,218 INFO  execution-log - 	Initializing control map with map # Master
+----------------
+2018-11-09 07:26:42,219 INFO  execution-log - Initializing Test Automation
+----------------
+2018-11-09 07:26:42,220 INFO  execution-log - 	target browser: Chrome
+----------------
+2018-11-09 07:26:42,221 INFO  execution-log - TC # : 2, Downloading test case from DB
+----------------
+2018-11-09 07:26:42,223 INFO  execution-log - TC # : 2, Getting control map :Master from DB
+----------------
+2018-11-09 07:26:42,223 INFO  execution-log - TC # : 2, Getting test data from DB
+----------------
+2018-11-09 07:26:42,227 INFO  execution-log - TC # : 2, Control map retrieval completed
+----------------
+2018-11-09 07:26:42,231 INFO  execution-log - TC # : 2, Test data retrieval completed
+----------------
+2018-11-09 07:26:42,233 INFO  execution-log - TC # : 2, Parsing commands
+----------------
+2018-11-09 07:26:42,234 INFO  execution-log - Loading captured values from persistence.
+----------------
+2018-11-09 07:26:42,235 INFO  execution-log - TC # : 2, Started executing test case in the HISCOX environment (http://hiscpvt.cloud.hiscox.com/oneshield/index.jsp#gateway)
+----------------
+2018-11-09 07:26:42,278 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2018-11-09 07:26:42,279 INFO  execution-log - TC # : 2, Starting iteration #1
+----------------
+2018-11-09 07:26:42,280 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:42,282 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2018-11-09 07:26:42,664 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:42,666 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:42,667 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:42,669 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:42,716 INFO  execution-log - [Sequence No - 1] Beginning TestDataCommand ( LogicalFieldName : Partner Number, LogicalFieldValue : 0 )
+----------------
+2018-11-09 07:26:44,496 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2018-11-09 07:26:44,501 INFO  execution-log - [Sequence No - 2] Beginning TestDataCommand ( LogicalFieldName : Username, LogicalFieldValue : karthicuw )
+----------------
+2018-11-09 07:26:44,689 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2018-11-09 07:26:44,694 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Monday!23 )
+----------------
+2018-11-09 07:26:44,871 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2018-11-09 07:26:44,881 INFO  execution-log - [Sequence No - 4] Beginning TestDataCommand ( LogicalFieldName : Partner Number, LogicalFieldValue : 0 )
+----------------
+2018-11-09 07:26:44,982 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2018-11-09 07:26:44,987 INFO  execution-log - [Sequence No - 5] Beginning ActionCommand ( LogicalFieldName : Login Page, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:45,153 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2018-11-09 07:26:45,157 INFO  execution-log - [Sequence No - 6] Beginning ActionCommand ( LogicalFieldName : Login Button, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:45,355 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2018-11-09 07:26:45,360 INFO  execution-log - [Sequence No - 7] Beginning TestDataCommand ( LogicalFieldName : Partner Number, LogicalFieldValue : 0 )
+----------------
+2018-11-09 07:26:45,521 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2018-11-09 07:26:45,522 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:45,523 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Quotes, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:45,524 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:45,525 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Quotes, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:45,537 INFO  execution-log - [Sequence No - 8] Beginning WaitForControlCommand ( LogicalFieldName : Quotes_Link, LogicalFieldValue : True )
+----------------
+2018-11-09 07:26:46,383 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2018-11-09 07:26:46,387 INFO  execution-log - [Sequence No - 9] Beginning ActionCommand ( LogicalFieldName : Quotes_Link, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:46,621 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2018-11-09 07:26:46,625 INFO  execution-log - [Sequence No - 10] Beginning WaitForControlCommand ( LogicalFieldName : New quote, LogicalFieldValue : True )
+----------------
+2018-11-09 07:26:48,546 INFO  execution-log - [Sequence No - 10]	 Command completed.
+----------------
+2018-11-09 07:26:48,552 INFO  execution-log - [Sequence No - 11] Beginning ActionCommand ( LogicalFieldName : New quote, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:48,720 INFO  execution-log - [Sequence No - 11]	 Command completed.
+----------------
+2018-11-09 07:26:48,724 INFO  execution-log - [Sequence No - 12] Beginning ActionCommand ( LogicalFieldName : Select Producing Agency, LogicalFieldValue : Click-Wait(500) )
+----------------
+2018-11-09 07:26:50,199 INFO  execution-log - [Sequence No - 12]	 Command completed.
+----------------
+2018-11-09 07:26:50,204 INFO  execution-log - [Sequence No - 13] Beginning ActionCommand ( LogicalFieldName : Select Agency, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:50,341 INFO  execution-log - [Sequence No - 13]	 Command completed.
+----------------
+2018-11-09 07:26:50,345 INFO  execution-log - [Sequence No - 14] Beginning WaitForControlCommand ( LogicalFieldName : Producer, LogicalFieldValue : True )
+----------------
+2018-11-09 07:26:52,031 INFO  execution-log - [Sequence No - 14]	 Command completed.
+----------------
+2018-11-09 07:26:52,035 INFO  execution-log - [Sequence No - 15] Beginning ActionCommand ( LogicalFieldName : Producer, LogicalFieldValue : Click-Wait(500) )
+----------------
+2018-11-09 07:26:53,166 INFO  execution-log - [Sequence No - 15]	 Command completed.
+----------------
+2018-11-09 07:26:53,171 INFO  execution-log - [Sequence No - 16] Beginning TestDataCommand ( LogicalFieldName : Producer, LogicalFieldValue : Agency  Producer )
+----------------
+2018-11-09 07:26:53,670 INFO  execution-log - [Sequence No - 16]	 Command completed.
+----------------
+2018-11-09 07:26:53,674 INFO  execution-log - [Sequence No - 17] Beginning TestDataCommand ( LogicalFieldName : First Name, LogicalFieldValue : HISCOX )
+----------------
+2018-11-09 07:26:53,904 INFO  execution-log - [Sequence No - 17]	 Command completed.
+----------------
+2018-11-09 07:26:53,909 INFO  execution-log - [Sequence No - 18] Beginning TestDataCommand ( LogicalFieldName : Last Name, LogicalFieldValue : Demo )
+----------------
+2018-11-09 07:26:54,083 INFO  execution-log - [Sequence No - 18]	 Command completed.
+----------------
+2018-11-09 07:26:54,090 INFO  execution-log - [Sequence No - 19] Beginning TestDataCommand ( LogicalFieldName : City, LogicalFieldValue : Atlanta )
+----------------
+2018-11-09 07:26:54,301 INFO  execution-log - [Sequence No - 19]	 Command completed.
+----------------
+2018-11-09 07:26:54,306 INFO  execution-log - [Sequence No - 20] Beginning TestDataCommand ( LogicalFieldName : State, LogicalFieldValue : Georgia )
+----------------
+2018-11-09 07:26:54,605 INFO  execution-log - [Sequence No - 20]	 Command completed.
+----------------
+2018-11-09 07:26:54,610 INFO  execution-log - [Sequence No - 21] Beginning TestDataCommand ( LogicalFieldName : Zip, LogicalFieldValue : 30338 )
+----------------
+2018-11-09 07:26:54,873 INFO  execution-log - [Sequence No - 21]	 Command completed.
+----------------
+2018-11-09 07:26:54,877 INFO  execution-log - [Sequence No - 22] Beginning TestDataCommand ( LogicalFieldName : Address Line 1, LogicalFieldValue : 1 Main st )
+----------------
+2018-11-09 07:26:55,237 INFO  execution-log - [Sequence No - 22]	 Command completed.
+----------------
+2018-11-09 07:26:55,242 INFO  execution-log - [Sequence No - 23] Beginning TestDataCommand ( LogicalFieldName : Address Line 2, LogicalFieldValue : 1 )
+----------------
+2018-11-09 07:26:55,363 INFO  execution-log - [Sequence No - 23]	 Command completed.
+----------------
+2018-11-09 07:26:55,367 INFO  execution-log - [Sequence No - 24] Beginning ActionCommand ( LogicalFieldName : Product line (errors and omissions), LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:55,585 INFO  execution-log - [Sequence No - 24]	 Command completed.
+----------------
+2018-11-09 07:26:55,590 INFO  execution-log - [Sequence No - 25] Beginning ActionCommand ( LogicalFieldName : Customer search, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:26:55,857 INFO  execution-log - [Sequence No - 25]	 Command completed.
+----------------
+2018-11-09 07:26:55,858 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:55,859 INFO  execution-log -  Beginning PageCommand ( CurrentPage : QuoteDetails, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:55,859 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:26:55,860 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : QuoteDetails, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:26:55,869 INFO  execution-log - [Sequence No - 26] Beginning WaitForControlCommand ( LogicalFieldName : Retro-active Date, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:02,655 INFO  execution-log - [Sequence No - 26]	 Command completed.
+----------------
+2018-11-09 07:27:02,660 INFO  execution-log - [Sequence No - 27] Beginning TestDataCommand ( LogicalFieldName : Rating Company, LogicalFieldValue : FDLI Protection Insurance Company )
+----------------
+2018-11-09 07:27:04,304 INFO  execution-log - [Sequence No - 27]	 Command completed.
+----------------
+2018-11-09 07:27:04,309 INFO  execution-log - [Sequence No - 28] Beginning TestDataCommand ( LogicalFieldName : Retro-active Date, LogicalFieldValue : 09/11/2018 )
+----------------
+2018-11-09 07:27:04,454 INFO  execution-log - [Sequence No - 28]	 Command completed.
+----------------
+2018-11-09 07:27:04,459 INFO  execution-log - [Sequence No - 29] Beginning TestDataCommand ( LogicalFieldName : Professional Liability Gross Sales, LogicalFieldValue : 100000 )
+----------------
+2018-11-09 07:27:04,594 INFO  execution-log - [Sequence No - 29]	 Command completed.
+----------------
+2018-11-09 07:27:04,598 INFO  execution-log - [Sequence No - 30] Beginning ActionCommand ( LogicalFieldName : QuoteDetails Page, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:04,727 INFO  execution-log - [Sequence No - 30]	 Command completed.
+----------------
+2018-11-09 07:27:04,732 INFO  execution-log - [Sequence No - 31] Beginning ActionCommand ( LogicalFieldName : Save Changes, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:04,889 INFO  execution-log - [Sequence No - 31]	 Command completed.
+----------------
+2018-11-09 07:27:04,894 INFO  execution-log - [Sequence No - 32] Beginning WaitForControlCommand ( LogicalFieldName : Rate Quote, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:05,753 INFO  execution-log - [Sequence No - 32]	 Command completed.
+----------------
+2018-11-09 07:27:05,757 INFO  execution-log - [Sequence No - 33] Beginning ActionCommand ( LogicalFieldName : Rate Quote, LogicalFieldValue : Click-Wait(1000) )
+----------------
+2018-11-09 07:27:07,927 INFO  execution-log - [Sequence No - 33]	 Command completed.
+----------------
+2018-11-09 07:27:07,933 INFO  execution-log - [Sequence No - 34] Beginning WaitForControlCommand ( LogicalFieldName : Request Issue, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:14,373 INFO  execution-log - [Sequence No - 34]	 Command completed.
+----------------
+2018-11-09 07:27:14,377 INFO  execution-log - [Sequence No - 35] Beginning ActionCommand ( LogicalFieldName : Request Issue, LogicalFieldValue : Click-Wait(1000) )
+----------------
+2018-11-09 07:27:16,557 INFO  execution-log - [Sequence No - 35]	 Command completed.
+----------------
+2018-11-09 07:27:16,563 INFO  execution-log - [Sequence No - 36] Beginning WaitForControlCommand ( LogicalFieldName : Next, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:17,255 INFO  execution-log - [Sequence No - 36]	 Command completed.
+----------------
+2018-11-09 07:27:17,259 INFO  execution-log - [Sequence No - 37] Beginning ActionCommand ( LogicalFieldName : Next, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:17,456 INFO  execution-log - [Sequence No - 37]	 Command completed.
+----------------
+2018-11-09 07:27:17,458 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:17,459 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Payment Profile, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:17,460 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:17,461 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Payment Profile, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:17,474 INFO  execution-log - [Sequence No - 38] Beginning WaitForControlCommand ( LogicalFieldName : Check Payment, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:18,967 INFO  execution-log - [Sequence No - 38]	 Command completed.
+----------------
+2018-11-09 07:27:18,971 INFO  execution-log - [Sequence No - 39] Beginning ActionCommand ( LogicalFieldName : Check Payment, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:19,103 INFO  execution-log - [Sequence No - 39]	 Command completed.
+----------------
+2018-11-09 07:27:19,109 INFO  execution-log - [Sequence No - 40] Beginning ActionCommand ( LogicalFieldName : Next, LogicalFieldValue : Click-Wait(1000) )
+----------------
+2018-11-09 07:27:21,408 INFO  execution-log - [Sequence No - 40]	 Command completed.
+----------------
+2018-11-09 07:27:21,409 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:21,410 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Billing Choices, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:21,411 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:21,412 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Billing Choices, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:21,417 INFO  execution-log - [Sequence No - 41] Beginning WaitForControlCommand ( LogicalFieldName : Email Address, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:21,461 INFO  execution-log - [Sequence No - 41]	 Command completed.
+----------------
+2018-11-09 07:27:21,466 INFO  execution-log - [Sequence No - 42] Beginning ActionCommand ( LogicalFieldName : Email Address, LogicalFieldValue : Click-Wait(2000) )
+----------------
+2018-11-09 07:27:25,613 INFO  execution-log - [Sequence No - 42]	 Command completed.
+----------------
+2018-11-09 07:27:25,617 INFO  execution-log - [Sequence No - 43] Beginning TestDataCommand ( LogicalFieldName : Email Address, LogicalFieldValue : Abc1@Abc.com )
+----------------
+2018-11-09 07:27:25,838 INFO  execution-log - [Sequence No - 43]	 Command completed.
+----------------
+2018-11-09 07:27:25,843 INFO  execution-log - [Sequence No - 44] Beginning ActionCommand ( LogicalFieldName : Billing Choices Page, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:25,996 INFO  execution-log - [Sequence No - 44]	 Command completed.
+----------------
+2018-11-09 07:27:26,000 INFO  execution-log - [Sequence No - 45] Beginning ActionCommand ( LogicalFieldName : Next, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:26,139 INFO  execution-log - [Sequence No - 45]	 Command completed.
+----------------
+2018-11-09 07:27:26,141 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:26,141 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Quote Bind, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:26,142 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:26,143 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Quote Bind, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2018-11-09 07:27:26,150 INFO  execution-log - [Sequence No - 46] Beginning WaitForControlCommand ( LogicalFieldName : Bind, LogicalFieldValue : True )
+----------------
+2018-11-09 07:27:35,560 INFO  execution-log - [Sequence No - 46]	 Command completed.
+----------------
+2018-11-09 07:27:35,566 INFO  execution-log - [Sequence No - 47] Beginning ActionCommand ( LogicalFieldName : Bind, LogicalFieldValue : Click )
+----------------
+2018-11-09 07:27:35,764 INFO  execution-log - [Sequence No - 47]	 Command completed.
+----------------
+2018-11-09 07:27:35,765 INFO  execution-log - 	 Command completed.
+----------------
+2018-11-09 07:27:35,777 INFO  execution-log - Saving captured values to file.
+----------------
+2018-11-09 07:27:35,778 INFO  execution-log - TC # : 2, has completed successfully.
+----------------

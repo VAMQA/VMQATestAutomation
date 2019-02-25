@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        dl {
+            width: 395px;
+            font-size: 12px
+        }
+
+        dd {
+            margin-left: 120px
+        }
+
+        dd,
+        dt {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        dt {
+            float: left;
+            padding-right: 5px;
+            font-weight: bolder;
+        }
+        /* dd {padding-left: 5px;} Does not work */
+
+        dt {
+            clear: left;
+        }
+
+        dt,
+        dd {
+            min-height: 1.5em;
+        }
+
+        table,
+        th,
+        td {
+            border-style: solid;
+            border-collapse: collapse;
+            border-color: black;
+            border-width: 1px;
+            padding: 3px 7px 3px 7px;
+            font-size: 12px;
+        }
+
+        thead {
+            background: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Test Results for Test Case #$(TestCaseId)</h1>
+    <dl>
+        <dt>Project Name:</dt>
+        <dd>$(TeamProjectName)</dd>
+        <dt>Test Plan:</dt>
+        <dd>$(TestPlan)</dd>
+        <dt>Test Suite:</dt>
+        <dd>$(TestSuite)</dd>
+    </dl>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>Flow Identifier</th>
+                <th>Data Identifier</th>
+                <th>Action</th>
+                <th>Expected Result</th>
+                <th>Actual Result</th>
+                <th>Test Result</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            $(TestFindings){
+            <tr>
+                <td>$(TestFindings.FlowIdentifier)</td>
+                <td>$(TestFindings.DataIdentifier)</td>
+                <td>$(TestFindings.Action)</td>
+                <td>$(TestFindings.ExpectedResult)</td>
+                <td>$(TestFindings.ActualResult)</td>
+                <td>$(TestFindings.TestResult)</td>
+                <td>$(TestFindings.Value)</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>

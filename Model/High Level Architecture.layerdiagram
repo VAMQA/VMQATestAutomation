@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ebb67fc7-d9ef-4d2b-8e50-73be78df696f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="89469477-dfe7-471e-b3e1-efd572dbc997" name="Core">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="d7eb8978-76df-4830-a839-e2579d599c57" direction="Forward">
+          <layerMoniker Id="86c573ac-f488-4b4b-89fc-4891b4b27e5c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="1606ee85-119b-4869-9d55-fbb17cd2deb3" name="Framework.Core">
+          <ArtifactNode Label="Framework.Core" Category="CodeSchema_Project" Id="(Assembly=../Src/Framework.Core/Framework.Core.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=VM.Platform.TestAutomationFramework.Core)" Label="VM.Platform.TestAutomationFramework.Core.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="86c573ac-f488-4b4b-89fc-4891b4b27e5c" name="Extensions">
+      <references>
+        <reference Id="a22be70f-7869-477f-aaa0-79cd88f8c7f1" name="Framework.Extensions">
+          <ArtifactNode Label="Framework.Extensions" Category="CodeSchema_Project" Id="(Assembly=../Src/Framework.Extensions/Framework.Extensions.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=VM.Platform.TestAutomationFramework.Extensions)" Label="VM.Platform.TestAutomationFramework.Extensions.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="10e1c687-f08e-431a-9cb9-88fb24e2bd9d" name="Automation">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="e010f1d4-a0b6-4fb1-9bba-5bf51a15db73" direction="Forward">
+          <layerMoniker Id="89469477-dfe7-471e-b3e1-efd572dbc997" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="081806f0-a4b0-45b8-a335-3e27545e2cc7" direction="Forward">
+          <layerMoniker Id="86c573ac-f488-4b4b-89fc-4891b4b27e5c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="272fe745-10ba-4d95-be60-0c37e28808c2" name="Framework.UIAutomation">
+          <ArtifactNode Label="Framework.UIAutomation" Category="CodeSchema_Project" Id="(Assembly=../Src/Framework.UIAutomation/Framework.UIAutomation.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=VM.Platform.TestAutomationFramework.UIAutomation)" Label="VM.Platform.TestAutomationFramework.UIAutomation.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="594e314e-ca54-4b04-8ff2-141a48515f33" name="Adapters">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="74442eb5-b47d-45dd-b1df-72cf83097bb4" direction="Forward">
+          <layerMoniker Id="89469477-dfe7-471e-b3e1-efd572dbc997" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="34da6bb2-2eb4-4311-8608-0757d203c812" direction="Forward">
+          <layerMoniker Id="86c573ac-f488-4b4b-89fc-4891b4b27e5c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="83bcbb41-9cf5-4ae2-baa3-d75961bc5e7e" name="Framework.Adapters.Selenium">
+          <ArtifactNode Label="Framework.Adapters.Selenium" Category="CodeSchema_Project" Id="(Assembly=../Src/Framework.Adapters.Selenium/Framework.Adapters.Selenium.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=VM.Platform.TestAutomationFramework.Adapters.Selenium)" Label="VM.Platform.TestAutomationFramework.Adapters.Selenium.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="f9851c0f-d404-4bf0-9450-46940a81c354" name="Framework.Adapters.TFS">
+          <ArtifactNode Label="Framework.Adapters.TFS" Category="CodeSchema_Project" Id="(Assembly=../Src/Framework.Adapters.TFS/Framework.Adapters.TFS.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=VM.Platform.TestAutomationFramework.Adapters.TFS)" Label="VM.Platform.TestAutomationFramework.Adapters.TFS.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

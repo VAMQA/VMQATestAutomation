@@ -1,0 +1,102 @@
+﻿
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID('[dbo].[sp_UpdateTestData]'))
+BEGIN
+    DROP PROCEDURE [dbo].[sp_UpdateTestData]
+END
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[sp_UpdateTestData]    Script Date: 8/9/2018 5:58:31 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create PROCEDURE [dbo].[sp_UpdateTestData] (
+                 @inputXML nvarchar(max)
+		 )
+AS
+BEGIN
+      SET NOCOUNT ON;
+	  declare @testxml xml
+      set @testxml = cast(@inputXML as xml)
+	   DECLARE @tableTestData TABLE
+		(
+			Actionflow_id int , TestCaseId INT,PageId INT,FlowIdentifier INT,DataIdentifier INT,MasterORID INT,Indicator INT, ActionORData VARCHAR(1000),SeqNumber real,
+			[Execute] VARCHAR(10),IsDeleted varchar(10),ModifiedBy nvarchar(100),ModifiedDate datetime
+		)
+		INSERT INTO @tableTestData
+		SELECT 
+		Finaldata.R.value ('(Actionflow_id/text())[1]', 'INT') AS Actionflow_id, 
+		Finaldata.R.value ('(TestCaseId/text())[1]', 'INT') AS TestCaseId, 
+		Finaldata.R.value ('(PageId/text())[1]', 'INT') AS PageId,
+		Finaldata.R.value ('(FlowIdentifier/text())[1]', 'INT') AS FlowIdentifier,
+		Finaldata.R.value ('(DataIdentifier/text())[1]', 'INT') AS DataIdentifier,
+		Finaldata.R.value ('(MasterORID/text())[1]', 'INT') AS MasterORID,
+		Finaldata.R.value ('(Indicator/text())[1]', 'INT') AS Indicator,
+		Finaldata.R.value ('(ActionORData/text())[1]', 'VARCHAR(1000)') AS ActionORData,
+		Finaldata.R.value ('(SeqNumber/text())[1]', 'real') AS SeqNumber,
+		Finaldata.R.value ('(Execute/text())[1]', 'Varchar(10)') AS [Execute],
+		Null,
+		Finaldata.R.value ('(ModifiedBy/text())[1]', 'nvarchar(100)') AS ModifiedBy,
+		getdate()
+		FROM @testxml.nodes ('//DocumentElement/TestData') AS Finaldata (R)
+	DECLARE @retries INT ;
+	SET @retries = 2 ;
+	WHILE ( @retries > 0 )
+	 BEGIN TRY
+		BEGIN TRANSACTION ;
+			MERGE INTO TestData td1
+			  USING @tableTestData td2
+			  ON td1.Actionflow_id=td2.Actionflow_id
+			  WHEN MATCHED THEN
+			  UPDATE SET td1.TestCaseId= td2.TestCaseId,
+						 td1.PageId= td2.PageId,
+						 td1.FlowIdentifier= td2.FlowIdentifier,
+						 td1.DataIdentifier= td2.DataIdentifier,
+						 td1.MasterORID= td2.MasterORID,
+						 td1.Indicator= td2.Indicator,
+						 td1.ActionORData= td2.ActionORData,
+						 td1.SeqNumber= td2.SeqNumber,
+						 td1.[Execute]= td2.[Execute],
+						 td1.IsDeleted= null,
+						 td1.ModifiedBy= td2.ModifiedBy,
+						 td1.ModifiedDate= getdate();   
+		SET @retries = 0 
+		COMMIT TRANSACTION ;
+		
+	 END TRY
+		BEGIN CATCH 
+			-- Error is a deadlock
+				IF ( ERROR_NUMBER() = 1205 ) 
+					SET @retries = @retries - 1 ;
+            
+			-- Error is not a deadlock
+				ELSE 
+					BEGIN
+						DECLARE @ErrorMessage NVARCHAR(4000) ;
+						DECLARE @ErrorSeverity INT ;
+						DECLARE @ErrorState INT ;
+ 
+						SELECT  @ErrorMessage = ERROR_MESSAGE() ,
+								@ErrorSeverity = ERROR_SEVERITY() ,
+								@ErrorState = ERROR_STATE() ;
+                   
+						-- Re-Raise the Error that caused the problem
+						RAISERROR (@ErrorMessage, -- Message text.
+						   @ErrorSeverity, -- Severity.
+						   @ErrorState -- State.
+						   ) ;
+						SET @retries = 0 ;
+					END
+  
+				IF XACT_STATE() <> 0 
+                ROLLBACK TRANSACTION ;
+		END CATCH ;
+END
+

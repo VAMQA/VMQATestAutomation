@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geico.WebServices.TestAutomationFramework", "Geico.WebServices.TestAutomationFramework\Geico.WebServices.TestAutomationFramework.csproj", "{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deploy", "Deploy\Deploy.csproj", "{90E5F23E-EC87-480E-BFCA-301D910C8399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Item", "Solution Item", "{CE6ADF7F-C258-4E3A-8BC7-053D3BD11678}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionAssemblyInfo.cs = SolutionAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.ext.geicoddc.net/tfs/geico
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Geico.WebServices.TestAutomationFramework\\Geico.WebServices.TestAutomationFramework.csproj
+		SccProjectName1 = Geico.WebServices.TestAutomationFramework
+		SccLocalPath1 = Geico.WebServices.TestAutomationFramework
+		SccProjectUniqueName2 = Deploy\\Deploy.csproj
+		SccProjectName2 = Deploy
+		SccLocalPath2 = Deploy
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E5F23E-EC87-480E-BFCA-301D910C8399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E5F23E-EC87-480E-BFCA-301D910C8399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E5F23E-EC87-480E-BFCA-301D910C8399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E5F23E-EC87-480E-BFCA-301D910C8399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

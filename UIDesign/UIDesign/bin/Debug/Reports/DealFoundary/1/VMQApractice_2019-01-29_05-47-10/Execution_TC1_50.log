@@ -1,0 +1,96 @@
+2019-01-29 05:47:06,166 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-29 05:47:06,173 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-29 05:47:06,177 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-29 05:47:06,182 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-29 05:47:06,195 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-29 05:47:06,195 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-29 05:47:06,203 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-29 05:47:06,211 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-29 05:47:06,215 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-29 05:47:06,219 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-29 05:47:06,224 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP1 environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-29 05:47:06,251 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-29 05:47:06,256 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-01-29 05:47:06,377 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:06,381 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-29 05:47:07,236 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:07,242 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-29 05:47:07,247 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:07,251 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-29 05:47:07,267 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : User Name, LogicalFieldValue : True )
+----------------
+2019-01-29 05:47:07,287 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-01-29 05:47:07,296 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-01-29 05:47:07,458 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-01-29 05:47:07,475 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-01-29 05:47:07,571 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-01-29 05:47:07,582 INFO  execution-log - [Sequence No - 4] Beginning ValidateExistStatusCommand ( LogicalFieldName : Password, LogicalFieldValue : True )
+----------------
+2019-01-29 05:47:07,606 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-01-29 05:47:07,614 INFO  execution-log - [Sequence No - 5] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-01-29 05:47:07,738 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2019-01-29 05:47:07,748 INFO  execution-log - [Sequence No - 6] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : True )
+----------------
+2019-01-29 05:47:07,781 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2019-01-29 05:47:07,795 INFO  execution-log - [Sequence No - 7] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-01-29 05:47:07,907 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2019-01-29 05:47:07,913 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:07,919 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-29 05:47:07,923 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:07,928 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-29 05:47:07,942 INFO  execution-log - [Sequence No - 8] Beginning ActionCommand ( LogicalFieldName : New Quote, LogicalFieldValue : Click )
+----------------
+2019-01-29 05:47:09,779 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2019-01-29 05:47:09,790 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:09,796 INFO  execution-log -  Beginning PageCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-29 05:47:09,803 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:09,819 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-29 05:47:09,835 INFO  execution-log - [Sequence No - 9] Beginning TestDataCommand ( LogicalFieldName : Account Name, LogicalFieldValue : Auto Insurance )
+----------------
+2019-01-29 05:47:10,239 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2019-01-29 05:47:10,245 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-29 05:47:10,261 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-29 05:47:10,270 INFO  execution-log - TC # : 1, has completed successfully.
+----------------

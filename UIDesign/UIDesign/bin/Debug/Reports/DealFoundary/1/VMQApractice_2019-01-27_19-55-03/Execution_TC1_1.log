@@ -1,0 +1,35 @@
+2019-01-27 19:55:02,732 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-27 19:55:02,753 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-27 19:55:02,760 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-27 19:55:02,770 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-27 19:55:02,805 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-27 19:55:02,826 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-27 19:55:02,833 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-27 19:55:02,844 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-27 19:55:02,849 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-27 19:55:02,857 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-27 19:55:02,865 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-27 19:55:03,181 ERROR execution-log - TC # : 1, Framework failed to run the test due to a test configuration error.
+	System.ArgumentOutOfRangeException: unknown test step
+Parameter name: testSteps
+Actual value was InvokeAppplication .
+   at VM.Platform.TestAutomationFramework.Core.TestStepParser.<GetCommands>d__2.MoveNext() in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestStepParser.cs:line 43
+   at System.Collections.Generic.LinkedList`1..ctor(IEnumerable`1 collection)
+   at VM.Platform.TestAutomationFramework.Core.TestCommandRunner.Execute(TestRunContext testRunContext) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestCommandRunner.cs:line 31
+   at VM.Platform.TestAutomationFramework.Core.SingleTestCaseRunner.ExecuteSingleTestCase(Int32 testCaseId, String targetEnvironment, String repositiory, Int32 Retry) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\SingleTestCaseRunner.cs:line 167
+----------------
+2019-01-27 19:55:03,504 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-27 19:55:03,522 ERROR execution-log - TC # : 1,  has failed
+----------------

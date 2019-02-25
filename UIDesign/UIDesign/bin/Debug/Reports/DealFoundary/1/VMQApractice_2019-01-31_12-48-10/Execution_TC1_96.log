@@ -1,0 +1,172 @@
+2019-01-31 12:48:00,694 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-31 12:48:00,710 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-31 12:48:00,710 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-31 12:48:00,726 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-31 12:48:00,741 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-31 12:48:00,741 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-31 12:48:00,772 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-31 12:48:00,772 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-31 12:48:00,772 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-31 12:48:00,772 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-31 12:48:00,788 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP1 environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-31 12:48:00,835 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-31 12:48:00,835 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-01-31 12:48:00,850 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:00,850 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-31 12:48:01,764 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:01,770 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-31 12:48:01,775 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:01,780 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-31 12:48:01,797 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : User Name, LogicalFieldValue : True )
+----------------
+2019-01-31 12:48:01,813 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-01-31 12:48:01,828 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:01,961 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-01-31 12:48:01,973 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-01-31 12:48:02,065 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-01-31 12:48:02,076 INFO  execution-log - [Sequence No - 4] Beginning ValidateExistStatusCommand ( LogicalFieldName : Password, LogicalFieldValue : True )
+----------------
+2019-01-31 12:48:02,096 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-01-31 12:48:02,113 INFO  execution-log - [Sequence No - 5] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-01-31 12:48:02,249 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2019-01-31 12:48:02,260 INFO  execution-log - [Sequence No - 6] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : True )
+----------------
+2019-01-31 12:48:02,297 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2019-01-31 12:48:02,297 INFO  execution-log - [Sequence No - 7] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:02,418 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2019-01-31 12:48:02,427 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:02,432 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-31 12:48:02,440 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:02,446 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-01-31 12:48:02,461 INFO  execution-log - [Sequence No - 8] Beginning ActionCommand ( LogicalFieldName : New Quote, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:04,126 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2019-01-31 12:48:04,132 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:04,139 INFO  execution-log -  Beginning PageCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-31 12:48:04,144 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:04,157 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-01-31 12:48:04,174 INFO  execution-log - [Sequence No - 9] Beginning TestDataCommand ( LogicalFieldName : Account Name, LogicalFieldValue : RANDOMIZE(7,2) )
+----------------
+2019-01-31 12:48:04,396 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2019-01-31 12:48:04,406 INFO  execution-log - [Sequence No - 11] Beginning TestDataCommand ( LogicalFieldName : First Name, LogicalFieldValue : Jack )
+----------------
+2019-01-31 12:48:04,610 INFO  execution-log - [Sequence No - 11]	 Command completed.
+----------------
+2019-01-31 12:48:04,620 INFO  execution-log - [Sequence No - 12] Beginning TestDataCommand ( LogicalFieldName : Last Name, LogicalFieldValue : Smith )
+----------------
+2019-01-31 12:48:04,783 INFO  execution-log - [Sequence No - 12]	 Command completed.
+----------------
+2019-01-31 12:48:04,792 INFO  execution-log - [Sequence No - 13] Beginning TestDataCommand ( LogicalFieldName : ContactNumber1, LogicalFieldValue : 654 )
+----------------
+2019-01-31 12:48:04,909 INFO  execution-log - [Sequence No - 13]	 Command completed.
+----------------
+2019-01-31 12:48:04,920 INFO  execution-log - [Sequence No - 14] Beginning TestDataCommand ( LogicalFieldName : ContactNumber2, LogicalFieldValue : 321 )
+----------------
+2019-01-31 12:48:05,039 INFO  execution-log - [Sequence No - 14]	 Command completed.
+----------------
+2019-01-31 12:48:05,048 INFO  execution-log - [Sequence No - 15] Beginning TestDataCommand ( LogicalFieldName : ContactNumber3, LogicalFieldValue : 6541 )
+----------------
+2019-01-31 12:48:05,183 INFO  execution-log - [Sequence No - 15]	 Command completed.
+----------------
+2019-01-31 12:48:05,192 INFO  execution-log - [Sequence No - 16] Beginning TestDataCommand ( LogicalFieldName : Primary Email, LogicalFieldValue : jack.smith@gmail.com )
+----------------
+2019-01-31 12:48:05,450 INFO  execution-log - [Sequence No - 16]	 Command completed.
+----------------
+2019-01-31 12:48:05,460 INFO  execution-log - [Sequence No - 17] Beginning TestDataCommand ( LogicalFieldName : Business Started Year, LogicalFieldValue : 2012 )
+----------------
+2019-01-31 12:48:05,612 INFO  execution-log - [Sequence No - 17]	 Command completed.
+----------------
+2019-01-31 12:48:05,624 INFO  execution-log - [Sequence No - 18] Beginning ActionCommand ( LogicalFieldName : Select Product, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:05,826 INFO  execution-log - [Sequence No - 18]	 Command completed.
+----------------
+2019-01-31 12:48:05,837 INFO  execution-log - [Sequence No - 19] Beginning ActionCommand ( LogicalFieldName : Select Product1, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:05,960 INFO  execution-log - [Sequence No - 19]	 Command completed.
+----------------
+2019-01-31 12:48:05,978 INFO  execution-log - [Sequence No - 20] Beginning ActionCommand ( LogicalFieldName : Contact Name, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:06,131 INFO  execution-log - [Sequence No - 20]	 Command completed.
+----------------
+2019-01-31 12:48:06,141 INFO  execution-log - [Sequence No - 21] Beginning ActionCommand ( LogicalFieldName : Contact Name Initial Select, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:06,789 INFO  execution-log - [Sequence No - 21]	 Command completed.
+----------------
+2019-01-31 12:48:06,799 INFO  execution-log - [Sequence No - 22] Beginning ActionCommand ( LogicalFieldName : Industry, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:06,972 INFO  execution-log - [Sequence No - 22]	 Command completed.
+----------------
+2019-01-31 12:48:06,982 INFO  execution-log - [Sequence No - 23] Beginning ActionCommand ( LogicalFieldName : Industry1, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:07,108 INFO  execution-log - [Sequence No - 23]	 Command completed.
+----------------
+2019-01-31 12:48:07,121 INFO  execution-log - [Sequence No - 24] Beginning TestDataCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : 53704 )
+----------------
+2019-01-31 12:48:07,294 INFO  execution-log - [Sequence No - 24]	 Command completed.
+----------------
+2019-01-31 12:48:07,307 INFO  execution-log - [Sequence No - 25] Beginning ActionCommand ( LogicalFieldName : zipcode click, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:07,728 INFO  execution-log - [Sequence No - 25]	 Command completed.
+----------------
+2019-01-31 12:48:07,739 INFO  execution-log - [Sequence No - 26] Beginning TestDataCommand ( LogicalFieldName : Street Address, LogicalFieldValue : 123 BLUEJAY LN )
+----------------
+2019-01-31 12:48:07,995 INFO  execution-log - [Sequence No - 26]	 Command completed.
+----------------
+2019-01-31 12:48:08,007 INFO  execution-log - [Sequence No - 27] Beginning ActionCommand ( LogicalFieldName : Same as Physical Address, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:08,140 INFO  execution-log - [Sequence No - 27]	 Command completed.
+----------------
+2019-01-31 12:48:08,150 INFO  execution-log - [Sequence No - 28] Beginning ActionCommand ( LogicalFieldName : Proceed, LogicalFieldValue : Click )
+----------------
+2019-01-31 12:48:08,371 INFO  execution-log - [Sequence No - 28]	 Command completed.
+----------------
+2019-01-31 12:48:08,382 INFO  execution-log - [Sequence No - 29] Beginning TestDataCommand ( LogicalFieldName : InsuredName, LogicalFieldValue : Smith )
+----------------
+2019-01-31 12:48:10,607 INFO  execution-log - [Sequence No - 29]	 Command completed.
+----------------
+2019-01-31 12:48:10,614 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-31 12:48:10,647 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-31 12:48:10,647 INFO  execution-log - TC # : 1, has completed successfully.
+----------------

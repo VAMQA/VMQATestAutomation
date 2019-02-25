@@ -1,0 +1,60 @@
+2019-01-28 13:10:10,657 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-28 13:10:10,665 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-28 13:10:10,669 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-01-28 13:10:10,674 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-01-28 13:10:10,681 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-01-28 13:10:10,681 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-01-28 13:10:10,689 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-01-28 13:10:10,694 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-01-28 13:10:10,702 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-01-28 13:10:10,708 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-28 13:10:10,715 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-28 13:10:10,740 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-28 13:10:10,746 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-01-28 13:10:10,753 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-28 13:10:10,760 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-28 13:10:11,735 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-28 13:10:11,751 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-28 13:10:11,756 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-28 13:10:11,763 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-01-28 13:10:11,773 INFO  execution-log - [Sequence No - 1] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-01-28 13:10:11,902 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-01-28 13:10:11,914 INFO  execution-log - [Sequence No - 2] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-01-28 13:10:12,007 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-01-28 13:10:12,020 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-01-28 13:10:12,154 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-01-28 13:10:12,164 INFO  execution-log - [Sequence No - 4] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-01-28 13:10:12,295 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-01-28 13:10:12,302 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-28 13:10:12,320 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-28 13:10:12,326 INFO  execution-log - TC # : 1, has completed successfully.
+----------------

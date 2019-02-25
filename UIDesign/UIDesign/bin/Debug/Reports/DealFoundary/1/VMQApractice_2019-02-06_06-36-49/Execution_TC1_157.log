@@ -1,0 +1,230 @@
+2019-02-06 06:34:27,793 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-02-06 06:34:27,815 INFO  execution-log - Initializing Test Automation
+----------------
+2019-02-06 06:34:27,821 INFO  execution-log - 	target browser: Chrome
+----------------
+2019-02-06 06:34:32,951 INFO  execution-log - TC # : 1, Downloading test case from DB
+----------------
+2019-02-06 06:35:45,605 INFO  execution-log - TC # : 1, Getting control map :MASTER from DB
+----------------
+2019-02-06 06:35:45,605 INFO  execution-log - TC # : 1, Getting test data from DB
+----------------
+2019-02-06 06:35:47,733 INFO  execution-log - TC # : 1, Control map retrieval completed
+----------------
+2019-02-06 06:35:47,767 INFO  execution-log - TC # : 1, Test data retrieval completed
+----------------
+2019-02-06 06:35:47,777 INFO  execution-log - TC # : 1, Parsing commands
+----------------
+2019-02-06 06:35:47,792 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-02-06 06:35:47,810 INFO  execution-log - TC # : 1, Started executing test case in the VMTESTAPP1 environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-02-06 06:35:47,883 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-02-06 06:35:47,958 INFO  execution-log - TC # : 1, Starting iteration #1
+----------------
+2019-02-06 06:35:47,967 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:35:47,983 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-02-06 06:35:51,522 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:35:51,530 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-06 06:35:51,536 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:35:51,542 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Login, FlowIdentifier : 1, DiIndicator : DI )
+----------------
+2019-02-06 06:35:51,557 INFO  execution-log - [Sequence No - 1] Beginning ValidateExistStatusCommand ( LogicalFieldName : User Name, LogicalFieldValue : True )
+----------------
+2019-02-06 06:35:51,607 INFO  execution-log - [Sequence No - 1]	 Command completed.
+----------------
+2019-02-06 06:35:51,651 INFO  execution-log - [Sequence No - 2] Beginning ActionCommand ( LogicalFieldName : User Name, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:35:56,860 INFO  execution-log - [Sequence No - 2]	 Command completed.
+----------------
+2019-02-06 06:35:56,878 INFO  execution-log - [Sequence No - 3] Beginning TestDataCommand ( LogicalFieldName : User Name, LogicalFieldValue : Jack )
+----------------
+2019-02-06 06:35:57,021 INFO  execution-log - [Sequence No - 3]	 Command completed.
+----------------
+2019-02-06 06:35:57,030 INFO  execution-log - [Sequence No - 4] Beginning ValidateExistStatusCommand ( LogicalFieldName : Password, LogicalFieldValue : True )
+----------------
+2019-02-06 06:35:57,050 INFO  execution-log - [Sequence No - 4]	 Command completed.
+----------------
+2019-02-06 06:35:57,059 INFO  execution-log - [Sequence No - 5] Beginning TestDataCommand ( LogicalFieldName : Password, LogicalFieldValue : Smit@123 )
+----------------
+2019-02-06 06:35:57,245 INFO  execution-log - [Sequence No - 5]	 Command completed.
+----------------
+2019-02-06 06:35:57,254 INFO  execution-log - [Sequence No - 6] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : True )
+----------------
+2019-02-06 06:35:57,287 INFO  execution-log - [Sequence No - 6]	 Command completed.
+----------------
+2019-02-06 06:35:57,296 INFO  execution-log - [Sequence No - 7] Beginning ActionCommand ( LogicalFieldName : Login_Button, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:02,532 INFO  execution-log - [Sequence No - 7]	 Command completed.
+----------------
+2019-02-06 06:36:02,538 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:36:02,544 INFO  execution-log -  Beginning PageCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-02-06 06:36:02,551 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:36:02,557 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : Home, FlowIdentifier : 2, DiIndicator : DI )
+----------------
+2019-02-06 06:36:02,573 INFO  execution-log - [Sequence No - 8] Beginning ValidateEnableStatusCommand ( LogicalFieldName : New Quote, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:04,744 INFO  execution-log - [Sequence No - 8]	 Command completed.
+----------------
+2019-02-06 06:36:04,754 INFO  execution-log - [Sequence No - 9] Beginning ActionCommand ( LogicalFieldName : New Quote, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:08,813 INFO  execution-log - [Sequence No - 9]	 Command completed.
+----------------
+2019-02-06 06:36:08,819 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:36:08,825 INFO  execution-log -  Beginning PageCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-02-06 06:36:08,835 INFO  execution-log - 	 Command completed.
+----------------
+2019-02-06 06:36:08,840 INFO  execution-log -  Beginning LoadTestDataItemCommand ( CurrentPage : New Quote, FlowIdentifier : 3, DiIndicator : DI )
+----------------
+2019-02-06 06:36:08,856 INFO  execution-log - [Sequence No - 10] Beginning ValidateExistStatusCommand ( LogicalFieldName : Account Name, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:08,915 INFO  execution-log - [Sequence No - 10]	 Command completed.
+----------------
+2019-02-06 06:36:08,932 INFO  execution-log - [Sequence No - 11] Beginning TestDataCommand ( LogicalFieldName : Account Name, LogicalFieldValue : RANDOMIZE(7,2) )
+----------------
+2019-02-06 06:36:09,226 INFO  execution-log - [Sequence No - 11]	 Command completed.
+----------------
+2019-02-06 06:36:09,237 INFO  execution-log - [Sequence No - 12] Beginning ValidateExistStatusCommand ( LogicalFieldName : First Name, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:09,266 INFO  execution-log - [Sequence No - 12]	 Command completed.
+----------------
+2019-02-06 06:36:09,276 INFO  execution-log - [Sequence No - 13] Beginning TestDataCommand ( LogicalFieldName : First Name, LogicalFieldValue : Jack )
+----------------
+2019-02-06 06:36:09,505 INFO  execution-log - [Sequence No - 13]	 Command completed.
+----------------
+2019-02-06 06:36:09,516 INFO  execution-log - [Sequence No - 14] Beginning ValidateEnableStatusCommand ( LogicalFieldName : Last Name, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:09,544 INFO  execution-log - [Sequence No - 14]	 Command completed.
+----------------
+2019-02-06 06:36:09,551 INFO  execution-log - [Sequence No - 15] Beginning TestDataCommand ( LogicalFieldName : Last Name, LogicalFieldValue : Smith )
+----------------
+2019-02-06 06:36:09,735 INFO  execution-log - [Sequence No - 15]	 Command completed.
+----------------
+2019-02-06 06:36:09,746 INFO  execution-log - [Sequence No - 16] Beginning ValidateExistStatusCommand ( LogicalFieldName : ContactNumber1, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:09,770 INFO  execution-log - [Sequence No - 16]	 Command completed.
+----------------
+2019-02-06 06:36:09,778 INFO  execution-log - [Sequence No - 17] Beginning TestDataCommand ( LogicalFieldName : ContactNumber1, LogicalFieldValue : 654 )
+----------------
+2019-02-06 06:36:09,941 INFO  execution-log - [Sequence No - 17]	 Command completed.
+----------------
+2019-02-06 06:36:09,961 INFO  execution-log - [Sequence No - 18] Beginning TestDataCommand ( LogicalFieldName : ContactNumber2, LogicalFieldValue : 321 )
+----------------
+2019-02-06 06:36:10,090 INFO  execution-log - [Sequence No - 18]	 Command completed.
+----------------
+2019-02-06 06:36:10,105 INFO  execution-log - [Sequence No - 19] Beginning TestDataCommand ( LogicalFieldName : ContactNumber3, LogicalFieldValue : 6541 )
+----------------
+2019-02-06 06:36:10,356 INFO  execution-log - [Sequence No - 19]	 Command completed.
+----------------
+2019-02-06 06:36:10,366 INFO  execution-log - [Sequence No - 20] Beginning ValidateExistStatusCommand ( LogicalFieldName : Primary Email, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:10,422 INFO  execution-log - [Sequence No - 20]	 Command completed.
+----------------
+2019-02-06 06:36:10,433 INFO  execution-log - [Sequence No - 21] Beginning TestDataCommand ( LogicalFieldName : Primary Email, LogicalFieldValue : jack.smith@gmail.com )
+----------------
+2019-02-06 06:36:10,803 INFO  execution-log - [Sequence No - 21]	 Command completed.
+----------------
+2019-02-06 06:36:10,818 INFO  execution-log - [Sequence No - 22] Beginning ValidateExistStatusCommand ( LogicalFieldName : Business Started Year, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:10,853 INFO  execution-log - [Sequence No - 22]	 Command completed.
+----------------
+2019-02-06 06:36:10,862 INFO  execution-log - [Sequence No - 23] Beginning TestDataCommand ( LogicalFieldName : Business Started Year, LogicalFieldValue : 2012 )
+----------------
+2019-02-06 06:36:11,036 INFO  execution-log - [Sequence No - 23]	 Command completed.
+----------------
+2019-02-06 06:36:11,046 INFO  execution-log - [Sequence No - 24] Beginning ValidateExistStatusCommand ( LogicalFieldName : Select Product, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:11,075 INFO  execution-log - [Sequence No - 24]	 Command completed.
+----------------
+2019-02-06 06:36:11,084 INFO  execution-log - [Sequence No - 25] Beginning ActionCommand ( LogicalFieldName : Select Product, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:11,226 INFO  execution-log - [Sequence No - 25]	 Command completed.
+----------------
+2019-02-06 06:36:11,241 INFO  execution-log - [Sequence No - 26] Beginning ActionCommand ( LogicalFieldName : Select Product1, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:11,431 INFO  execution-log - [Sequence No - 26]	 Command completed.
+----------------
+2019-02-06 06:36:11,441 INFO  execution-log - [Sequence No - 27] Beginning ValidateExistStatusCommand ( LogicalFieldName : Contact Name, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:11,469 INFO  execution-log - [Sequence No - 27]	 Command completed.
+----------------
+2019-02-06 06:36:11,477 INFO  execution-log - [Sequence No - 28] Beginning ActionCommand ( LogicalFieldName : Contact Name, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:11,623 INFO  execution-log - [Sequence No - 28]	 Command completed.
+----------------
+2019-02-06 06:36:11,637 INFO  execution-log - [Sequence No - 29] Beginning ActionCommand ( LogicalFieldName : Contact Name Initial Select, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:11,796 INFO  execution-log - [Sequence No - 29]	 Command completed.
+----------------
+2019-02-06 06:36:11,809 INFO  execution-log - [Sequence No - 30] Beginning ValidateExistStatusCommand ( LogicalFieldName : Industry, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:11,841 INFO  execution-log - [Sequence No - 30]	 Command completed.
+----------------
+2019-02-06 06:36:11,858 INFO  execution-log - [Sequence No - 31] Beginning ActionCommand ( LogicalFieldName : Industry, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:12,040 INFO  execution-log - [Sequence No - 31]	 Command completed.
+----------------
+2019-02-06 06:36:12,052 INFO  execution-log - [Sequence No - 32] Beginning ActionCommand ( LogicalFieldName : Industry1, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:12,256 INFO  execution-log - [Sequence No - 32]	 Command completed.
+----------------
+2019-02-06 06:36:12,278 INFO  execution-log - [Sequence No - 33] Beginning ValidateExistStatusCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : True )
+----------------
+2019-02-06 06:36:12,411 INFO  execution-log - [Sequence No - 33]	 Command completed.
+----------------
+2019-02-06 06:36:12,421 INFO  execution-log - [Sequence No - 34] Beginning TestDataCommand ( LogicalFieldName : Zip Code, LogicalFieldValue : 53704 )
+----------------
+2019-02-06 06:36:12,732 INFO  execution-log - [Sequence No - 34]	 Command completed.
+----------------
+2019-02-06 06:36:13,741 INFO  execution-log - [Sequence No - 35] Beginning ActionCommand ( LogicalFieldName : zipcode click, LogicalFieldValue : Click )
+----------------
+2019-02-06 06:36:37,480 ERROR execution-log - TC # : 1, Timed out after 10 seconds
+----------------
+2019-02-06 06:36:45,579 ERROR execution-log - TC # : 1, Timed out after 10 seconds
+----------------
+2019-02-06 06:36:45,593 ERROR execution-log - TC # : 1, No more iterations to run. Test execution will abort.
+----------------
+2019-02-06 06:36:45,606 ERROR execution-log - TC # : 1, Framework failed to run the test due to a test configuration error.
+	VM.Platform.TestAutomationFramework.Core.Exceptions.WorkflowFailedException: Timed out after 10 seconds ---> OpenQA.Selenium.WebDriverTimeoutException: Timed out after 10 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at VM.Platform.TestAutomationFramework.Adapters.Selenium.SeleniumAdapter.WaitForElementToBeClickable(ControlDefinition ctrlDefinition) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Selenium\SeleniumAdapter.cs:line 713
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.ActionCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\ActionCommand.cs:line 30
+   --- End of inner exception stack trace ---
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions.ActionCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Interactions\ActionCommand.cs:line 42
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Workflow.LoadTestDataItemCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Workflow\LoadTestDataItemCommand.cs:line 96
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 93
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 65
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.Core.TestCommandRunner.Execute(TestRunContext testRunContext) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestCommandRunner.cs:line 75
+   at VM.Platform.TestAutomationFramework.Core.SingleTestCaseRunner.ExecuteSingleTestCase(Int32 testCaseId, String targetEnvironment, String repositiory, Int32 Retry) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\SingleTestCaseRunner.cs:line 167
+----------------
+2019-02-06 06:36:49,083 INFO  execution-log - Saving captured values to file.
+----------------
+2019-02-06 06:36:49,094 ERROR execution-log - TC # : 1,  has failed
+----------------

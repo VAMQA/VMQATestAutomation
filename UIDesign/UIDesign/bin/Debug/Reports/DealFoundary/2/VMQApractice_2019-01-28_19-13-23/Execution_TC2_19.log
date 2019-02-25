@@ -1,0 +1,69 @@
+2019-01-28 19:13:13,006 INFO  execution-log - 	Initializing control map with map # MASTER
+----------------
+2019-01-28 19:13:13,050 INFO  execution-log - Initializing Test Automation
+----------------
+2019-01-28 19:13:13,065 INFO  execution-log - 	target browser: Ie
+----------------
+2019-01-28 19:13:13,065 INFO  execution-log - TC # : 2, Downloading test case from DB
+----------------
+2019-01-28 19:13:13,101 INFO  execution-log - TC # : 2, Getting control map :MASTER from DB
+----------------
+2019-01-28 19:13:13,102 INFO  execution-log - TC # : 2, Getting test data from DB
+----------------
+2019-01-28 19:13:13,117 INFO  execution-log - TC # : 2, Control map retrieval completed
+----------------
+2019-01-28 19:13:13,193 INFO  execution-log - TC # : 2, Test data retrieval completed
+----------------
+2019-01-28 19:13:13,224 INFO  execution-log - TC # : 2, Parsing commands
+----------------
+2019-01-28 19:13:13,235 INFO  execution-log - Loading captured values from persistence.
+----------------
+2019-01-28 19:13:13,280 INFO  execution-log - TC # : 2, Started executing test case in the VMTESTAPP environment (http://vam-qa.cloudapp.net:6363/pages/login.html)
+----------------
+2019-01-28 19:13:13,325 INFO  execution-log -  Beginning StartIterationCommand ( Iterations : 1 )
+----------------
+2019-01-28 19:13:13,355 INFO  execution-log - TC # : 2, Starting iteration #1
+----------------
+2019-01-28 19:13:13,373 INFO  execution-log - 	 Command completed.
+----------------
+2019-01-28 19:13:13,397 INFO  execution-log -  Beginning InvokeApplicationCommand ( Target :  )
+----------------
+2019-01-28 19:13:13,495 ERROR execution-log - TC # : 2, Due to an unexpected error, the test run will be aborted. Please contact your administrator
+----------------
+2019-01-28 19:13:13,506 ERROR execution-log - TC # : 2, OpenQA.Selenium.WebDriverException: Failed to navigate to http://vam-qa.cloudapp.net:6363/pages/login.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at VM.Platform.TestAutomationFramework.Adapters.Selenium.SeleniumAdapter.GoToUrl(Uri url) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Selenium\SeleniumAdapter.cs:line 207
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Workflow.InvokeApplicationCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Workflow\InvokeApplicationCommand.cs:line 84
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 74
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 30
+----------------
+2019-01-28 19:13:22,304 ERROR execution-log - No more iterations to run. Test execution will abort.
+----------------
+2019-01-28 19:13:22,461 ERROR execution-log - TC # : 2, Framework failed to run the test due to a test configuration error.
+	OpenQA.Selenium.WebDriverException: Failed to navigate to http://vam-qa.cloudapp.net:6363/pages/login.html. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed.
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at VM.Platform.TestAutomationFramework.Adapters.Selenium.SeleniumAdapter.GoToUrl(Uri url) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Selenium\SeleniumAdapter.cs:line 207
+   at VM.Platform.TestAutomationFramework.UIAutomation.Commands.Workflow.InvokeApplicationCommand.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\Commands\Workflow\InvokeApplicationCommand.cs:line 84
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandLogger.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandLogger.cs:line 74
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandErrorHandler.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandErrorHandler.cs:line 99
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandTimer.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandTimer.cs:line 26
+   at VM.Platform.TestAutomationFramework.Core.Decorators.CommandDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\CommandDecorator.cs:line 22
+   at VM.Platform.TestAutomationFramework.Core.Decorators.IgnorePagesDecorator.Execute(TestRunContext context) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\Decorators\IgnorePagesDecorator.cs:line 24
+   at VM.Platform.TestAutomationFramework.Core.TestCommandRunner.Execute(TestRunContext testRunContext) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\TestCommandRunner.cs:line 105
+   at VM.Platform.TestAutomationFramework.Core.SingleTestCaseRunner.ExecuteSingleTestCase(Int32 testCaseId, String targetEnvironment, String repositiory, Int32 Retry) in C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\SingleTestCaseRunner.cs:line 167
+----------------
+2019-01-28 19:13:23,023 INFO  execution-log - Saving captured values to file.
+----------------
+2019-01-28 19:13:23,039 ERROR execution-log - TC # : 2,  has failed
+----------------

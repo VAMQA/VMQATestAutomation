@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestAutomationFramework>
+  <Environments>
+
+    <HISCOX-PVT>      http://vam-qa.cloudapp.net:6363/pages/login.html </HISCOX-PVT>
+    <HISCOX-QA>      http://vam-qa.cloudapp.net:6363/pages/login.html </HISCOX-QA>
+  </Environments>
+  
+  <PersistedValuesFileName>PersistedValues.bin</PersistedValuesFileName>
+  <TrackExecutionDetails>Y</TrackExecutionDetails>
+  <UpdateExecutionDetails>Y</UpdateExecutionDetails>
+  
+  
+  <!-- The automation on the following pages will not be executed -->
+  <IgnorePages>
+    <!--<page>CustomerInfo</page>-->
+    <!--<page>DVAInfo</page>-->
+   <page>AddressVerificationInfo</page>
+  </IgnorePages>
+  
+  <!-- Automation ERRORS on the following pages will be ignored, and the test will proceed despite them -->
+  <IgnoreErrorsOnPages>
+    <!--<page>RequestLogin</page>
+    <page>SearchPage</page>
+    <page>CustomerInfo</page>    
+    <page>VehicleInfo</page>    
+    <page>DriverInfo</page>
+    <page>DiscountsandContactInfo</page>
+    <page>CoveragesInfo</page>    
+    <page>IncidentsInfo</page>
+    <page>LogIn</page>
+    <page>HomePage</page>-->
+    <page>HomePage </page>
+    <page>DiscountsandContactInfo</page>
+    <page>CoveragesInfo</page>
+  </IgnoreErrorsOnPages>
+
+  <TfsCredentialAddress>https://tfs.ext.VMddc.net/</TfsCredentialAddress>
+  
+  <!-- Select one (AND ONLY ONE) of the following options in order to decide how Click-Wait behaves. It's default is to wait before -->
+  <!-- Default wait time is 2 seconds, otherwise, as specified in the command -->
+  <!--<ClickWaitOption>WaitBefore</ClickWaitOption>-->
+  <!--<ClickWaitOption>WaitAfter</ClickWaitOption>-->
+  <ClickWaitOption>WaitBeforeAndAfter</ClickWaitOption>
+    
+  <SubstituteValues>
+    <!--<CustomerInfo_txtZipCode>35801</CustomerInfo_txtZipCode>-->
+    <!--<Discount_rgdoriginaladdress>TRUE</Discount_rgdoriginaladdress>-->
+    <!--<RequestLogin_txtUserid>u1c143</RequestLogin_txtUserid>
+    <RequestLogin_txtPassword>pass</RequestLogin_txtPassword>-->
+  </SubstituteValues>
+  
+  <IgnorableColumnNamePatterns>
+    <pattern>^Comments?\s*\d*$</pattern>
+    <pattern>^Scenario\s*Id$</pattern>
+    <pattern>^Scenario\s*Description$</pattern>
+    <pattern>^States?$</pattern>
+    <pattern>^TC#?$</pattern>
+    <pattern>^Rule\s*Description$</pattern>
+    <pattern>^Validations?$</pattern>
+    <pattern>^ConditionName?$</pattern>
+  </IgnorableColumnNamePatterns>
+  <!-- Specifies the (maximum) amount of time to wait for an element to be ready, in milliseconds -->
+  <ImplicitWaitTime>25000</ImplicitWaitTime>
+  <Browsers>
+    <Chrome>
+      <profile>C:\Users\DasariW\AppData\Local\Google\Chrome\User Data</profile>
+    </Chrome>
+  </Browsers>
+  <!--<LocalExecution>
+    <RepositoryPath>C:\LN\VMTestAutomation\LocalExecution\Auto</RepositoryPath>
+    <OR>\MasterORnTestCaseFlows\MasterOR.xlsx</OR>
+    <TestData>\TestCasesData\</TestData>
+    <TestCase>\MasterORnTestCaseFlows\TestCaseFlows.xlsx</TestCase>
+    <TestResultsPath>\\GP142111\NuGet\v4 TestResults</TestResultsPath>
+  </LocalExecution>-->
+  <DBExecution>
+    <DBConnectionString>Data Source = NPXDD10DEV21\SQLEXPRESS;Initial Catalog = V4; User Id=sa;Password=Monday!2345; Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False</DBConnectionString>    
+    <TestResultsPath>\\NPXDD10DEV21\TestResults\</TestResultsPath>
+  </DBExecution>
+  <!--<Mode>Local</Mode>-->
+</TestAutomationFramework>
