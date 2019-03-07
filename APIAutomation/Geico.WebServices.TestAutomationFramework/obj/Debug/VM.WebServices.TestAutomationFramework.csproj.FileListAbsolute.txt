@@ -98,4 +98,3 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\APIAu
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\APIAutomation\Geico.WebServices.TestAutomationFramework\bin\Debug\Newtonsoft.Json.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\APIAutomation\Geico.WebServices.TestAutomationFramework\obj\Debug\VM.WebServices.TestAutomationFramework.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\APIAutomation\Geico.WebServices.TestAutomationFramework\obj\Debug\VM.WebServices.TestAutomationFramework.pdb
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\APIAutomation\Geico.WebServices.TestAutomationFramework\obj\Debug\VM.WebServices.TestAutomationFramework.csprojResolveAssemblyReference.cache

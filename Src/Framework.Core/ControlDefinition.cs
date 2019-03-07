@@ -18,6 +18,7 @@ namespace VM.Platform.TestAutomationFramework.Core
         public string LabelFor { get; set; }
         public string Xpath { get; set; }
         public string Version { get; set; }
+        public string ImagePath { get; set; }
 
         public ControlDefinition OrUnderlyingControl()
         {

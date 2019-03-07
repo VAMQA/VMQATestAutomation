@@ -28,16 +28,21 @@
     using System.Xml.XPath;
     using OpenQA.Selenium.Appium.Android;
     using OpenQA.Selenium.Appium.iOS;
+    //using Sikuli4Net.sikuli_REST;
+    //using Sikuli4Net.sikuli_UTIL;
 
     public class SeleniumAdapter : IUiAdapter
     {
         private IWebDriver driver;
         private readonly TestCaseConfiguration testCaseConfiguration;
+        //Sikuli4Net.sikuli_REST.Screen scr;
 
         public SeleniumAdapter(TestCaseConfiguration testCaseConfiguration)
         {
             this.testCaseConfiguration = testCaseConfiguration;
             this.CreateNewBrowserWindow();
+            //APILauncher launch = new APILauncher(true);
+            //scr = new Sikuli4Net.sikuli_REST.Screen();
         }
 
         private void CreateNewBrowserWindow()
@@ -254,7 +259,7 @@
             catch (Exception ex)
             {
                 //throw new Exception("Screenshot NOT Possible Exception");
-                Rectangle bounds = Screen.GetBounds(Point.Empty);
+                Rectangle bounds = System.Windows.Forms.Screen.GetBounds(Point.Empty);
                 using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
                 {
                     using (Graphics g = Graphics.FromImage(bitmap))
@@ -709,9 +714,23 @@
 
         public void WaitForElementToBeClickable(ControlDefinition ctrlDefinition)
         {
-            var wait = new WebDriverWait(this.driver, this.testCaseConfiguration.WaitTime);
-            wait.Until(
-                ExpectedConditions.ElementToBeClickable(ByControlDefinition(ctrlDefinition)));
+            try
+            {
+                var wait = new WebDriverWait(this.driver, this.testCaseConfiguration.WaitTime);
+                wait.Until(
+                    ExpectedConditions.ElementToBeClickable(ByControlDefinition(ctrlDefinition)));
+            }
+            catch (Exception)
+            {
+                if (!string.IsNullOrEmpty(ctrlDefinition.ImagePath))
+                {
+
+                }
+                else {
+                    throw;
+                }                
+            }
+            
         }
 
         public void WaitForAjaxCallComplete(ControlDefinition ctrlDefinition)
@@ -979,6 +998,10 @@
             else if (!string.IsNullOrWhiteSpace(controlDefinition.Xpath))
             {
                 by = By.XPath(controlDefinition.Xpath);
+            }
+            else if (!string.IsNullOrWhiteSpace(controlDefinition.ImagePath))
+            {
+                by = null;
             }
             else if (!string.IsNullOrWhiteSpace(controlDefinition.InnerText))
             {

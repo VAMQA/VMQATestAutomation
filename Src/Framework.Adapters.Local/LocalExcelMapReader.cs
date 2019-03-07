@@ -94,7 +94,7 @@
             string sqlQuery = string.Empty;
             var controlMap = new Dictionary<string, Dictionary<string, T>>();
             //sqlQuery = "select PageName,Label,	ControlType,	ControlID,	Class,	ParentControl,	TagName,	FriendlyName,	ValueAttribute,	TagInstance,	[Type],	ClassName,	InnerText	,ControlDefinition	,LabelFor	,Xpath from masterOr left outer join PageNames on MasterOR.PageID=PageNames.PageID ";
-            sqlQuery = "select PageName,Label,	ControlType,	ControlID,	Class,	ParentControl,	TagName,	FriendlyName,	ValueAttribute,	TagInstance,	[Type],	ClassName,	InnerText	,ControlDefinition	,LabelFor	,Xpath,[Version] ";
+            sqlQuery = "select PageName,Label,	ControlType,	ControlID,	Class,	ParentControl,	TagName,	FriendlyName,	ValueAttribute,	TagInstance,	[Type],	ClassName,	InnerText	,ControlDefinition	,LabelFor	,Xpath,[Version] ,[ImagePath] ";
             sqlQuery += "from masterOr join PageNames on MasterOR.PageID=PageNames.PageID and MasterOR.ProjectID=Pagenames.ProjectID and MasterOR.ProjectID=" + this.testCaseConfiguration.TestPlan + " and  [Version]!='archive' order by MasterORID desc";
 
             System.Data.DataSet result = SqlHelper.ExecuteDataset(connString, System.Data.CommandType.Text, sqlQuery);
