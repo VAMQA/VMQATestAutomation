@@ -380,7 +380,6 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDes
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.TestExecution.resources
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.v3Migration.resources
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.csproj.GenerateResource.Cache
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\UIDesign.exe.config
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\phantomjs.exe
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\phantomjs-license.txt
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Config\Config.xml
@@ -395,6 +394,7 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDes
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\chromedriver.exe
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\geckodriver.exe
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\IEDriverServer.exe
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\UIDesign.exe.config
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\UIDesign.exe.manifest
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\UIDesign.application
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\UIDesign.exe
@@ -410,7 +410,6 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDes
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Common.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Newtonsoft.Json.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Remotion.Data.Linq.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Remotion.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Remotion.Interfaces.dll
@@ -425,7 +424,6 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDes
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\WebDriver.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\WebDriver.Support.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\HtmlAgilityPack.dll
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\appium-dotnet-driver.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\StructureMap.Net4.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\TechTalk.SpecFlow.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\CredentialManagement.dll
@@ -441,17 +439,20 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDes
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\ClosedXML.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\LinqToExcel.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\log4net.xml
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Newtonsoft.Json.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\StructureMap.pdb
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\StructureMap.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\WebDriver.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\WebDriver.Support.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\HtmlAgilityPack.xml
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\appium-dotnet-driver.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\StructureMap.Net4.pdb
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\nunit.framework.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.exe.manifest
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.application
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.exe
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\obj\Debug\UIDesign.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Framework.SikuliAutomation.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Framework.SikuliAutomation.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Sikuli4Net.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Newtonsoft.Json.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\UIDesign\UIDesign\bin\Debug\Newtonsoft.Json.xml

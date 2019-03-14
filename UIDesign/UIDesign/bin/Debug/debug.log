@@ -1,1 +1,4 @@
 [1108/134547.858:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0312/033134.809:ERROR:file_io_win.cc(161)] CreateFile C:\Users\VMQAPR~1\AppData\Local\Temp\scoped_dir14096_24450\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0312/033134.810:ERROR:file_io_win.cc(170)] CreateFile C:\Users\VMQAPR~1\AppData\Local\Temp\scoped_dir14096_24450\Crashpad\reports\a695c528-1899-4363-961b-b4146440a986.dmp: The system cannot find the path specified. (0x3)
+[0312/033134.810:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

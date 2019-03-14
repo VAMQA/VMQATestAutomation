@@ -1,5 +1,6 @@
 ﻿namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
 {
+    using Framework.SikuliAutomation;
     using System;
     using System.Text;
     using System.Text.RegularExpressions;
@@ -155,7 +156,15 @@
                 case "textarea":
                 case "input":
                     var textBoxElementCommand = new TextBoxElementCommand(this.uiAdapter, this.ctrlDefinition, this.logicalFieldValue);
-                    textBoxElementCommand.Execute();
+                    if (!string.IsNullOrEmpty(ctrlDefinition.ImagePath))
+                    {
+                        CallImageForTextInput();
+                    }
+                    else
+                    {
+                        textBoxElementCommand.Execute();
+                    }
+                    
                     break;
 
                 case "select":
@@ -178,7 +187,19 @@
             }
         }
 
-      
+        private void CallImageForTextInput()
+        {
+            try
+            {
+                SikuliTest sikulitest = new SikuliTest();
+                sikulitest.CallImageForTextInput(ctrlDefinition.ImagePath, logicalFieldValue);
+            }
+            catch (Exception ex1)
+            {
+                throw;
+            }
+        }
+
         private string GetInteractionType()
         {
             string setInteractionType;

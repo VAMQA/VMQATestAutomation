@@ -832,6 +832,7 @@ namespace UIDesign
                             or.txt_taginstance.Text = grid_displayResult.Rows[e.RowIndex].Cells["TagInstance"].Value.ToString();
                             or.txt_ctrldefinition.Text = grid_displayResult.Rows[e.RowIndex].Cells["ControlDefinition"].Value.ToString();
                             or.txt_repositiory.Text = grid_displayResult.Rows[e.RowIndex].Cells["Version"].Value.ToString();
+                            or.txt_Imageelement.Text = grid_displayResult.Rows[e.RowIndex].Cells["ImagePath"].Value.ToString();
                             or.ShowDialog();
                         }
                         else

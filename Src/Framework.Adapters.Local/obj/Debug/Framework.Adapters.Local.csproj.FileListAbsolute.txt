@@ -82,6 +82,7 @@ C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomati
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\Framework.Adapters.Local.csprojResolveAssemblyReference.cache
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.dll
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\Framework.Adapters.Local.csprojResolveAssemblyReference.cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.dll.config
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.pdb
@@ -107,6 +108,10 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\F
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\log4net.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\VM.Platform.TestAutomationFramework.Extensions.pdb
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\Framework.Adapters.Local.csprojResolveAssemblyReference.cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\obj\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Framework.SikuliAutomation.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Framework.SikuliAutomation.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Sikuli4Net.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Newtonsoft.Json.dll
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Adapters.Local\bin\Debug\Newtonsoft.Json.xml

@@ -4,6 +4,7 @@
     <VMTESTAPP>http://vam-qa.cloudapp.net:6363/pages/login.html</VMTESTAPP>
     <VMTESTAPP1>http://vam-qa.cloudapp.net:6363/pages/login.html</VMTESTAPP1>
     <VMTESTPronto>https://www.prontoinsurance.com/</VMTESTPronto>
+    <PowerApps>https://home.dynamics.com/</PowerApps>
   </Environments>
 
   <!-- The automation on the following pages will not be executed -->

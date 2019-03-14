@@ -7,6 +7,10 @@ namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
     using VM.Platform.TestAutomationFramework.Core.Contracts;
     using VM.Platform.TestAutomationFramework.Core.Exceptions;
     using System.Text.RegularExpressions;
+    using Framework.SikuliAutomation;
+
+    //using Sikuli4Net.sikuli_REST;
+    //using Sikuli4Net.sikuli_UTIL;
 
     [CanParse(@"^Action\s*{\s*(?<LogicalFieldName>.*?)\s*\|\|\s*(?<LogicalFieldValue>.*?)\s*}$")]
     public class ActionCommand : InteractionCommand
@@ -22,25 +26,52 @@ namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
 
         public override void Execute(TestRunContext context)
         {
-            using(new FrameHandler(this.uiAdapter, context, this.logicalFieldName))
+            using (new FrameHandler(this.uiAdapter, context, this.logicalFieldName))
             {
                 try
                 {
                     this.controlDefinition = context.ControlMap[context.CurrentPage][this.logicalFieldName];
-                    this.uiAdapter.WaitForElementToBeClickable(this.controlDefinition);
-                    this.Action(this.logicalFieldValue);
+                    if (!string.IsNullOrEmpty(controlDefinition.ImagePath))
+                    {
+                        CallImageinAction();                        
+                    }
+                    else
+                    {
+                        
+                        this.uiAdapter.WaitForElementToBeClickable(this.controlDefinition);
+                        this.Action(this.logicalFieldValue);
+                    }
 
                 }
                 catch (Exception ex)
                 {
-                    this.uiAdapter.TakeScreenshot();
-                    //Report the Error to HTML REPORT
-                    ReportFailureToHtml ReportError = new ReportFailureToHtml();
-                    context = ReportError.Run(context, string.Format("Error for {0}", this.logicalFieldName), string.Format("Waited, but the {0} control never appeared.", this.logicalFieldName), TestResult.Fail);
+                    if (!string.IsNullOrEmpty(controlDefinition.ImagePath))
+                    {
+                        CallImageinAction();
+                    }
+                    else
+                    {
+                        this.uiAdapter.TakeScreenshot();
+                        //Report the Error to HTML REPORT
+                        ReportFailureToHtml ReportError = new ReportFailureToHtml();
+                        context = ReportError.Run(context, string.Format("Error for {0}", this.logicalFieldName), string.Format("Waited, but the {0} control never appeared.", this.logicalFieldName), TestResult.Fail);
 
-
-                    throw new WorkflowFailedException(ex.Message, ex);
+                        throw new WorkflowFailedException(ex.Message, ex);
+                    }
                 }
+            }
+        }
+
+        private void CallImageinAction()
+        {
+            try
+            {
+                SikuliTest sikulitest = new SikuliTest();
+                sikulitest.CallImage(controlDefinition.ImagePath);
+            }
+            catch (Exception ex1)
+            {
+                throw;
             }
         }
 
@@ -96,8 +127,8 @@ namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
                     {
                         this.uiAdapter.WaitExplicitly(duration);
                         //this.uiAdapter.WaitExplicitly(TimeSpan.FromSeconds(10));
-                    } 
-                }                
+                    }
+                }
                 else if (match.Groups["actionType"].Value.Equals("This", StringComparison.OrdinalIgnoreCase))
                 {
                     // TODO: Handle ClickThis
@@ -114,7 +145,7 @@ namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
                 {
                     if (this.uiAdapter.IsElementPresent(this.controlDefinition))
                         this.uiAdapter.ClickElement(this.controlDefinition);
-             
+
                 }
             }
             else if (match.Groups["action"].Value.Equals("DoubleClick", StringComparison.OrdinalIgnoreCase))
@@ -125,7 +156,7 @@ namespace VM.Platform.TestAutomationFramework.UIAutomation.Commands.Interactions
             else if (match.Groups["action"].Value.Equals("Back", StringComparison.OrdinalIgnoreCase))
             {
                 // Handle the BACK action
-                this.uiAdapter.BackNavigation();                
+                this.uiAdapter.BackNavigation();
             }
             else if (match.Groups["action"].Value.Equals("Hover", StringComparison.OrdinalIgnoreCase))
             {

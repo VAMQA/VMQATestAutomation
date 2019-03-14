@@ -26,8 +26,8 @@
     using Core.Exceptions;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using OpenQA.Selenium.Appium.Android;
-    using OpenQA.Selenium.Appium.iOS;
+    //using OpenQA.Selenium.Appium.Android; // Comment for Android and iOS Lines 116, 137
+    //using OpenQA.Selenium.Appium.iOS;
     //using Sikuli4Net.sikuli_REST;
     //using Sikuli4Net.sikuli_UTIL;
 
@@ -113,7 +113,7 @@
                         capabilities1.SetCapability("platformName", Convert.ToString(configurationFile.XPathSelectElement("/TestAutomationFramework/AndroidMobileLabsExecutionDetails/platformName").Value));
                         capabilities1.SetCapability("automationName", "Appium");
 
-                        this.driver = new AndroidDriver<IWebElement>(deviceConnectHost, capabilities1, TimeSpan.FromMinutes(10));
+                        //this.driver = new AndroidDriver<IWebElement>(deviceConnectHost, capabilities1, TimeSpan.FromMinutes(10));
                         Thread.Sleep(20000);
                         this.driver.Navigate().GoToUrl("http://www.google.com");
                     }
@@ -134,7 +134,7 @@
                             capabilities2.SetCapability("automationName", "XCUITest");
                             capabilities2.SetCapability("deviceName", Convert.ToString(configurationFile.XPathSelectElement("/TestAutomationFramework/IOSMobileLabsExecutionDetails/deviceName").Value));
 
-                            this.driver = new IOSDriver<IWebElement>(deviceConnectHost, capabilities2, TimeSpan.FromMinutes(45));
+                            //this.driver = new IOSDriver<IWebElement>(deviceConnectHost, capabilities2, TimeSpan.FromMinutes(45));
                             Thread.Sleep(20000);
                             this.driver.Navigate().GoToUrl("http://www.google.com");
                         }

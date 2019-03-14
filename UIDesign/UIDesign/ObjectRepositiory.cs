@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,7 +32,8 @@ namespace UIDesign
         private Label lbl_errmsg = new Label();
         public Label lbl_pagetitle = new Label();
         public Label lbl_repositiory = new Label();
-
+        public Label lbl_ImageElement = new Label();
+        
         public ComboBox cmb_pagename = new ComboBox();
         public TextBox txt_pageid = new TextBox();
         public TextBox txt_masterorid = new TextBox();
@@ -51,15 +53,19 @@ namespace UIDesign
         public TextBox txt_classname = new TextBox();
         public TextBox txt_ctrldefinition = new TextBox();
         public TextBox txt_repositiory = new TextBox();
+        public TextBox txt_Imageelement = new TextBox();
 
         public Button btn_saveorentry = new Button();
         public Button btn_createorentry = new Button();
+        public Button btn_ImageElement = new Button();
 
         private PictureBox pic_gecko = new PictureBox();
         private FlowLayoutPanel flp_repositiory = new FlowLayoutPanel();
         private TableLayoutPanel tlp_repositiory = new TableLayoutPanel();
         
         FuncLib objLib = new FuncLib();
+
+        byte[] imageData = null;
 
         public ObjectRepositiory()
         {
@@ -241,6 +247,15 @@ namespace UIDesign
             lbl_repositiory.Height = 24;
             lbl_repositiory.Width = 135;
 
+            //CtrlDefinition Label settings            
+            lbl_ImageElement.Text = "ImageElement :*";
+            lbl_ImageElement.Name = "lbl_ImageElement";
+            lbl_ImageElement.TextAlign = ContentAlignment.MiddleLeft;
+            lbl_ImageElement.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            lbl_ImageElement.Height = 24;
+            lbl_ImageElement.Width = 135;
+
+        
             //Error Message Label settings           
             lbl_errmsg.Height = 50;
             lbl_errmsg.Width = 600;
@@ -374,12 +389,25 @@ namespace UIDesign
             txt_repositiory.Height = 24;
             txt_repositiory.Width = 300;
 
+            //Image element textbox settings                        
+            txt_Imageelement.Name = "txt_Imageelement";
+            txt_Imageelement.Font = new Font("Calibri", 12F, FontStyle.Regular);
+            txt_Imageelement.Height = 24;
+            txt_Imageelement.Width = 300;
+
             //Save button settings            
             btn_saveorentry.Text = "Save";
             btn_saveorentry.Name = "btn_saveorentry";
             btn_saveorentry.Font = new Font("Calibri", 12F, FontStyle.Bold);
             btn_saveorentry.Height = 30;
             btn_saveorentry.Width = 100;
+
+            //browse button settings            
+            btn_ImageElement.Text = "Browse";
+            btn_ImageElement.Name = "btn_ImageElement";
+            btn_ImageElement.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btn_ImageElement.Height = 30;
+            btn_ImageElement.Width = 100;
 
             //Create button settings            
             btn_createorentry.Text = "Create";
@@ -430,6 +458,11 @@ namespace UIDesign
             tlp_repositiory.Controls.Add(btn_saveorentry, 2, 13);
             tlp_repositiory.Controls.Add(btn_createorentry, 2, 13);
 
+            tlp_repositiory.Controls.Add(lbl_ImageElement, 3, 11);
+            tlp_repositiory.Controls.Add(txt_Imageelement, 4, 11);
+            tlp_repositiory.Controls.Add(btn_ImageElement, 5, 11);
+
+
             //Adding Controls to Flow Layout Panel
             flp_repositiory.Controls.AddRange(new Control[] { pic_gecko, tlp_repositiory });
 
@@ -441,9 +474,12 @@ namespace UIDesign
             #region or_methods
             btn_createorentry.Click += new System.EventHandler(btn_createorentry_Click);
             btn_saveorentry.Click += new System.EventHandler(btn_saveorentry_Click);
+            btn_ImageElement.Click += new System.EventHandler(btn_ImageElement_Click);
             cmb_pagename.SelectedIndexChanged += new System.EventHandler(cmb_pagenamechanged_Select);
             #endregion
         }
+
+
         private void ObjectRepositiory_Load(object sender, EventArgs e)
         {
             lbl_pagetitle.Width = this.Width;            
@@ -635,6 +671,8 @@ namespace UIDesign
                             "',TagInstance='" + txt_taginstance.Text +
                             "',ClassName='" + txt_classname.Text +
                             "',ControlType='" + txt_controltype.Text +
+                            "',ImageElement='" + imageData +
+                            "',ImagePath='" + txt_Imageelement.Text +
                             "',ControlDefinition='" + txt_ctrldefinition.Text.Replace("'", "''") +
                             "',[Version]='" + txt_repositiory.Text.Replace("'", "''") +
                             "',[ModifiedBy]='" + SignIn.userId +
@@ -660,6 +698,35 @@ namespace UIDesign
                 lbl_errmsg.Text = "Duplicate Control Exists.";
             }                      
         }
+                
+        private void btn_ImageElement_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            DialogResult dlgRes = dlg.ShowDialog();
+            if (dlgRes != DialogResult.Cancel)
+            {
+                //Provide file path in txtImagePath text box.
+                txt_Imageelement.Text = dlg.FileName;
+            }
+
+            imageData = ReadFile(txt_Imageelement.Text);
+        }
+
+        private byte[] ReadFile(string sPath)
+        {
+            byte[] data = null;
+            FileInfo fInfo = new FileInfo(sPath);
+            long numBytes = fInfo.Length;
+
+            FileStream fStream = new FileStream(sPath, FileMode.Open, FileAccess.Read);
+
+            BinaryReader br = new BinaryReader(fStream);
+
+            data = br.ReadBytes((int)numBytes);
+
+            return data;
+        }
+
         private void cmb_pagenamechanged_Select(object sender, System.EventArgs e)
         {
             txt_pageid.Text = objLib.GetPageTitles().FirstOrDefault(x => x.Value == cmb_pagename.SelectedItem.ToString()).Key;
