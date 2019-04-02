@@ -352,7 +352,7 @@
     <Content Include="DBScript\sp_UpdateTestData.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\APIAutomation\Geico.WebServices.TestAutomationFramework\VM.WebServices.TestAutomationFramework.csproj">
+    <ProjectReference Include="..\..\APIAutomation\VM.WebServices.TestAutomationFramework\VM.WebServices.TestAutomationFramework.csproj">
       <Project>{a35a2e97-2f04-4b20-bd4c-9947e6c2561d}</Project>
       <Name>VM.WebServices.TestAutomationFramework</Name>
     </ProjectReference>

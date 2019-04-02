@@ -49,7 +49,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBLatest", "DBLatest", "{4F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIDesign", "UIDesign\UIDesign\UIDesign.csproj", "{57A41893-25F0-4904-B116-F72317346A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.WebServices.TestAutomationFramework", "APIAutomation\Geico.WebServices.TestAutomationFramework\VM.WebServices.TestAutomationFramework.csproj", "{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VM.WebServices.TestAutomationFramework", "APIAutomation\VM.WebServices.TestAutomationFramework\VM.WebServices.TestAutomationFramework.csproj", "{A35A2E97-2F04-4B20-BD4C-9947E6C2561D}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "V4UIAutomation", "V4UIAutomation\V4UIAutomation.isproj", "{01D5FD6C-8DB0-419E-819F-5B603BA16021}"
 EndProject

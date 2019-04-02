@@ -58,7 +58,9 @@ namespace UIDesign
         public Button btn_saveorentry = new Button();
         public Button btn_createorentry = new Button();
         public Button btn_ImageElement = new Button();
-
+        public Button btn_snipping = new Button();
+        public PictureBox pictureBox_Image = new PictureBox();
+        
         private PictureBox pic_gecko = new PictureBox();
         private FlowLayoutPanel flp_repositiory = new FlowLayoutPanel();
         private TableLayoutPanel tlp_repositiory = new TableLayoutPanel();
@@ -409,12 +411,27 @@ namespace UIDesign
             btn_ImageElement.Height = 30;
             btn_ImageElement.Width = 100;
 
+            //pictureBox_Image.Location = new System.Drawing.Point(105, 74);
+            pictureBox_Image.Name = "pictureBox_Image";
+            pictureBox_Image.Size = new System.Drawing.Size(120, 160);
+            pictureBox_Image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            //pictureBox_Image.TabIndex = 3;
+            pictureBox_Image.TabStop = false;
+            pictureBox_Image.BorderStyle = BorderStyle.FixedSingle;
+
+            //browse button settings            
+            btn_snipping.Text = "[]";
+            btn_snipping.Name = "btn_snipping";
+            btn_snipping.Font = new Font("Calibri", 12F, FontStyle.Bold);
+            btn_snipping.Height = 30;
+            btn_snipping.Width = 100;
+
             //Create button settings            
             btn_createorentry.Text = "Create";
             btn_createorentry.Name = "btn_createorentry";
             btn_createorentry.Font = new Font("Calibri", 12F, FontStyle.Bold);
             btn_createorentry.Height = 30;
-            btn_createorentry.Width = 100;
+            btn_createorentry.Width = 30;
 
             //Adding Controls to Table Layout Panel            
             //tlp_repositiory.Controls.Add(lbl_pagetitle, 0, 2);
@@ -461,7 +478,8 @@ namespace UIDesign
             tlp_repositiory.Controls.Add(lbl_ImageElement, 3, 11);
             tlp_repositiory.Controls.Add(txt_Imageelement, 4, 11);
             tlp_repositiory.Controls.Add(btn_ImageElement, 5, 11);
-
+            tlp_repositiory.Controls.Add(btn_snipping, 6, 11);
+            tlp_repositiory.Controls.Add(pictureBox_Image, 0, 12);
 
             //Adding Controls to Flow Layout Panel
             flp_repositiory.Controls.AddRange(new Control[] { pic_gecko, tlp_repositiory });
@@ -475,10 +493,10 @@ namespace UIDesign
             btn_createorentry.Click += new System.EventHandler(btn_createorentry_Click);
             btn_saveorentry.Click += new System.EventHandler(btn_saveorentry_Click);
             btn_ImageElement.Click += new System.EventHandler(btn_ImageElement_Click);
+            btn_snipping.Click += new System.EventHandler(btn_snipping_Click);
             cmb_pagename.SelectedIndexChanged += new System.EventHandler(cmb_pagenamechanged_Select);
             #endregion
         }
-
 
         private void ObjectRepositiory_Load(object sender, EventArgs e)
         {
@@ -698,7 +716,13 @@ namespace UIDesign
                 lbl_errmsg.Text = "Duplicate Control Exists.";
             }                      
         }
-                
+
+
+        private void btn_snipping_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void btn_ImageElement_Click(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
