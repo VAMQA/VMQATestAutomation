@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="UIDesign.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="UIDesign" version="4.0.7031.11866" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="UIDesign" version="4.0.7032.3993" language="neutral" processorArchitecture="msil" />
     <commandLine file="UIDesign.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -78,7 +78,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XtKqrANld+lV6qNgh2XfkT5u1JODTR5PpH60tD7DqIc=</dsig:DigestValue>
+        <dsig:DigestValue>fpfrhwgb2tnw02lSiJmamqcbA1yllqpu/qV3QtdfdkQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,7 +90,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tifyRbhsBMBuyc8cUTTUTnZGkw3FuNKzsQ1HzxkpB8o=</dsig:DigestValue>
+        <dsig:DigestValue>TeUvS8AS1YJPfJ4kug0Ldrg2QimsXbZGnEFKn820enc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -348,13 +348,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UIDesign.exe" size="350208">
-      <assemblyIdentity name="UIDesign" version="4.0.7031.11866" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="UIDesign" version="4.0.7032.3993" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LIPdz8+EAmQTf6reipn89fd9jHvblafc5Qoq9DGDzmg=</dsig:DigestValue>
+        <dsig:DigestValue>5rJ2QG0YgmARr2483ZeYCIfNPRlwzsY2zubQXoSXDII=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -366,55 +366,55 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5GjY0kvYBzgz7vPpJ4g5A1KeRbZcXDQLG1AU9KeOViw=</dsig:DigestValue>
+        <dsig:DigestValue>h/zPTWmodmM7Rl1AYw35ox0qXJ2LTY55CsPyQnc62wQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VM.Platform.TestAutomationFramework.Adapters.Selenium.dll" size="34304">
-      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Adapters.Selenium" version="4.0.7031.11863" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Adapters.Selenium" version="4.0.7032.3986" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZnDXD6MIpsJC1HKbyrLpGZu9dWhm3lVbZFEZpJ6i7bk=</dsig:DigestValue>
+        <dsig:DigestValue>qyyJtflZmIo7UH/zrXwVEWjvpXaqgEKT+eCfJ+0vWKg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VM.Platform.TestAutomationFramework.Core.dll" size="123392">
-      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Core" version="4.0.7031.11859" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Core" version="4.0.7032.3983" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7PwVYudwP4dW81Ze2rh/rEJJDf8vdaRJOYn4ZgI4mxo=</dsig:DigestValue>
+        <dsig:DigestValue>vd5+NvvGp5GGHp3wUwf5d2wDOVNzSAA5ueQW7OgE3UA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VM.Platform.TestAutomationFramework.Extensions.dll" size="13312">
-      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Extensions" version="4.0.7031.11857" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="VM.Platform.TestAutomationFramework.Extensions" version="4.0.7032.3982" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rn4DVE80wQ7m57HA3GQ/QiJWKvI0B9FmXg04rmvu9KQ=</dsig:DigestValue>
+        <dsig:DigestValue>91sYEoiy1bE4hQYieLF1nXyVBawteUtvu3h5W1fB6yo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VM.Platform.TestAutomationFramework.UIAutomation.dll" size="70656">
-      <assemblyIdentity name="VM.Platform.TestAutomationFramework.UIAutomation" version="4.0.7031.11860" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="VM.Platform.TestAutomationFramework.UIAutomation" version="4.0.7032.3984" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nuoCoBzFZJTRCu6ooA/6b1nQXGIIRNqWVOJgqVyL7Sc=</dsig:DigestValue>
+        <dsig:DigestValue>ww9XXcsfMEn0Rv7taJcmuAu6iyleSVFpCwz2rbmooRI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -426,7 +426,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ceHDHcKnuTrC/FxLM+i0leaavRxF4EDIFVxuXSRlT6E=</dsig:DigestValue>
+        <dsig:DigestValue>mRQMLqxY1ixRpl4dPTZlwNF2VLjScNhAQltzwsobQHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
