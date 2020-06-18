@@ -15,4 +15,6 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\F
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\bin\Debug\TechTalk.SpecFlow.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\VM.Platform.TestAutomationFramework.Extensions.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\VM.Platform.TestAutomationFramework.Extensions.pdb
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\Framework.Extensions.csprojResolveAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\Framework.Extensions.csprojAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\Framework.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Extensions\obj\Debug\Framework.Extensions.csproj.CopyComplete

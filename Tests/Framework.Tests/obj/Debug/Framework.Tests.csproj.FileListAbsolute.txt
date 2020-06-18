@@ -141,7 +141,6 @@ C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomati
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.csprojResolveAssemblyReference.cache
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.dll
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.pdb
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.csprojResolveAssemblyReference.cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\phantomjs.exe
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\phantomjs-license.txt
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\Config\Config.xml
@@ -191,3 +190,10 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\Sikuli4Net.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\VM.Platform.TestAutomationFramework.Adapters.Local.dll.config
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\VM.Platform.TestAutomationFramework.Adapters.Selenium.dll.config
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll.config
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\bin\Debug\Framework.SikuliAutomation.dll.config
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.csprojAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.csproj.CoreCompileInputs.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Tests\Framework.Tests\obj\Debug\Framework.Tests.csproj.CopyComplete

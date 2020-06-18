@@ -48,8 +48,10 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\F
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\bin\Debug\StructureMap.pdb
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\bin\Debug\StructureMap.xml
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\bin\Debug\StructureMap.Net4.pdb
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\Framework.Core.csprojResolveAssemblyReference.cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\VM.Platform.TestAutomationFramework.Core.Properties.Resources.resources
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\Framework.Core.csproj.GenerateResource.Cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\VM.Platform.TestAutomationFramework.Core.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\VM.Platform.TestAutomationFramework.Core.pdb
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\Framework.Core.csprojAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\Framework.Core.csproj.CoreCompileInputs.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.Core\obj\Debug\Framework.Core.csproj.CopyComplete

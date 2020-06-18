@@ -249,19 +249,19 @@ namespace UIDesign
                 try
                 {
                     ITestManagementService tstMgtService = (ITestManagementService)projColl.GetService(typeof(ITestManagementService));
-                    ITestManagementTeamProject tfsProject = tstMgtService.GetTeamProject(txt_teamproj.Text);
-                    ITestSuiteCollection tstsuite = tfsProject.TestSuites.Query("SELECT * FROM TestSuite where Title = '" + txt_testsuiteId.Text + "'");
-                    List<ITestCaseResultCollection> tcresultColl = new List<ITestCaseResultCollection>();
-                    tccoll = tstsuite[0].AllTestCases;
-                    DialogResult res= MessageBox.Show("Test Suite Name: " + txt_testsuiteId.Text + "\n\n\nTest Cases Count : " +tccoll.Where(x=>x.Title.StartsWith("ATC:")).Count().ToString() + "\n\n\nDo You Want To Migrate ?","Migration",MessageBoxButtons.YesNo);
-                    //tccoll.Count.ToString()
-                    if(DialogResult.Yes==res)
-                    {
-                        txt_teamproj.Enabled = false;
-                        txt_testsuiteId.Enabled = false;
-                        btn_migrate.Enabled = false;                        
-                        startMigration(tccoll);
-                    }                
+                    /*  ITestManagementTeamProject tfsProject = tstMgtService.GetTeamProject(txt_teamproj.Text); 
+                      ITestSuiteCollection tstsuite = tfsProject.TestSuites.Query("SELECT * FROM TestSuite where Title = '" + txt_testsuiteId.Text + "'");
+                      List<ITestCaseResultCollection> tcresultColl = new List<ITestCaseResultCollection>();
+                      tccoll = tstsuite[0].AllTestCases;
+                      DialogResult res= MessageBox.Show("Test Suite Name: " + txt_testsuiteId.Text + "\n\n\nTest Cases Count : " +tccoll.Where(x=>x.Title.StartsWith("ATC:")).Count().ToString() + "\n\n\nDo You Want To Migrate ?","Migration",MessageBoxButtons.YesNo);
+                      //tccoll.Count.ToString()
+                      if(DialogResult.Yes==res)
+                      {
+                          txt_teamproj.Enabled = false;
+                          txt_testsuiteId.Enabled = false;
+                          btn_migrate.Enabled = false;                        
+                          startMigration(tccoll);
+                      } */
                 }
                 catch (Exception ex)
                 {
@@ -272,7 +272,7 @@ namespace UIDesign
             {
                 MessageBox.Show("ERROR : Please provide Team Project & Test Suite");
             }
-        }        
+        }     
         private void btn_connect_Click(object sender, EventArgs e)
         {
             try

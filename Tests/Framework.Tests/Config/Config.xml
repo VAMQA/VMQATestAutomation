@@ -75,7 +75,7 @@
     <TestResultsPath>\\GP142111\NuGet\v4 TestResults</TestResultsPath>
   </LocalExecution>-->
   <DBExecution>
-    <DBConnectionString>Data Source = NPXDD10DEV21\SQLEXPRESS;Initial Catalog = V4; User Id=sa;Password=Monday!2345; Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False</DBConnectionString>    
+    <DBConnectionString>Data Source = VMQApractice\SQLEXPRESS;Initial Catalog = version4test; User Id=sa;Password=VMQApractice12; Connect Timeout=30;</DBConnectionString>
     <TestResultsPath>\\NPXDD10DEV21\TestResults\</TestResultsPath>
   </DBExecution>
   <!--<Mode>Local</Mode>-->

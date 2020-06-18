@@ -49,7 +49,6 @@ C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomati
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.GenerateResource.Cache
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
 C:\Users\DasariW\Desktop\VM Framework\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.pdb
-C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csprojResolveAssemblyReference.cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\VM.Platform.TestAutomationFramework.UIAutomation.Properties.Resources.resources
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.GenerateResource.Cache
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll
@@ -80,3 +79,7 @@ C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\F
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\VM.Platform.TestAutomationFramework.UIAutomation.dll.config
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\Newtonsoft.Json.dll
 C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\bin\Debug\Framework.SikuliAutomation.dll.config
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csprojAssemblyReference.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.CoreCompileInputs.cache
+C:\Users\VMQApractice\Desktop\v4Dev_Updated\v4Dev_Updated\VMTestAutomation\Src\Framework.UIAutomation\obj\Debug\Framework.UIAutomation.csproj.CopyComplete
